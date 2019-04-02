@@ -23,3 +23,15 @@ Below diagram shows a basic neural network model ::
         
 3. To check if tensorflow is installed properly, type python3 in console and try to **import tensorflow**
 
+## 3. Feed Forward and Back Propagation (1 Epoch)
+1. In a basic feed forward neural network, the input data is passed straight through. In backpropagation, the optimizer goes backwards and manipulates the weights.
+
+
+        `
+        1. input data with weights -> hidden layer 1 (w/ activatn. functn.) -> hidden layer 2 (w/ activatn. functn.) -> output layer
+        2. compare actual output w/ intended o/p -> cost function (Cross Entropy)
+        3. Optimization function -> minimizes cost        
+        4. feed-forward + back-propagation = 1 epoch (cycle) -> repeat till we minimize cost functn.
+        
+        `
+
