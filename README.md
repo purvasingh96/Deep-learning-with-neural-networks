@@ -18,7 +18,8 @@ Below diagram shows a basic neural network model ::
         $ sudo apt-get install python3-pip python3-dev
         # Ubuntu/Linux 64-bit, CPU only, Python 3.5
         $ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.9.0-cp35-cp35m-linux_x86_64.whl
-        $ sudo pip3 install --upgrade $TF_BINARY_URL`
+        $ sudo pip3 install --upgrade $TF_BINARY_URL
+        $ pip install --upgrade tensorflow `
         
 3. To check if tensorflow is installed properly, type python3 in console and try to **import tensorflow**
 
