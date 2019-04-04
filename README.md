@@ -34,7 +34,7 @@ Below diagram shows a basic neural network model ::
         4. feed-forward + back-propagation = 1 epoch (cycle) -> repeat till we minimize cost functn.
 
 ## 4. Softmax function and Cross Entropy Loss
-1. Softmax function takes into account N-Dimensional vectors of real numbers and transforms it into a probablistic distribution ranginf from (0,1).
+1. [Softmax function](https://deepnotes.io/softmax-crossentropy) takes into account N-Dimensional vectors of real numbers and transforms it into a probablistic distribution ranginf from (0,1).
 2. Softmax function can be expressed like this - 
 ```python
 def softmax(X):
