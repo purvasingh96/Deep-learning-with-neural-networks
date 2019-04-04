@@ -41,6 +41,6 @@ def softmax(X):
     exps = np.exp(X - np.max(X))
     return exps / np.sum(exps)
 ```
-
-        `
-
+3. Since softmax function gives probablistic distribution, it is used as the final layer in neural networks. Derivative/gradient of softmax function is passed to previous layers during back-proagation.
+4. **Cross Entropy** is the distance between desired output and actual output.
+5. Derivative of Cross Entropy Loss with Softmax is used as the output layer extensively.
