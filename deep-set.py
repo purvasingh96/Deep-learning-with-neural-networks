@@ -2,6 +2,7 @@ import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
 
+
 mnist = input_data.read_data_sets("tmp/data", one_hot=True)
 
 n_nodes_hidden_layer_1 = 500
@@ -57,7 +58,7 @@ def train_neural_network(input_data):
     prediction = neural_network_model(input_data)
     # tf.reduce_mean is same as numpy.mean(data, 1)
     # calculates difference between prediction that we got and know label (y) that we have
-    cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(prediction, y))
+    cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=prediction, labels=y))
     # optimizer will minimize the cost
     optimizer = tf.train.AdamOptimizer().minimize(cost)
 
