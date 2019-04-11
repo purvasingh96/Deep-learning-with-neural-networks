@@ -45,9 +45,15 @@ def softmax(X):
 4. **Cross Entropy** is the distance between desired output and actual output.
 5. Derivative of Cross Entropy Loss with Softmax is used as the output layer extensively.
 
-## 5. Recurrent and Convolutional Neural Networks
+## 5. LSTM, Recurrent and Convolutional Neural Networks
 ### Recurrent Neural Networks (RNNs)
 RNNs take input data, pass it along the activation function, but unlike traditional NNs, where activation function's output it passed to the next neural network, RNNs output is treated as an input back to its own cell. Example can be seen below : 
 <img src="images/RNN.png" width="400" >
+
+### Long Short Term Memory (LSTM)
+In RNNs, when the recurring data comes again, we decide what to add to the repeated data and then send it to activation function. Also, the recurring data goes through keep/forget gate where those gates decide, what can be kept and what can be removed from recurring data. A normal LSTM looks like this - 
+
+
+<img src="images/LSTM.png" width="400" >
 
 
