@@ -57,3 +57,14 @@ In RNNs, when the recurring data comes again, we decide what to add to the repea
 <img src="images/LSTM.png" width="400" >
 
 
+### Convolution Neural Networks (CNNs)
+CNNs are used to identify an image and assigning captions for images. Basic flow as to how CNN works is as follows - 
+> input_data --> hidden_layer (convolving + pooling) --> fully_connected_layer --> output
+
+For Example, if we take an image pixel by pixel, and convolution of 3 by 3, then that pixel-matrix can be considered as a separate cell. Further, we can shift the black by 2 coloumns and create another cell. This process continues until no pixels are left to move.
+
+In case of pooling, every pixel cell has a value, and when creating a separate cell, the cell has the value equal to maximum of all values present in a 3 by 3 pixel-matrix.
+
+<img src="images/CNN.png" width="550" >
+
+
