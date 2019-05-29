@@ -20,3 +20,18 @@
  >1. Once the model is ready, we *optimize* it to minimize the objective function.
  >2. The most popular optimization algorithms for neural networks follow an approach called *gradient descent*. 
  
+ ## Types of Machine Learning
+ ## Supervised Machine Learning
+ >1. Predicts *targets* for given input of data.
+ >2. Targets are called *labels* and denoted by **y**.
+ >3. Input data points are called *instances* and denoted by **x**.
+ >4. The goal is to produce a model  **𝑓𝜃**  that maps an input  **𝑥**  to a prediction  **𝑓𝜃(𝑥)** (*the learned model*).
+ 
+ ## Types of Supervised Learning Problems
+ ### Regression
+ >1. When our targets (*y*) take on arbitrary real values in some range, we call this a regression problem.
+ >2. The goal of Regression problem is to *predictions* that closely resemble *target values*.
+ >3. A good rule of thumb is that any *How much? or How many?* problem should suggest *regression*.
+ >4. We try to *reduce distance* between *predicted values* and actual target values, which is called *Loss*.
+ >5. Most common type of losses are **L1 Loss occuring due to Laplace noise** and **L2 Loss occuring due to Gaussian noise** 
+ 
