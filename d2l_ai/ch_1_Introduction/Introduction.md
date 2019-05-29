@@ -11,5 +11,12 @@
  >2. Numerical values can be referred as *Vectors* and this fixed-length of vectors is called *dimensionality of data.*
  >3. *More and right* data means more powerful model.
  * **Model**
+ >1. *A model* would ingest data and output predictions for the same.
  * **Loss**
+ >1. *Objective functions* are the standards to measure how good or bad our model is.
+ >2. *Lower* the objective function, the better, hence these functions are named as *Loss/Cost functions.* 
+ >3. Most common objective function is *squared error.* 
  * **Algorithm**
+ >1. Once the model is ready, we *optimize* it to minimize the objective function.
+ >2. The most popular optimization algorithms for neural networks follow an approach called *gradient descent*. 
+ 
