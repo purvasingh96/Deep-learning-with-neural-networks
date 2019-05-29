@@ -40,3 +40,17 @@
  >2. When we have more than two possible classes, we call the problem **multiclass classification**. 
  >3. The common loss function for classification problems is called **cross-entropy**.
  
+ ### Tagging
+>1. The problem of learning to predict classes that are not mutually exclusive is called **multi-label classification**. 
+>2. **Auto-tagging** problems are typically best described as multi-label classification problems.
+
+### Sequential Learning
+>1. Sequential learning comes into picture when input data might **not have same dimensions** and are **not mutually exclusive**.
+>2. It requires to either **ingest sequence of input or emit sequence of output or both**.
+>3. Example of sequential learning are -
+ >   * **language translation**.
+ >* **Automatic speech recognition**
+ >* **Text to Speech**
+ >* **Machine Translation**
+
+ 
