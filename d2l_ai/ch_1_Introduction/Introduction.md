@@ -10,10 +10,11 @@ Table of Contents
     * [Loss](#Loss)
     * [Algorithm](#Algorithm)
 * [Types of Machine Learning](#Types-of-Machine-Learning)
-    * [Regression](#Regression)
-    * [Classification](#Classification)
-    * [Tagging](#Tagging)
-    * [Sequential Learning](#Sequential-Learning)
+    * [Supervised Machine Learning](#Supervised-Machine-Learning)
+      * [Regression](#Regression)
+      * [Classification](#Classification)
+      * [Tagging](#Tagging)
+      * [Sequential Learning](#Sequential-Learning)
 
 ## Definition
  As ML algorithm accumulates more experience, typically in the form of observational data or interactions with an environment, their performance improves.In deep learning, the learning is the process by which we discover the right setting of the knobs coercing the desired behaviour from our model. Below is the flow of a typical training process - <be>
