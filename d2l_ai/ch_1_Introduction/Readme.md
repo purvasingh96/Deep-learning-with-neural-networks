@@ -69,4 +69,12 @@ Table of Contents
  >* **Text to Speech**
  >* **Machine Translation**
 
+ ## Unspuervised Learning
+ Unsupervised learning is a type of machine learning algorithm used to draw inferences from datasets consisting of input data without labeled responses.  Following are the type of unsupervised learning methods -
+ >1. **Clustering** - Clustering is used for exploratory data analysis to find hidden patterns or grouping in data.
+ >2. **Principal Component Analysis** - PCA a statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables (entities each of which takes on various numerical values) into a set of values of linearly uncorrelated variables called principal components.
+ >3. **Representational Learning** - It is used to describe entities and their relations.
  
+ ## Reinforcement Learning
+ At each time step  𝑡 , the agent receives some observation  𝑜𝑡  from the environment, and must choose an action  𝑎𝑡  which is then transmitted back to the environment. Finally, the agent receives a reward  𝑟𝑡  from the environment.<br>
+ The agent can replay random past experiences to help it perform action and make decision.
