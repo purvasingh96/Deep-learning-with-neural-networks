@@ -15,6 +15,8 @@ Table of Contents
       * [Classification](#Classification)
       * [Tagging](#Tagging)
       * [Sequential Learning](#Sequential-Learning)
+    * [Unsupervised Machine Learning](#Unsupervised-Machine-Learning)
+    * [Reinforcement Learning](#Reinforcement-Learning)
 
 ## Definition
  As ML algorithm accumulates more experience, typically in the form of observational data or interactions with an environment, their performance improves.In deep learning, the learning is the process by which we discover the right setting of the knobs coercing the desired behaviour from our model. Below is the flow of a typical training process - <be>
@@ -69,7 +71,7 @@ Table of Contents
  >* **Text to Speech**
  >* **Machine Translation**
 
- ## Unspuervised Learning
+ ## Unsupervised Machine Learning
  Unsupervised learning is a type of machine learning algorithm used to draw inferences from datasets consisting of input data without labeled responses.  Following are the type of unsupervised learning methods -
  >1. **Clustering** - Clustering is used for exploratory data analysis to find hidden patterns or grouping in data.
  >2. **Principal Component Analysis** - PCA a statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables (entities each of which takes on various numerical values) into a set of values of linearly uncorrelated variables called principal components.
