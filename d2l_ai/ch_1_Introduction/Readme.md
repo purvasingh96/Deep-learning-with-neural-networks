@@ -76,5 +76,7 @@ Table of Contents
  >3. **Representational Learning** - It is used to describe entities and their relations.
  
  ## Reinforcement Learning
- At each time step  𝑡 , the agent receives some observation  𝑜𝑡  from the environment, and must choose an action  𝑎𝑡  which is then transmitted back to the environment. Finally, the agent receives a reward  𝑟𝑡  from the environment.<br>
- The agent can replay random past experiences to help it perform action and make decision.
+ At each time step  **𝑡** , the agent receives some observation  **O𝑡**  from the environment, and must choose an action  **A𝑡**  which is then transmitted back to the environment. Finally, the agent receives a reward  **R𝑡**  from the environment.<br>
+ The agent can replay random past experiences to help it perform action and make decision. This is called **Experience Replay**<br>
+ 
+  <img src="../images/reinforcement_learning.png" width="500" >
