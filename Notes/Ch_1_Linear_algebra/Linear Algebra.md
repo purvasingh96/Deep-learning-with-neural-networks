@@ -48,7 +48,8 @@
 | 25.  | Orthogonal Matrix                   | Square matrix with rows and columns orthonormal respectively.                         |
 
 
-# Eigen Vectors and Eigen Values
+# Matrix Decomposition
+## Eigen Decomposition
 *Eigendecomposition* is a way of breaking/decomposing matrix into smaller matrices (analogus to *prime factorization*).<br>
 <img src="images/eigen_decompost.png" width="200" height="50" ><br>
 *Eigen Vector* is a non-zero vector ***v***, which upon being multiplied by matrix **A**, alters only the scale of ***v***.<br>
@@ -61,3 +62,12 @@ Below figure shows before and after multiplying *eigen vector* with *eigen value
 * Matrix whose all eigen values are positive or zero-valued is called **positive semi-definite**
 * Matrix whose all eigen values are negative is called **negative definite**
 * Matrix whose all eigen values are negative or zero-valued is called **negative semi-definite**
+
+## Single Value Decomposition (SVD)
+SVD factorizes matrix into singular values and singular vectors. In SVD, matrix **A** can be decomposed as follows - <br>
+<img src="images/SVD.png" width="200" height="50" ><br>
+**Properties - **<br>
+* **A** - (m, n) matrix
+* **U** - (m, m) orthogonal matrix, columns of **U** are called **left-singular vectors**
+* **D** - (m, n) diagnol matrix, not necessarily square, elements along diagnol **D** are called **singular values of A** 
+* **V** - (n, n) orthogonal matrix, columns of **V** are called **right-singular vectors**
