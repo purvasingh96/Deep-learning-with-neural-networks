@@ -71,3 +71,13 @@ SVD factorizes matrix into singular values and singular vectors. In SVD, matrix 
 * **U** - (m, m) orthogonal matrix, columns of **U** are called **left-singular vectors**
 * **D** - (m, n) diagnol matrix, not necessarily square, elements along diagnol **D** are called **singular values of A** 
 * **V** - (n, n) orthogonal matrix, columns of **V** are called **right-singular vectors**
+
+## Moore-Penrose Pseudoinverse
+Usually matrix inversion is not possible for non-square matrices. To solve below linear equation, in case **A is non-square matrix** , we use Moore-Penrose pseudoinverse formula to **find solution to x** - <br>
+<img src="images/mpr.png" width="150" height="50" ><br>
+<img src="images/mpr_formula.png" width="250" height="65" ><br>
+Here, **U, D, V** are SVD of **A**.<br><br>
+*Pseudo-inverse of **D** is obtained by* - 
+* take reciprocal of non-zero elements 
+* take transpose of resultant matrix
+
