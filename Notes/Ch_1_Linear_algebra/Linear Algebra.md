@@ -15,11 +15,11 @@
 * 2-D Array of numbers
 * uppercase, bold-face e.g. **A**
 
-### Properties of Matrices -
+### Properties of Matrices and Vectors -
 
 |
 
-| S.No | Matrix Property                     | Description                                                                           |
+| S.No | Matrix/Vector Property                     | Description                                                                           |
 |------|-------------------------------------|---------------------------------------------------------------------------------------|
 | 1.   | Transpose of Matrix                 |<img src="images/transpose.png" width="270" height="60" >                                                                                       |
 | 2.   | Matrix Addition                     |<img src="images/Selection_096.png" width="200" height="40" >                                                                                       |
