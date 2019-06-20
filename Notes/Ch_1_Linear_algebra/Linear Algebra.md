@@ -10,7 +10,7 @@ Table of Contents
 * [Matrix Decomposition](Matrix-Decomposition)
   * [Eigen Decomposition](Eigen-Decomposition)
   * [Single Value Decomposition](Single-Value-Decomposition)
-  * [Moore-Penrose Pseudoinverse](Moore-Penrose-Pseudoinverse)
+  * [Moore-Penrose Pseudoinverse](#Moore-Penrose-Pseudoinverse)
 * [Trace Operator](Trace-Operator)
   
 
