@@ -48,3 +48,10 @@
 | 25.  | Orthogonal Matrix                   | Square matrix with rows and columns orthonormal respectively.                         |
 
 
+# Eigen Vectors and Eigen Values
+*Eigendecomposition* is a way of breaking/decomposing matrix into smaller matrices (analogus to *prime factorization*).<br>
+<img src="images/eigen_decompost.png" width="200" height="50" ><br>
+*Eigen Vector* is a non-zero vector ***v***, which upon being multiplied by matrix **A**, alters only the scale of ***v***.<br>
+<img src="images/eigen_vector.png" width="200" height="50" ><br>
+Below figure shows before and after multiplying *eigen vector* with *eigen value* :<br>
+<img src="images/before_after_ev.png" width="400" height="200" ><br>
