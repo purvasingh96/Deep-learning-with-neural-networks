@@ -1,5 +1,19 @@
 # Linear Algebra
 
+Table of Contents
+=====================
+* [Scalars, Vectors, Matrices and Tensors](Scalars,-Vectors,-Matrices-and-Tensors)
+  * [Scalars](Scalars)
+  * [Vectors](Vectors)
+  * [Matrices](Matrices)
+    * [Properties of Matrices and Vectors](Properties-of-Matrices-and-Vectors)
+* [Matrix Decomposition](Matrix-Decomposition)
+  * [Eigen Decomposition](Eigen-Decomposition)
+  * [Single Value Decomposition](Single-Value-Decomposition)
+  * [Moore-Penrose Pseudoinverse](Moore-Penrose-Pseudoinverse)
+* [Trace Operator](Trace-Operator)
+  
+
 # Scalars, Vectors, Matrices and Tensors
 
 ## Scalars
@@ -15,9 +29,7 @@
 * 2-D Array of numbers
 * uppercase, bold-face e.g. **A**
 
-### Properties of Matrices and Vectors -
-
-|
+### Properties of Matrices and Vectors
 
 | S.No | Matrix/Vector Property                     | Description                                                                           |
 |------|-------------------------------------|---------------------------------------------------------------------------------------|
@@ -64,7 +76,7 @@ Below figure shows before and after multiplying *eigen vector* with *eigen value
   * negative is called **negative definite**
   * negative or zero-valued is called **negative semi-definite**
 
-## Single Value Decomposition (SVD)
+## Single Value Decomposition
 SVD factorizes matrix into singular values and singular vectors. In SVD, matrix **A** can be decomposed as follows - <br>
 <img src="images/SVD.png" width="200" height="50" >
 ### Properties - 
