@@ -55,3 +55,9 @@
 <img src="images/eigen_vector.png" width="200" height="50" ><br>
 Below figure shows before and after multiplying *eigen vector* with *eigen value* :<br>
 <img src="images/before_after_ev.png" width="400" height="200" ><br>
+
+
+* Matrix whose all eigen values are positive is called **positive definite**
+* Matrix whose all eigen values are positive or zero-valued is called **positive semi-definite**
+* Matrix whose all eigen values are negative is called **negative definite**
+* Matrix whose all eigen values are negative or zero-valued is called **negative semi-definite**
