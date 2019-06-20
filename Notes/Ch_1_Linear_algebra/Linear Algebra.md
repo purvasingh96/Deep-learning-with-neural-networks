@@ -2,16 +2,16 @@
 
 Table of Contents
 =====================
-* [Scalars, Vectors, Matrices and Tensors](Scalars,-Vectors,-Matrices-and-Tensors)
-  * [Scalars](Scalars)
-  * [Vectors](Vectors)
-  * [Matrices](Matrices)
-    * [Properties of Matrices and Vectors](Properties-of-Matrices-and-Vectors)
-* [Matrix Decomposition](Matrix-Decomposition)
-  * [Eigen Decomposition](Eigen-Decomposition)
-  * [Single Value Decomposition](Single-Value-Decomposition)
+* [Scalars, Vectors, Matrices and Tensors](#Scalars,-Vectors,-Matrices-and-Tensors)
+  * [Scalars](#Scalars)
+  * [Vectors](#Vectors)
+  * [Matrices](#Matrices)
+    * [Properties of Matrices and Vectors](#Properties-of-Matrices-and-Vectors)
+* [Matrix Decomposition](#Matrix-Decomposition)
+  * [Eigen Decomposition](#Eigen-Decomposition)
+  * [Single Value Decomposition](#Single-Value-Decomposition)
   * [Moore-Penrose Pseudoinverse](#Moore-Penrose-Pseudoinverse)
-* [Trace Operator](Trace-Operator)
+* [Trace Operator](#Trace-Operator)
   
 
 # Scalars, Vectors, Matrices and Tensors
