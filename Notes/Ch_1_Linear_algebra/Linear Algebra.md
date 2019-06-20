@@ -16,11 +16,8 @@
 * uppercase, bold-face e.g. **A**
 
 ### Properties of Matrices -
-| S.No | Matrix Property       | Description |
-|------|-----------------------|-------------|
-| 1.   | Transpose of Matrix   |<img src="images/transpose.png" width="270" height="60" >            |
-| 2.   | Matrix Addition       |<img src="images/Selection_096.png" width="200" height="40" >             |
-| 3.   | Scalar Multiplication (*Hadamard Product*) |<img src="images/Selection_097.png" width="200" height="60" >             |
+
+|
 
 | S.No | Matrix Property                     | Description                                                                           |
 |------|-------------------------------------|---------------------------------------------------------------------------------------|
@@ -42,12 +39,12 @@
 | 16.  | Max Norm                            |<img src="images/max_norm.png" width="200" height="50" >                                                                                       |
 | 17.  | Frobenius Norm                      | Measures size of matrix. (Analogus to euclidean-norm)                                 |
 | 18.  | Dot product of vectors (x, y)       |<img src="images/dot_product.png" width="200" height="50" ><img src="images/dot_prod_@.png" width="200" height="50" >                                                                                       |
-| 19.  | Diagnol Matrix                      |                                                                                       |
+| 19.  | Diagnol Matrix                      |<img src="images/diagnol_matrix.png" width="150" height="50" ><img src="images/diag_matrix_2.png" width="150" height="50" >                                                                                       |
 | 20.  | Identity Matrix                     | Matrix whose diagnol enteries are 1                                                   |
-| 21.  | Symmetric Matrix                    |                                                                                       |
-| 22.  | Unit Vector                         |                                                                                       |
-| 23.  | Orthogonal Vectors                  |                                                                                       |
-| 24.  | Orthonormal Vectors                 | Orthogonal vectors with unit norm                                                     |
+| 21.  | Symmetric Matrix                    |<img src="images/symmetric_matrix.png" width="200" height="50" >                                                                                       |
+| 22.  | Unit Vector                         |<img src="images/unit_vector.png" width="200" height="50" >                                                                                       |
+| 23.  | Orthogonal Vectors                  |<img src="images/orthogonal_matrix.png" width="200" height="50" >                                                                                       |
+| 24.  | Orthonormal Vectors                 | Orthogonal vectors with unit norm;<br><img src="images/orthonormal_matrix.png" width="200" height="50" >                                                     |
 | 25.  | Orthogonal Matrix                   | Square matrix with rows and columns orthonormal respectively.                         |
 
 
