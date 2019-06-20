@@ -65,8 +65,8 @@ Below figure shows before and after multiplying *eigen vector* with *eigen value
 
 ## Single Value Decomposition (SVD)
 SVD factorizes matrix into singular values and singular vectors. In SVD, matrix **A** can be decomposed as follows - <br>
-<img src="images/SVD.png" width="200" height="50" ><br>
-**Properties - **<br>
+<img src="images/SVD.png" width="200" height="50" >
+### Properties - 
 * **A** - (m, n) matrix
 * **U** - (m, m) orthogonal matrix, columns of **U** are called **left-singular vectors**
 * **D** - (m, n) diagnol matrix, not necessarily square, elements along diagnol **D** are called **singular values of A** 
@@ -81,3 +81,14 @@ Here, **U, D, V** are SVD of **A**.<br><br>
 * take reciprocal of non-zero elements 
 * take transpose of resultant matrix
 
+# Trace Operator
+* Gives sum of diagnol enetries of matrix.<br>
+<img src="images/trace.png" width="250" height="65">
+
+* Frobenius norm can be re-written in terms of Trace operator as follows -
+<img src="images/frob_in_trace.png" width="250" height="65">
+
+* Properties of Trace operator -
+<br>
+  <img src="images/trace_comm.png" width="250" height="65"><br>
+  <img src="images/trace_transpose.png" width="250" height="65">
