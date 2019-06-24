@@ -42,5 +42,21 @@
 | 30.   | Laplace Distribution                                | * Places sharp peak of probability mass at any arbitrary point u.                                                                                                                                                         |
 | 31.   | Dirac Distribution                                  | * Specifies all mass in probability distribution cluster around single point. * zero valued everywhere, except 0, yet integrates to 1 * generalized function that puts less density on all points other than 0.           |
 | 32.   | Emperical Distribution                              | * puts probability mass of (1/m) on each masses.                                                                                                                                                                          |
-| 33.   | Mixture of Distributions                            | * On each trial, choice of which component distribution should generate sample by  generating component identity from multinouli distribution -                                                                           | 
+| 33.   | Mixture of Distributions                            | * On each trial, choice of which component distribution should generate sample by  generating component identity from multinouli distribution -                                                                           |
+
+
+
+
+| S.No. | Term/Formula             | Description                                                                                                                                                                                                               |
+|-------|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 33.   | Mixture of Distributions | * On each trial, choice of which component distribution should generate sample by  generating component identity from multinouli distribution -                                                                           |
+| 34.   | Gaussian Mixture Model   | * Each component has separately parameterized mean and co-variance. * Components ,, are Gaussians * Specifies prior probability,, given to each component i. * Expresses model's belief about c, before it has observed x |
+| 35.   | Posterior Probability    | * Probability is computed after observation of x.                                                                                                                                                                         |
+| 36.   | Universal Approximator   | * Any smooth density can be approximated with any specific nonzero amount of error  by Gaussian mixture model with enough components.                                                                                     |
+| 37.   | Logistic Sigmoid         | * Produces phi paramter of Bernoulli distribution * Range - (0,1)                                                                                                                                                         |
+| 38.   | Softplus Function        | * Produces B or A paramters of Normal distribution. * Range - (0, infinity)                                                                                                                                               |
+| 39.   | Properties of Softplus   |                                                                                                                                                                                                                           |
+| 40.   | Baye's Rule              |                                                                                                                                                                                                                           |
+| 41.   | Measure Zero             | * Rigrous way of describing that set of points is negligibly small. * Set of measure 0 occupies no volume in space we are measuring                                                                                       |
+| 42.   | Almost Everywhere        | * Property that holds almost everywhere holds throughout all space except for on the set of measure 0.                                                                                                                    |
 
