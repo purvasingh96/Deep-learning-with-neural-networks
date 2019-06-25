@@ -65,3 +65,10 @@ Table of Contents
 | 41.   | **Measure Zero**             |Rigrous way of describing that **set of points is negligibly small**.<br>Set of measure 0 occupies **no volume in space** we are measuring.                                                                                       |
 | 42.   | **Almost Everywhere**        |Property that **holds almost everywhere** holds throughout all space **except for on the set of measure 0**.                                                                                                                    |
 
+
+
+
+# Information Theorey
+Information theory is a branch of applied mathematics that revolves around quantifying how much information is present in a signal.<br>
+The basic intuition behind information theory is that learning that an **unlikely event has occurred** is **more informative** than learning that a **likely event has occurred**.
+
