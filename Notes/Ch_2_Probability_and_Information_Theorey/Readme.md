@@ -1,5 +1,10 @@
 # Probability and Information Theorey
 
+Table of Contents
+====================
+* [Overview](#Overview)
+* [Definitions and Formulas](#Definitions-and-Formulas)
+
 # Overview
 * Probability provides means to quantify uncertainity.
 * Probability is used for 2 reasons in AI -
