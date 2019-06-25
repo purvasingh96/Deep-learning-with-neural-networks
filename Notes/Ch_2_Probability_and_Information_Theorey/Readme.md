@@ -72,3 +72,16 @@ Table of Contents
 Information theory is a branch of applied mathematics that revolves around quantifying how much information is present in a signal.<br>
 The basic intuition behind information theory is that learning that an **unlikely event has occurred** is **more informative** than learning that a **likely event has occurred**.
 
+## Rules to Quantatify Information
+* Less likely event should have low information content.
+* More likely event should have more information content.
+* Indipendent events should have additive information.
+
+## Self Information
+* Self information satisfies all 3 rules that is needed to quantify information.<br>
+* *I(x)* is written in units of **nat.**
+* **One Nat** is amount of information gained by observing event of probability *(1/e).*
+* **Bits/Shannons** is self-information with log base 2.
+* Deals with onle single outcome.
+* **Shannon Entropy** is expected amount of information drawn from probability distribution.<br>
+
