@@ -88,3 +88,32 @@ The basic intuition behind information theory is that learning that an **unlikel
 ## Kullback-Leibler (KL) Divergence
 KL Divergence is used to measure difference between 2 separate probability distribution *P(x)* and *Q(x)* over same random variable *x*.<br><img src="images/45.KL_divergence.png" width="350" height="90" >
 
+### Properties of KL Divergence
+* Non-negative.
+* KL divergence = 0; iff *P* and *Q* are same distribution/ equal "almost everywhere" in case of discrete/continous variables.
+* Because of the above 2 properties, it is conceptualized as distance between the 2 distributions.
+* <img src="images/46.KL_properties.png" width="200" height="50" >
+
+## Cross Entropy
+* Closely related to KL divergence.
+* Minimizing cross entropy w.r.t. Q is same as minimizing KL divergence.
+<img src="images/47.Cross_entropy.png" width="200" height="50" >
+
+## Structured Probabilistic Models
+Representing probability distribution over 3 variables as product of probability distribution over 2 variables.
+<img src="images/47.Cross_entropy.png" width="200" height="50" >
+* Greatly reduces cost of representing distribution.
+
+### Types of Structured Probabilistic Models
+**Directed Models**
+* Graphs with edges
+* Represent factorization into conditional probability distribution.
+* Contains of 1 factor for every random variable *Xi*
+* Factor consists of conditional probability distribution over Xi, given its parents.<br>
+<img src="images/49.Directed_graphs.png" width="200" height="50" ><br>
+* Example of directed graph -<br>
+<img src="images/50.Directed_graph_2.png" width="320" height="250" ><br>
+<img src="images/51.Directed_graph_3.png" width="370" height="100" ><br>
+
+
+
