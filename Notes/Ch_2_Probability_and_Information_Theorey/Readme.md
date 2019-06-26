@@ -106,14 +106,25 @@ Representing probability distribution over 3 variables as product of probability
 
 ### Types of Structured Probabilistic Models
 **Directed Models**
-* Graphs with edges
+* Graphs with directed edges
 * Represent factorization into conditional probability distribution.
 * Contains of 1 factor for every random variable *Xi*
 * Factor consists of conditional probability distribution over Xi, given its parents.<br>
 <img src="images/49.Directed_graphs.png" width="200" height="50" ><br>
 * Example of directed graph -<br>
 <img src="images/50.Directed_graph_2.png" width="320" height="250" ><br>
-<img src="images/51.Directed_graph_3.png" width="370" height="100" ><br>
+<img src="images/51.Directed_graph_3.png" width="400" height="100" ><br>
+
+**Undirected Models**
+* Graphs with undirected edges.
+* Set of nodes connected to each other in graph is called *Clique*.
+* Output of each factor is non-negative.
+* No constraint that sum of factors must integrate to 1.
+* To obtain normalized distribution, divide by *Z* (normalizing constant).<br>
+<img src="images/52.Normalizing_constant.png" width="220" height="70" ><br>
+* Example of undirected graph - <br>
+<img src="images/53.Undirected_graph.png" width="320" height="250" ><br>
+<img src="images/54.Undirected_graph_2.png" width="400" height="100" ><br>
 
 
 
