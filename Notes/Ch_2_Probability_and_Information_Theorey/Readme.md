@@ -78,10 +78,13 @@ The basic intuition behind information theory is that learning that an **unlikel
 * Indipendent events should have additive information.
 
 ## Self Information
-* Self information satisfies all 3 rules that is needed to quantify information.<br>
+* Self information satisfies all 3 rules that is needed to quantify information.<br><img src="images/43.self_information.png" width="200" height="50" >
 * *I(x)* is written in units of **nat.**
 * **One Nat** is amount of information gained by observing event of probability *(1/e).*
 * **Bits/Shannons** is self-information with log base 2.
 * Deals with onle single outcome.
-* **Shannon Entropy** is expected amount of information drawn from probability distribution.<br>
+* **Shannon Entropy** is expected amount of information drawn from probability distribution.<br><img src="images/44.Shannon_entropy.png" width="320" height="70" >
+
+## Kullback-Leibler (KL) Divergence
+KL Divergence is used to measure difference between 2 separate probability distribution *P(x)* and *Q(x)* over same random variable *x*.<br><img src="images/45.KL_divergence.png" width="350" height="90" >
 
