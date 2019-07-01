@@ -22,4 +22,13 @@ A computer program is said to learn from **experience E** with respect to some c
 <img src="images/04. MSE-train.png" width="150" height="30" ><br>
 <img src="images/05. Optimum_weight.png" width="300" height="60" ><br>
 
-## 
+# Capacity, Overfitting and Underfitting
+* **Generalization -** Ability to perform on previously unobserved inputs.
+* **Generalization/Test-Error** - Expected value of error on new input.
+* To improve model's performance, reduce **test-error.** Test error can be defined as follows -<br><img src="images/07. test_error.png" width="200" height="60" ><br>
+* Set of **i.i.d assumptions** describes data-generating process with probability distribution over single sample.
+* **i.i.d** assumptions refers to examples in each data-set are **indipendent** and training and test data are **identically distributed.**
+* Expected training error of random model equals expected testing error of that model.
+* Factors that determine how well ML model will perform are -<br>
+    * smaller training error
+    * smaller gap between training and testing error
