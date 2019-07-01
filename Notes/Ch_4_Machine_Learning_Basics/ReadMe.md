@@ -32,3 +32,17 @@ A computer program is said to learn from **experience E** with respect to some c
 * Factors that determine how well ML model will perform are -<br>
     * smaller training error
     * smaller gap between training and testing error
+* **Underfitting** - model's inability to achieve smaller training error.
+* **Overfitting** - gap between training and testing error is too large.
+* **Capacity** - model's capacity is its ability to ﬁt a wide variety of functions.
+* **Hypothesis space** - set of functions that the learning algorithm is allowed to select as being the solution.
+* ML algos perform best when their capacity is appropriate for the true complexity of the task.
+* **Representational Capacity** - ( choice of model + hypothetical space)
+* **Effective Capacity <= Representational Capacity**<br>
+<img src="images/08. Error_graph.png" width="400" height="200" ><br>
+
+
+
+
+
+
