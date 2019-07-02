@@ -87,6 +87,8 @@ Theorem states that averaged over all possible data sets, **no ML algorithm is u
 * **Gaussian and Bernoulli distribution are unbiased.**
 * **Variance of Gaussian distribution** is biased with bias of<br> <img src="images/13. bias_of_variance_of_gaussian_distribution.png" width="100" height="40" ><br>
 
+## Standard Variance
+
 
 
 
