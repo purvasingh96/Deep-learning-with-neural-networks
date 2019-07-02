@@ -69,7 +69,25 @@ Theorem states that averaged over all possible data sets, **no ML algorithm is u
 
 ### Point Estimator 
 * Point estimation is the attempt to provide the single **best** prediction of some quantity of interest.
-* Point estimation for θ is represented by ˆθ. 
+* Point estimation for θ is represented by ˆθ.<br>
+<img src="images/10. point_estimator.png" width="200" height="40" ><br>
+* A good estimator is a function, whose output is close to true value θ that generated training data.
+
+### Function Estimator
+<img src="images/11. function_estimator.png" width="200" height="40" ><br>
+* In function estimation,approximate f with a model or estimateˆf.
+* Function estimator **ˆf** is simply a point estimator in **function space**.
+
+## Bias
+* Bias of an estimator is defined as -<br>
+<img src="images/12. bias.png" width="200" height="40" ><br>
+* Estimator ˆθm is said to be unbiased if bias(ˆθm) =0
+* An estimatorˆθmis said to be **asymptotically unbiased** if<br>
+<img src="images/13. asymptotically_unbiased.png" width="200" height="40" ><br>
+* **Gaussian and Bernoulli distribution are unbiased.**
+* **Variance of Gaussian distribution** is biased with bias of<br> <img src="images/13. bias_of_variance_of_gaussian_distribution.png" width="100" height="40" ><br>
+
+
 
 
 
