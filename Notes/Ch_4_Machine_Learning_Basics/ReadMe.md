@@ -56,6 +56,21 @@ Theorem states that averaged over all possible data sets, **no ML algorithm is u
 
 # Hyperparameters and Validation Sets
 
+*  **Hyper-parameters -** 
+      * Settings related to ML algos that can be used to control algorithm’s behavior.
+      * Sometimes settings is chosen as hyper-paramter, because it is **not appropriate to learn that hyperparameter**               (controlling model's capacity) on the training set, since they would always **chose maximum possible model                   capacity**,resulting in **overfitting**.
+     
+     
+* **Validation-set -**
+      * To solve the above problem of overfitting due to chosing of maximum model's capacity, we need set of examples that model has not observed. This set is called *validation-set (constructed from training data).*
+      
+# Estimators, Bias, Variance
+## Estimators 
+
+### Point Estimator 
+* Point estimation is the attempt to provide the single **best** prediction of some quantity of interest.
+* Point estimation for θ is represented by ˆθ. 
+
 
 
 
