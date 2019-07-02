@@ -41,6 +41,8 @@ A computer program is said to learn from **experience E** with respect to some c
 * **Effective Capacity <= Representational Capacity**<br>
 <img src="images/08. Error_graph.png" width="400" height="200" ><br>
 
+* **Baeys Error** - difference between true probability distribution and true probability distribution.
+
 
 
 
