@@ -47,6 +47,15 @@ Theorem states that averaged over all possible data sets, **no ML algorithm is u
 
 * **Weight Decay -** ML algos are given preference in **hypothesis space.** We can transform linear regression to include weight decay. The criterion *J(**w**)*, has preference for weights with smaller **L2 norm**<br>
 <img src="images/09. weight_decay.png" width="200" height="50" ><br>
+   * λ is a value chosen ahead of time that controls the strength of our preference for smaller weights.
+   * λ= 0, we impose no preference
+   * larger λ forces weights to become smaller.
+   * In general, *we can regularize a model that learns a **functionf(x;θ)** by adding a penalty called **regularizer** to cost function.*
+   
+* **Regularization** is any modiﬁcation we make to learning algorithm that is intended to **reduce its generalization error** but not training error.
+
+# Hyperparameters and Validation Sets
+
 
 
 
