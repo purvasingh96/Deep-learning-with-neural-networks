@@ -42,6 +42,11 @@ A computer program is said to learn from **experience E** with respect to some c
 <img src="images/08. Error_graph.png" width="400" height="200" ><br>
 
 * **Baeys Error** - difference between true probability distribution and true probability distribution.
+* **No Free Lunch Theorem** - ML aims to find rules that are **probably correct** about **most** members of the set rather than finding rules that are surely correct about certain set of members.<br>
+Theorem states that averaged over all possible data sets, **no ML algorithm is universally any better than other**.
+
+* **Weight Decay -** ML algos are given preference in **hypothesis space.** We can transform linear regression to include weight decay. The criterion *J(**w**)*, has preference for weights with smaller **L2 norm**<br>
+<img src="images/09. weight_decay.png" width="200" height="50" ><br>
 
 
 
