@@ -108,7 +108,37 @@ Theorem states that averaged over all possible data sets, **no ML algorithm is u
 * As the number of data points (*m*) increases in data-set, we expect our point estimates converge to the true value of the corresponding parameters.<br>
 <img src="images/17. consistency.png" width="200" height="60" ><br>
 
+* Consistency ensures that the **bias** induced by the estimator **diminishes** as the number of data examples grows.
 
+## Maximum Likelihood Estimation
+Rather than guessing that some function might make a good estimator and then analyzing its bias and variance,we would like to have some **principle from which we can derive speciﬁc functions that are good estimators for diﬀerent models**.
+
+* Maximum likelihood estimator for θ is then deﬁned as -<br>
+<img src="images/18. max_likelihood_estimation.png" width="250" height="100" ><br>
+
+* Taking *log* both sides and dividing by *m* to convert it into *expectation*, we get -<br>
+<img src="images/19. max_lik_est_expect.png" width="300" height="80" ><br>
+
+* Maximum likelihood can be seen as minimizing **dissimilarity** between the **empirical distribution** ˆpdata, deﬁned by the training set and **model distribution**. 
+   * **KL Divergence** measures degree of dissimilarity between the two.
+   * **Minimizing KL divergence** implies minimizing **cross-entropy** between distributions.
+   
+### Conditional Log-Likelihood and Mean Squared Error
+If ***X*** represents all our inputs and ***Y*** all our observed targets, then the **conditional maximum likelihood estimator** is gven by, assuming examples are i.i.d -<br>
+<img src="images/20. conditional_mle.png" width="300" height="80" ><br>
+
+### Properties of Maximum Likelihood Estimatior 
+Under appropriate conditions, the maximum likelihood estimator has the **property of consistency**, given the following conditions -
+   * The true distribution **pdata** must lie within the model family **pmodel(·;θ)**
+   * The true distribution **pdata** must correspond to **exactly one value** of θ.
+
+* **Statistical Efficiency**
+Consistent estimator may obtain **lower generalization error** for a ﬁxed number of samples ***m***, or equivalently, may require **fewer examples to obtain a ﬁxed level of generalization error.**
+
+# Bayesian Statistics
+Till now, we have considered **single estimated value of θ** and made **all predictions**. Another approach is to consider **all values of θ** and make **one single prediction**. The later domain is known as ***Bayesian Statistics.***
+
+* The Bayesian uses **probability** to reﬂect **degrees of certainty** in states of knowledge.
 
 
 
