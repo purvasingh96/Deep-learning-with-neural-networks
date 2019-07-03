@@ -87,7 +87,19 @@ Theorem states that averaged over all possible data sets, **no ML algorithm is u
 * **Gaussian and Bernoulli distribution are unbiased.**
 * **Variance of Gaussian distribution** is biased with bias of<br> <img src="images/13. bias_of_variance_of_gaussian_distribution.png" width="100" height="40" ><br>
 
-## Standard Variance
+## Variance and Standard Error
+
+* **Variance/Standard Error**  of an estimator provides a measure of how we would expect the estimate we compute from data to vary as we independently resample the dataset from the underlying data-generating process.
+* **Lower** the variance, the better.
+* **Standard Limit Theorem** - Mean will be approximately distributed with a normal distribution.
+* Variance of an estimator is given by -<br>
+<img src="images/14. standard_error.png" width="300" height="60" ><br>
+
+## Trading off Bias and Variance to MSE
+* To chose between 2 estimators (more variance or more bias), we negotiate this trade-oﬀ by using **cross-validation**.
+* MSE in terms of variance and bias is given by -<br>
+<img src="images/15. MSE.png" width="300" height="60" ><br>
+
 
 
 
