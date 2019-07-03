@@ -104,6 +104,10 @@ Theorem states that averaged over all possible data sets, **no ML algorithm is u
 * Relationship between **bias, variance, capacity and generalization error** is given as follows -<br>
 <img src="images/16. relationship_graph.png" width="350" height="170" ><br>
 
+## Consistency
+* As the number of data points (*m*) increases in data-set, we expect our point estimates converge to the true value of the corresponding parameters.<br>
+<img src="images/17. consistency.png" width="200" height="60" ><br>
+
 
 
 
