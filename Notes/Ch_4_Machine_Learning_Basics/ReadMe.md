@@ -97,8 +97,12 @@ Theorem states that averaged over all possible data sets, **no ML algorithm is u
 
 ## Trading off Bias and Variance to MSE
 * To chose between 2 estimators (more variance or more bias), we negotiate this trade-oﬀ by using **cross-validation**.
-* MSE in terms of variance and bias is given by -<br>
+* MSE in terms of **variance and bias** is given by -<br>
 <img src="images/15. MSE.png" width="300" height="60" ><br>
+
+* Increasing capacity -> Increased variance, decreased bias.
+* Relationship between **bias, variance, capacity and generalization error** is given as follows -<br>
+<img src="images/16. relationship_graph.png" width="350" height="170" ><br>
 
 
 
