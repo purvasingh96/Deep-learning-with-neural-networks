@@ -140,6 +140,23 @@ Till now, we have considered **single estimated value of θ** and made **all pre
 
 * The Bayesian uses **probability** to reﬂect **degrees of certainty** in states of knowledge.
 
+* Considering we have set of examples <img src="images/21. examples.png"></img>, we can recover the eﬀect of data on our belief about θ by combining the data likelihood, <img src="images/22. data_likelihood.png"></img>, with the prior via Bayes’ rule -<br>
+<img src="images/23. Bayesian_stats.png"></img><br>
+
+* **Maximum likelihood approach** addresses the **uncertainty** in a given point estimate of **θ** by evaluating its **variance**.<br>
+**Bayesian statistics integrates** over point estimate to address uncertainity.
+
+* The **prior** has an inﬂuence by **shifting probability mass density** towards regions of the parameter space that are **preferred a priori**.
+
+* Bayesian statistics suffer **high computational costs** when training examples are **large**.
+
+# Maximum a Posteriori (MAP) Estimation
+* Rather than simply returning to the maximum likelihood estimate, we can still gain some beneﬁt of Bayesian approach by allowing the **prior to inﬂuence the choice of the point estimate**.<br>
+* One rational way to do this is to choose **maximum a posteriori(MAP) point estimate**, which choses the point of **maximal probability density in the more common case of continuous θ**-<br>
+<img src="images/23. MAP.png"></img>
+
+* **MAP Bayesian inference** provides a straightforward way to design complicated yet **interpretable regularization terms**.
+
 
 
 
