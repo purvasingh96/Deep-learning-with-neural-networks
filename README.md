@@ -3,10 +3,10 @@
 
 <img src="./deep-learning-book-goodfellow-cover.jpg" width="400" alt="Cover of the deep learning book by Goodfellow, Bengio and Courville" title="The Deep Learning Book - Goodfellow, I., Bengio, Y., and Courville, A. (2016)">
 
-This repository contains -
-* Chapter-wise **summarized notes**.
-* Chapter-wise **PDF.**
-* Chapter-wise **codes.** (.ipynb files)
+This repository contains -<br>
+:heavy_check_mark: Chapter-wise **summarized notes**.<br>
+:heavy_check_mark: Chapter-wise **PDF.**<br>
+:heavy_check_mark: Chapter-wise **codes.** (.ipynb files)<br>
 
 Below is the list of references-
 
