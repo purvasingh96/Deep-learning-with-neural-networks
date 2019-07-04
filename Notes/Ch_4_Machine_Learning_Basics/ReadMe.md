@@ -157,6 +157,21 @@ Till now, we have considered **single estimated value of θ** and made **all pre
 
 * **MAP Bayesian inference** provides a straightforward way to design complicated yet **interpretable regularization terms**.
 
+# Supervised Laerning Algorithms
+ Supervised learning algorithms are learning algorithms that learn to associate some input with some output, given a training set of examples of ***inputs x and outputs y***.
+ 
+ ## Probabilistic Supervised Learning
+ * Supervised learning is based on estimating probability distribution <img src="images/24. probability.png"></img>, by using **maximum likelihood estimation** to ﬁnd the best parameter vector **θ** for a parametric family of distributions **p(y | x; θ)**
+ 
+ * ***Logistic Regression -***
+   * Normal distribution over **real-valued** numbers, used for **linear regression** is parametrized in terms of **mean**.
+    <img src="images/25. linear_regression.png"></img>
+   * Distribution for **binary variables** becomes complicated since mean must always be between **0 and 1.**
+   * Above problem can be solved by using **logistic sigmoid function**, to squash output of linear function into interval        (0, 1) and interpret that value as a probability:<br>
+   <img src="images/26. logistic_regression.png"></img>
+   
+  ## Support Vector Machines
+  
 
 
 
