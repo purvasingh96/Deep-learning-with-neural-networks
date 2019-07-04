@@ -1,3 +1,4 @@
+[![Download](https://img.shields.io/badge/download-book-brightgreen.svg)](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-Learning-Book.pdf)
 # Overview
 
 <img src="./deep-learning-book-goodfellow-cover.jpg" width="400" alt="Cover of the deep learning book by Goodfellow, Bengio and Courville" title="The Deep Learning Book - Goodfellow, I., Bengio, Y., and Courville, A. (2016)">
