@@ -157,7 +157,7 @@ Till now, we have considered **single estimated value of θ** and made **all pre
 
 * **MAP Bayesian inference** provides a straightforward way to design complicated yet **interpretable regularization terms**.
 
-# Supervised Laerning Algorithms
+# Supervised Learning Algorithms
  Supervised learning algorithms are learning algorithms that learn to associate some input with some output, given a training set of examples of ***inputs x and outputs y***.
  
  ## Probabilistic Supervised Learning
@@ -172,10 +172,29 @@ Till now, we have considered **single estimated value of θ** and made **all pre
    
   ## Support Vector Machines
   
+* Most influential approach to supervised learning problems.
+* Similar to **logistic regression** and driven by a linear function
+   <img src="images/27. logistic_regression.png"></img>
+* Donot provide probabilities, predicts presence of positive or negative class.
+
+### Kernels
+* Many machine learning algorithms can be written exclusively in terms of **dot products between examples.**
+* Linear function used by SVM can be rewritten as <br>
+   <img src="images/28. Kernels.png"></img>
+   * x(i) is *training example* and α is *vector of coeﬃcients.*
+   * This replaces *x* with output of given a given feature function **φ(x)** 
+* The **dot product**   <img src="images/29. Kernels_2.png"></img>  is called **kernel.**
+* Dot operator is analogus to <img src="images/30. dot_product.png"></img>
+* **Predictions** are made using the function -<br>
+<img src="images/31. kernel_predictions.png"></img>
+
+#### Advantages/Disadvantages of Kernel
+* Enables us to learn models that are **nonlinear** as a function of **x** using **convex optimization techniques.**
+* Kernel function **k** is **computationally efficient** than naively constructing 2 φ(x) vectors and explicitly taking their dot product.
+* **Cost of evaluationg** a Kernel function is very high since *i-th example* contributes a term <img src="images/32. ith-example.png"></img> to decision function.
+* SVMs are able to mitigate the above problem by learning an **α vector** that contains **mostly zeros.**
+* Classifying a new example then requires evaluating the kernel function only for training examples that have **non-zero αi.** Such training examples are called **Support Vectors**
 
 
-
-
-
-
-
+# Unsupervised Learning ALgorithms
+* ALgorithms that experience only **features but not a supervision signal**.
