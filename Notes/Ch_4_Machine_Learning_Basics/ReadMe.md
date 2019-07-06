@@ -20,6 +20,11 @@ Table of Contents
     * [Maximum a Posteriori (MAP) Estimation](#Maximum-a-Posteriori-(MAP)-Estimation)
  * [Supervised Learning Algorithms](#Supervised-Learning-Algorithms)
     * [Probabilistic Supervised Learning](#Probabilistic-Supervised-Learning)
+    * [Support Vector Machines](#Support-Vector-Machines)
+        * [Kernels](#Kernels)
+        * [Advantages/Disadvantages of Kernel](#Advantages/Disadvantages-of-Kernel)
+* [Unsupervised Learning Algorithms](#Unsupervised-Learning-Algorithms)
+    * [Principal Component Analysis (PCA)](#Principal-Component-Analysis-(PCA))
  
     
 
@@ -224,7 +229,7 @@ Till now, we have considered **single estimated value of θ** and made **all pre
 
 # Unsupervised Learning Algorithms
 * ALgorithms that experience only **features but not a supervision signal**.
-## Principal Component Analysis
+## Principal Component Analysis (PCA)
 * PCA is unsupervised learning algorithm that **learns representation of data**.
 * PCA is then used for **dimensionality reduction** preserving as much information about data as possible.
 * Assuming a *m by n design matrix* ***X***. and has a 0 mean.
