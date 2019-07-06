@@ -1,3 +1,29 @@
+Table of Contents
+====================
+* [Machine Learning Basics](#Machine-Learning-Basics)
+* [Learning Algorithms](#Learning-Algorithms)
+   * [Linear Regression](#Linear-Regression)
+* [Capacity, Overfitting and Underfitting](#Capacity,-Overfitting-and-Underfitting)
+* [Hyperparameters and Validation Sets](#Hyperparameters-and-Validation-Sets)
+* [Estimators, Bias, Variance](#Estimators,-Bias,-Variance)
+   * [Estimators](#Estimators)
+        * [Point Estimator](#Point-Estimator)
+        * [Function Estimator](#Function-Estimator)
+    * [Bias](#Bias)
+    * [Variance and Standard Error](#Variance-and-Standard-Error)
+    * [Trading off Bias and Variance to MSE](#Trading-off-Bias-and-Variance-to-MSE)
+    * [Consistency](#Consistency)
+    * [Maximum Likelihood Estimation](#Maximum-Likelihood-Estimation)
+         * [Conditional Log-Likelihood and Mean Squared Error](#Conditional-Log-Likelihood-and-Mean-Squared-Error) 
+         * [Properties of Maximum Likelihood Estimatior](#Properties-of-Maximum-Likelihood-Estimatior)
+    * [Bayesian Statistics](#Bayesian-Statistics)
+    * [Maximum a Posteriori (MAP) Estimation](#Maximum-a-Posteriori-(MAP)-Estimation)
+ * [Supervised Learning Algorithms](#Supervised-Learning-Algorithms)
+    * [Probabilistic Supervised Learning](#Probabilistic-Supervised-Learning)
+ 
+    
+
+
 # Machine Learning Basics 
 Machine learning isessentially a form of applied statistics with increased emphasis on the use ofcomputers to statistically estimate complicated functions and a decreased emphasison proving conﬁdence intervals around these functions
 
