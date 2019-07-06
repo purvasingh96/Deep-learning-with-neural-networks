@@ -196,5 +196,20 @@ Till now, we have considered **single estimated value of θ** and made **all pre
 * Classifying a new example then requires evaluating the kernel function only for training examples that have **non-zero αi.** Such training examples are called **Support Vectors**
 
 
-# Unsupervised Learning ALgorithms
+# Unsupervised Learning Algorithms
 * ALgorithms that experience only **features but not a supervision signal**.
+## Principal Component Analysis
+* PCA is unsupervised learning algorithm that **learns representation of data**.
+* PCA is then used for **dimensionality reduction** preserving as much information about data as possible.
+* Assuming a *m by n design matrix* ***X***. and has a 0 mean.
+* **Unbiased sample covariance** matrix is given by -
+<img src="images/33. sample_covariance.png"></img>
+* PCA finds **representation** through linear transformation via <img src="images/34. linear_transformation.png"></img>
+* Principals components of design matrix are given by **eigen vectors of** <img src="images/35. eigen_vectors.png"></img>
+* Principals components can be obtained by **SVD** also; Let **W** be right singular vectors in the decomposition <img src="images/36. SVD.png"></img>. Original eigen vector can be recovered by -<br>
+<img src="images/37. eigen_vectors.png"></img>.
+* Variance of **X** can be now expressed as -<br>
+<img src="images/38. variance.png"></img>.
+* Co-variance of **z** is diagnol -<br>
+<img src="images/39. co_variance_01.png"></img><br>
+<img src="images/40. co_variance_02.png"></img>
