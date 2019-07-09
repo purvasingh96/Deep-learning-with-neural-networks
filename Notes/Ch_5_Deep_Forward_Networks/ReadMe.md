@@ -28,7 +28,7 @@
        * **Manually engineered φ** : Dominant approach, takes too much time.
        * **Deep-learning of φ** : Requires learning of φ; Highly generic; Human designer finds right "general" function instead of right function. 
        
-# Rectified Linear (ReLU) Activation Function 
+# Rectified Linear Unit (ReLU) Activation Function 
 ## Problem Statement
 Our model provides a **functiony=f(x;θ)**, and **learning algorithm** will adapt **θ** to make **f similar to XOR function y =f\*(x).**
 
@@ -39,4 +39,22 @@ Our model provides a **functiony=f(x;θ)**, and **learning algorithm** will adap
 * Minimizing **J(θ)** w.r.t **w** and **b** gives **w=0 and b=0.5** which is wrong.
 
 ## Linear Model Approach
-* Constructing a **linear feed-forward network as below**  
+* Constructing a **linear feed-forward network as below** <br>
+<img src="./images/09.linear_deep_network.png"></img>
+* Final **complete model:** <img src="./images/10.complete_linear_xor.png" height="40px" width="250px"></img>
+* Making <img src="./images/03.first_layer.png" height="30px"></img> as linear would make **entire feed-forward network as linear.**
+* Assuming **linear approach** and let <img src="./images/08.linear_hidden.png" height="35px"></img> and <img src="./images/10.linear_output.png" height="35px"></img>, in that case  <img src="./images/11.linear_network.png" height="35px"></img>, which needs **non-linear functions to describe features.**
+
+## Non-Linear Model Approach
+* Most neural networks use **non-linear function** to describe features by using **affine transformation** controlled by **learned parameters**,followed by a ﬁxed **nonlinear function** called an **activation function**.
+* Affine transformation from **x to h** is defined and **activation function g** defined as:<br> <img src="./images/13.relu_applied.png"></img>
+* Recommended activation function is **ReLU**, defined as:<br><img src="./images/14.relu.png"></img><br>
+<img src="./images/15.relu_graph.png" height="300px" width="350px"></img>
+* Final **non-linear model** would be:<br>
+<img src="./images/16.non_linear_model.png"></img>
+
+
+
+
+
+
