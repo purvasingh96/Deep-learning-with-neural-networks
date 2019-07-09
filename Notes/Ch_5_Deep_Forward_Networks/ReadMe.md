@@ -21,3 +21,10 @@
     * Since, training data **doesnot show desired o/p for each of these layers,** they are called **hidden layers.**
     * **Width of model = Dimensionality of Hidden layers.**
   
+  * **Non-Linear Transformations**
+    * Linear model can be extended to **non-linear functions of x** by applying linear model directly to transformed input **φ(x)**.
+    * Mapping **φ** can be chosen as follows:
+       * **Very generic φ** : Enough capacity, poor generalization.
+       * **Manually engineered φ** : Dominant approach, takes too much time.
+       * **Deep-learning of φ** : Requires learning of φ; Highly generic; Human designer finds right "general" function instead of right function. 
+  
