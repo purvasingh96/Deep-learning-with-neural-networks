@@ -27,4 +27,16 @@
        * **Very generic φ** : Enough capacity, poor generalization.
        * **Manually engineered φ** : Dominant approach, takes too much time.
        * **Deep-learning of φ** : Requires learning of φ; Highly generic; Human designer finds right "general" function instead of right function. 
-  
+       
+# Rectified Linear (ReLU) Activation Function 
+## Problem Statement
+Our model provides a **functiony=f(x;θ)**, and **learning algorithm** will adapt **θ** to make **f similar to XOR function y =f\*(x).**
+
+* **MSE** loss function **J(θ) -**<br>
+<img src="./images/06.mse_linear_transformations.png"></img>
+* Linear model's **definition**<br>
+<img src="./images/07.linear_model.png"></img>
+* Minimizing **J(θ)** w.r.t **w** and **b** gives **w=0 and b=0.5** which is wrong.
+
+## Linear Model Approach
+* Constructing a **linear feed-forward network as below**  
