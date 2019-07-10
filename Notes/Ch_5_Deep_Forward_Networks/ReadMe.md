@@ -53,6 +53,22 @@ Our model provides a **functiony=f(x;θ)**, and **learning algorithm** will adap
 * Final **non-linear model** would be:<br>
 <img src="./images/16.non_linear_model.png"></img>
 
+# Gradient Based Learning
+To apply gradient-based learning we must choose a **cost function**, and we must choose how to represent **output of the model**.
+
+## Cost Functions
+* Cost functions for neural networks is **approximately same as linear functions.** 
+* Cost function used is **cross-entropy between training data and model's prediction.**<br>
+<img src="./images/17.cross_entropy.png"></img><br>
+* Advantage of using maximum-likelihood for cost function is that it removes burden for designing **cost functions for each model.**
+* **Gradient** of network should be **large and predictable.**
+* **Saturatable functions** make **activation function small** which produces the model's output (exponent functions that saturate when their argument is negative). Solution is to use **negative logarithmic functions.**
+
+### Conditional Statistics
+* Instead of learning a **full probability distribution p(y | x;θ),** we could learn just one **conditional statistic of y given x**.
+* Making cost fucntion as being **functional** 
+
+
 
 
 
