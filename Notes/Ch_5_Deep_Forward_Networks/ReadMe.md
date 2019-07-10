@@ -66,7 +66,16 @@ To apply gradient-based learning we must choose a **cost function**, and we must
 
 ### Conditional Statistics
 * Instead of learning a **full probability distribution p(y | x;θ),** we could learn just one **conditional statistic of y given x**.
-* Making cost fucntion as being **functional** 
+* Making cost fucntion as being **functional** rather than just **function**.
+* Solving an optimization problem w.r.t function requires a mathematical tool called **calculus of variations.**
+   * **Optimization Problem**<br>
+   <img src="./images/18.optimization_problem.png"></img><br>
+   * **First result derived using calculus of variations** - predicts **mean** of y for each value of x<br>
+   <img src="./images/19.first_result_calculus_tools.png"></img><br>
+   * **Second result derived using calculus of variations** - predicts **median** of y for each value of x, also known as **mean absolute error.**<br>
+   <img src="./images/20.second_result_calculus_tools.png"></img><br>
+   * Mean squared error and mean absolute error lead to **poor results when used with gradient-based optimization.**
+
 
 
 
