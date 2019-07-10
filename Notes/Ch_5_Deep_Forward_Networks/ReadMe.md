@@ -103,6 +103,24 @@ Choice of **cost function** is tightly coupled with **cost units**, which determ
 * **Saturation** occurs when **y=1 and z is very positive** or when **y=0 and z is very negative**.
 * When z has the **wrong sign**, the **argument to the softplus function,(1−2y)z**, may be simpliﬁed to **|z|.**
 
+### Softmax Units for Multinoulli Output Distributions
+* **Softmax functions** are used to represent probability distributions over discrete variables with **n possible values**, unlike, **Sigmoid functions** that are used to represent probability distributions over discrete variables with **binary values.**
+* Now, we need to produce vector <img src="./images/29.softplus.png"></img>
+* New **constraint** requires 
+   * Each element of <img src="./images/30.yi.png"></img> be b/w **0 and 1**
+   * Entire vector **sums to 1**.
+* Going with **linear approach** which predicts **unnormalized log probabilities**, where<br>
+<img src="./images/32.linear_approach_for_softmax.png"></img> and<br> <img src="./images/33.conditions.png"></img><br>we want to **maximize** <img src="./images/34.maximization_goal.png"></img>, therefore:<br>
+<img src="./images/31.softmax_fucntion.png"></img>
+* **Zi** has direct contribution to **cost-function.**
+* **Zi** cannot saturate.
+* **Squared error** is a **poor loss function** for softmax units.
+* **Softmax functions** having multiple output values, **saturates when diﬀerences between input values become extreme.**
+* More **stable variant** of softmax function can be defined as<br>
+<img src="./images/32.stable_softmax.png"></img>
+* Saturation conditions<br>
+    * <img src="./images/35.saturation_condition_01.png"></img>, softmax **saturates to 1.**
+    * **zi is not maximal** and the maximum is much greater. 
 
 
 
