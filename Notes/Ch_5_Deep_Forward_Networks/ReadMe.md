@@ -76,8 +76,32 @@ To apply gradient-based learning we must choose a **cost function**, and we must
    <img src="./images/20.second_result_calculus_tools.png"></img><br>
    * Mean squared error and mean absolute error lead to **poor results when used with gradient-based optimization.**
 
+## Output Units
+Choice of **cost function** is tightly coupled with **cost units**, which determines form of **cross-entropy** functions.
 
+### Linear Units for Gaussian Output Distributions
+* Linear units are **affine transformations** with **no nonlinearity.**
+* Linear o/p units are used to produce **mean of Gaussian distribution** <br>
+<img src="./images/21.Gaussian_distribution.png"></img><br> where,<br>
+<img src="./images/22.linear_units.png"></img> and **h are the features.**<br>
+* **Maximizing log liklihood** is same as **minimizing MSE.**
+* Linear units **do not saturate.**
 
+### Sigmoid Units for Bernoulli Output Distributions
+* **Classiﬁcation problems with two classes** can be cast in this form.
+* Maximum likelihood approach is to deﬁne a **Bernoulli distribution over y conditioned on x.**
+* For Bernoulli distribution, neural net needs to predict only **P(y = 1 | x)** which should lie within interval **[0,1].**
+ <img src="./images/24.linear_approach_to_bernoulli.png"></img>
+* In case of **linear approach**, at anytime <img src="./images/23.linear_approach_bernoulli.png"></img>, strayed outside unit interval, **gradient of output = 0.**
+* Better approach is to define **sigmoid function** as follows<br>
+<img src="./images/25.sigmoid_bernoulli.png"></img>
+* Sigmoid uses **2 layers,** where first layer computes <img src="./images/26.first_sigmoid_layer.png"></img>, next uses **sigmoid activation function** to convert z into probability.
+* Below shows **Bernoulli distribution** controlled by a **sigmoidal transformation** of z. The **z variable** deﬁning a distribution based on **exponentiation and normalization** are called **logits**:<br>
+<img src="./images/27.sigmoidal_transformation_of_logit.png"></img>
+* **Loss function** for maximum liklihood learning of a **Bernoulli parametrized by a sigmoid** is<br>
+<img src="./images/28.softplus_logit.png"></img><br>
+* **Saturation** occurs when **y=1 and z is very positive** or when **y=0 and z is very negative**.
+* When z has the **wrong sign**, the **argument to the softplus function,(1−2y)z**, may be simpliﬁed to **|z|.**
 
 
 
