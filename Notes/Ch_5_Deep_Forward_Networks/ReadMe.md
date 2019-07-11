@@ -161,10 +161,20 @@ Networks are organized into groups called **layers** and are arranged in a **cha
 
 ## Universal Approximation Properties and Depths
 
+ In layman's terms, **Universal Approximation Theorem** states that-
+>Regardless of what **function we are trying to learn**, we know that a **large MLP** will be able to **represent this function**.<br> We are **not guaranteed**, however, that the training algorithm will be able to learn that function.<br>
+ There exists a **network large enough** to achieve any **degree of accuracy** we desire, but the theorem **does not say how large** this network will be.
+
+* Reasons as to why **learning can fail** are-
+   *  Optimization algorithm used for training may **not be able to ﬁnd value of parameters that corresponds to desired function**.
+   * Training algorithm **might choose the wrong function** as a result of overﬁtting.
+   
+* **Conclusion ::** 
+
+> Feedforward network with a **single layer is suﬃcient to represent any function**, but  layer may be infeasibly large and **may fail to learn** and generalize correctly. <br>In many circumstances, using **deeper models** can **reduce number of units required to represent desired function** and can reduce amount of generalization error.
 
 
-
-
+<img src="./images/43.Effect_of_depth_on_accuracy.png" width="450px" height="300px"></img>
 
 
 
