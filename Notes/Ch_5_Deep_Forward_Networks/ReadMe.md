@@ -1,3 +1,5 @@
+**Table of Contents**
+======================
 - [Deep Forward Networks](#deep-forward-networks)
 - [Overview](#overview)
 - [Rectified Linear Unit Activation Function ](#Rectified-Linear-Unit-Activation-Function)
