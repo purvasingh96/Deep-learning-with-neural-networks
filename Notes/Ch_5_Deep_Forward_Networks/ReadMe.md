@@ -153,6 +153,18 @@ Choice of **cost function** is tightly coupled with **cost units**, which determ
        
 ### Logistic Sigmoid and Hyperbolic Tangent
 <img src="./images/42.tanh.png"></img>
+* Use of **sigmoidal functions as hidden units is discouraged** due to widespread **saturation of sigmoidal functions** making gradient-based learning very diﬃcult.
+* Hyperbolic tangents **resembles identity function**, making training **tanh** network easier.
+
+# Architecture Design
+Networks are organized into groups called **layers** and are arranged in a **chain-like structure** with each layer being a function of the layer that preceded it.
+
+## Universal Approximation Properties and Depths
+
+
+
+
+
 
 
 
