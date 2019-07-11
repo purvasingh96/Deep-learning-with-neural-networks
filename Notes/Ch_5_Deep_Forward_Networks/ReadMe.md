@@ -121,7 +121,38 @@ Choice of **cost function** is tightly coupled with **cost units**, which determ
 * Saturation conditions<br>
     * <img src="./images/35.saturation_condition_01.png"></img>, softmax **saturates to 1.**
     * **zi is not maximal** and the maximum is much greater. 
+    
+## Hidden Units
+* **ReLU** units are an excellent default choice of hidden unit.
+* Some of the hidden units **might not be differentiable**, e.g. **ReLU** is not differentiable at z=0.
+* A function is differentiable at **z**, iff **left and right derivative are both defined and equal** to each other.
+* Most **hidden units are distinguished** from each other only by **choice of form of the activation function g(z)**.
 
+### Rectiﬁed Linear Units 
+* Activation function used by ReLU - **g(z) = max{0, z}**.
+* Difference b/w **linear and rectified linear unit** is that **o/p of ReLU is 0 across half its domain.**
+* **First derivative** of RelU is **1** everywhere that the unit is active, **second derivative** is **0 almost everywhere.** 
+* One drawback to ReLU is that they **cannot learn via gradient-based methods** on examples for which their **activation is zero**.
+
+### ReLU's Generalization
+3 generalizations of ReLU are based on using **non-zero slope** <img src="./images/36.ReLU_generalization.png"></img>
+* **Absolute Value Rectification**
+   *  <img src="./images/37.Absolute_val_relu_condition_1.png"></img>
+   *  <img src="./images/38.active_relu_condition_2.png"></img>
+   * Used for **object recognition.**
+* **Leaky and Parametric ReLU**
+   * **Leaky ReLU** fixes, <img src="./images/39.leaky_relu.png"></img>
+   * **Parametric ReLU** (PReLU) <img src="./images/40.param_relu.png"></img>
+* **Maxout Units**
+   * Divide **z into groups of k values**
+   * Each maxout unit **outputs maximum element of one of these groups**<br>
+   <img src="./images/41.maxout_units.png"></img>
+   * Work well **without regularization** if - 
+       * training set is large 
+       * the number of pieces per unit is kept low
+       
+### Logistic Sigmoid and Hyperbolic Tangent
+<img src="./images/42.tanh.png"></img>
 
 
 
