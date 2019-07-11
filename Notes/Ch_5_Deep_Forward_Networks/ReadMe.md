@@ -1,3 +1,23 @@
+- [Deep Forward Networks](#deep-forward-networks)
+- [Overview](#overview)
+- [Rectified Linear Unit (ReLU) Activation Function](#rectified-linear-unit-(-relu-)-activation-function)
+  * [Problem Statement](#problem-statement)
+  * [Linear Model Approach](#linear-model-approach)
+  * [Non-Linear Model Approach](#non-linear-model-approach)
+- [Gradient Based Learning](#gradient-based-learning)
+  * [Cost Functions](#cost-functions)
+    + [Conditional Statistics](#conditional-statistics)
+  * [Output Units](#output-units)
+    + [Linear Units for Gaussian Output Distributions](#linear-units-for-gaussian-output-distributions)
+    + [Sigmoid Units for Bernoulli Output Distributions](#sigmoid-units-for-bernoulli-output-distributions)
+    + [Softmax Units for Multinoulli Output Distributions](#softmax-units-for-multinoulli-output-distributions)
+  * [Hidden Units](#hidden-units)
+    + [Rectiﬁed Linear Units](#recti-ed-linear-units)
+    + [ReLU's Generalization](#relu-s-generalization)
+    + [Logistic Sigmoid and Hyperbolic Tangent](#logistic-sigmoid-and-hyperbolic-tangent)
+- [Architecture Design](#architecture-design)
+  * [Universal Approximation Properties and Depths](#universal-approximation-properties-and-depths)
+
 # Deep Forward Networks
 
 # Overview
