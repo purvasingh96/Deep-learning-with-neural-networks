@@ -1,6 +1,6 @@
 - [Deep Forward Networks](#deep-forward-networks)
 - [Overview](#overview)
-- [Rectified Linear Unit (ReLU) Activation Function](#rectified-linear-unit-(-relu-)-activation-function)
+- [Rectified Linear Unit Activation Function ](#Rectified-Linear-Unit-Activation-Function)
   * [Problem Statement](#problem-statement)
   * [Linear Model Approach](#linear-model-approach)
   * [Non-Linear Model Approach](#non-linear-model-approach)
@@ -12,8 +12,8 @@
     + [Sigmoid Units for Bernoulli Output Distributions](#sigmoid-units-for-bernoulli-output-distributions)
     + [Softmax Units for Multinoulli Output Distributions](#softmax-units-for-multinoulli-output-distributions)
   * [Hidden Units](#hidden-units)
-    + [Rectiﬁed Linear Units](#recti-ed-linear-units)
-    + [ReLU's Generalization](#relu-s-generalization)
+    + [Rectiﬁed Linear Units](#Rectiﬁed-Linear-Units)
+    + [ReLU's Generalization](#ReLU-s-generalization)
     + [Logistic Sigmoid and Hyperbolic Tangent](#logistic-sigmoid-and-hyperbolic-tangent)
 - [Architecture Design](#architecture-design)
   * [Universal Approximation Properties and Depths](#universal-approximation-properties-and-depths)
@@ -48,7 +48,7 @@
        * **Manually engineered φ** : Dominant approach, takes too much time.
        * **Deep-learning of φ** : Requires learning of φ; Highly generic; Human designer finds right "general" function instead of right function. 
        
-# Rectified Linear Unit (ReLU) Activation Function 
+# Rectified Linear Unit Activation Function 
 ## Problem Statement
 Our model provides a **functiony=f(x;θ)**, and **learning algorithm** will adapt **θ** to make **f similar to XOR function y =f\*(x).**
 
