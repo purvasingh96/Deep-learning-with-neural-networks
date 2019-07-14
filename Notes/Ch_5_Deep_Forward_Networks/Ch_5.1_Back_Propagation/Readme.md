@@ -38,9 +38,13 @@
 * Backprop performs on the order of **one Jacobian product per node in the graph.**
 
 
-## General Algorithms for Feed-Forward and Back-Propagation
+## Difference between Feed-Forward and Back-Propagation
 <img src="./images/06.f_computation.png"></img>
 <img src="./images/07.b_computation.png"></img>
 
 
-
+## General Back Propagation Algorithm
+* Compute **gradient** of some **scalar z w.r.t one of its ancestors x** in the graph.
+* Then compute **gradient w.r.t each parent of z** in graph by **multiplying current gradient by Jacobian of operation that produced z.**
+* Continue **multiplying by Jacobians**, traveling backward through the graph **until x is reached.**
+* For any node that may be reached by **going backward from z through two or more paths**, **sum the gradients arriving from diﬀerent paths at that node.**
