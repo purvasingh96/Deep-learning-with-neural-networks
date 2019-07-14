@@ -48,3 +48,20 @@
 * Then compute **gradient w.r.t each parent of z** in graph by **multiplying current gradient by Jacobian of operation that produced z.**
 * Continue **multiplying by Jacobians**, traveling backward through the graph **until x is reached.**
 * For any node that may be reached by **going backward from z through two or more paths**, **sum the gradients arriving from diﬀerent paths at that node.**
+
+### Main Functions involved in Back-Propagation
+*  **get_operation(V)** : returns **operation that computes V**, represented by **edges coming into V** in computational graph.
+* **get_consumers(V, G)** : returns the **list of variables that are *children* of V** in the computational graph G.
+* **get_inputs(V, G)** : returns the **list of variables that are *parents* of V** in the computational graph G.
+* Each operation ***op*** is associated with ***bprop*** that computes **Jacobian-vector product** as follows -<br>
+<img src="./images/08.jacobian_matrix.png"></img>
+* Below is an example demonstrating ***op.bprop***
+    * if **mul operator** is passed two copies of x to **compute x2**, **op.bprop** method should still return **x as derivative w.r.t both inputs**. 
+    * Back-propagation algorithm will later **add both of these arguments together to obtain 2x**, which is the correct total derivative on x
+
+
+
+
+
+
+
