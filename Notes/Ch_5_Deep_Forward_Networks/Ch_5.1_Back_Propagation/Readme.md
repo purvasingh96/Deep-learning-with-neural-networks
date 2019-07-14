@@ -58,6 +58,7 @@
 * Below is an example demonstrating ***op.bprop***
     * if **mul operator** is passed two copies of x to **compute x2**, **op.bprop** method should still return **x as derivative w.r.t both inputs**. 
     * Back-propagation algorithm will later **add both of these arguments together to obtain 2x**, which is the correct total derivative on x
+* For the MLP, the **computational cost is dominated by cost of matrix multiplication**.
 
 
 
