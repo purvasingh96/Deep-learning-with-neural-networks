@@ -38,3 +38,9 @@
 * Backprop performs on the order of **one Jacobian product per node in the graph.**
 
 
+## General Algorithms for Feed-Forward and Back-Propagation
+<img src="./images/06.f_computation.png"></img>
+<img src="./images/07.b_computation.png"></img>
+
+
+
