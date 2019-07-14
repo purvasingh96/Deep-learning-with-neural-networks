@@ -1,6 +1,13 @@
 # Back Propagation and Other Differentiation Algorithms
+- [Overview](#overview)
+- [Computational Graphs](#computational-graphs)
+- [Chain Rules of Calculus](#chain-rules-of-calculus)
+- [Recursively Applying the Chain Rule to Obtain Backprop](#recursively-applying-the-chain-rule-to-obtain-backprop)
+- [Difference between Feed-Forward and Back-Propagation](#difference-between-feed-forward-and-back-propagation)
+- [General Back Propagation Algorithm](#general-back-propagation-algorithm)
+  * [Main Functions involved in Back-Propagation](#main-functions-involved-in-back-propagation)
 
-# Overview
+## Overview
 * A **feedforward neural network** accepts **input x** and produces **output y**, information **ﬂows forward** through the network. The input **x** provides initial information which propagates through **hidden units and ﬁnally produces y**. This is called **forward propagation**.<br>
 * **Back-propagation algorithm (backprop)**, allows the information from the **cost to then ﬂow backward through network** in order to **compute gradient**.
 
