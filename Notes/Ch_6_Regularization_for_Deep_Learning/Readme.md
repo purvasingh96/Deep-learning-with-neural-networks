@@ -37,8 +37,12 @@
 * Substituting **squared l2 norm** as penalty -<br>
 <img src="./images/04.l2_norm_substitution.png"></img>
 
+* Calculating **gradient** -<br>
+<img src="./images/05.l2_weight_update.png"></img>
 
-
+* Applying **weight update -**<br>
+<img src="./images/06.l2_weight_update_2.png"></img><br>
+<img src="./images/07.l2_weight_update_3.png"></img>
 
 
 
