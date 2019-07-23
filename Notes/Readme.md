@@ -7,3 +7,4 @@ Table of Contents
 * [Machine Learning Basics](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_4_Machine_Learning_Basics/ReadMe.md)
 * [Deep Forward Networks](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_5_Deep_Forward_Networks/ReadMe.md)
   * [Back Propagation](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_5_Deep_Forward_Networks/Ch_5.1_Back_Propagation/Readme.md)
+* [Regularization for Deep Learning](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_6_Regularization_for_Deep_Learning/Readme.md)
