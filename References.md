@@ -4,3 +4,4 @@
 2. Deep Learning by Ian Goodfellow.
 3. [MIT-deep-learning-book-pdf by janishar](https://github.com/janishar/mit-deep-learning-book-pdf)
 4. [DeepLearning-Notes by Hadrienj](https://github.com/hadrienj/deepLearningBook-Notes)
+5. [Kdnuggets - bias and variance tradeoff](https://www.kdnuggets.com/2016/08/bias-variance-tradeoff-overview.html)
