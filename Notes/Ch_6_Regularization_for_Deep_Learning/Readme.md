@@ -44,7 +44,14 @@
 <img src="./images/06.l2_weight_update_2.png"></img><br>
 <img src="./images/07.l2_weight_update_3.png"></img>
 
-
+## Effect of L2 Norm Paramterization
+* Making **quadratic approximation to objective function,** in the neighborhood of value of weights that obtains **minimal unregularized training cost,** w*<br>
+<img src="./images/08.l2_minimum_training_cost.png"></img>
+* **Quadratic approximation** of J gives <br>
+<img src="./images/09.l2_quadratic_approximation.png"></img><br>
+   * Here **H** refers to **positive sem-definite Hessian Matrix** of J w.r.t **w evaluated at** w* 
+   * Minimum of J^ occurs when -<br>
+   <img src="./images/10.l2_approximaton_minimal.png"></img><br>
 
 
 
