@@ -57,7 +57,12 @@
 * Adding **weight decay gradient** to observe the effects of weight decay, where **w~ is location of minimum** -<br>
 <img src="./images/11.l2_effect_of_weight_decay.png"></img><br>
 * Since **H is real and symmetric,** we use **[Eigen decomposition](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/ce2a66e2e4b4a6b44422ae15f1ac0f0d73c822df/Notes/Ch_1_Linear_algebra/Readme.md#eigen-decomposition)**  to decompose **H** into **diagonal matrix Λ** and an **orthonormal basis of eigenvectors,Q,** such that -<br>
-
+ <img src="./images/13.eigen_decomposition.png"></img><br>
+ * Component of w* that is aligned with **i-th eigenvector of H** is **rescaled by** a factor of **(λi/λi+α.)**
+ * When **λi >> α**, eﬀect of regularization is **relatively small**.
+ * Components with **λi << α**, will be shrunk to have **nearly zero magnitude**.
+ * Only directions along which parameters contribute significantly to **reducing objective function are preserved intact.** 
+  <img src="./images/14.effect_of_weight_decay.png"></img><br>
 
 
 
