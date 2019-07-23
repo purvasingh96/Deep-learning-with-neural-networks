@@ -8,9 +8,10 @@ This repository contains -<br>
 :heavy_check_mark: Chapter-wise **PDF.**<br>
 :heavy_check_mark: Chapter-wise **codes.** (.ipynb files)<br>
 
-Below is the list of references-
-
-| S.no | Reference Name                               | README's Link |
-|------|----------------------------------------------|---------------|
-| 1.   | [Deep Learning by Ian Goodfellow et. al](http://faculty.neu.edu.cn/yury/AAI/Textbook/DeepLearningBook.pdf) |  [ReadMe.md](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Readme.md)             |
-| 2.   | [Deep Learning Tutorials by Harrison Kinsley](https://www.youtube.com/watch?v=oYbVFhK_olY)  | [ReadMe.md](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Codes/sentdex/ReadMe.md)              |
+# List of Contents
+* **Chapter 1: Linear Algebra** - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_1_Linear_algebra/Readme.md)
+* **Chapter 2: Probability and Information Theorey** - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_2_Probability_and_Information_Theorey/Readme.md)
+* **Chapter 3: Numerical Computation** - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_3_Numerical_Computation/ReadMe.md)
+* **Chapter 4: Machine Learning Basics** - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_4_Machine_Learning_Basics/ReadMe.md)
+* **Chapter 5: Deep Forward Networks** - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_5_Deep_Forward_Networks/ReadMe.md)
+* **Chapter 6: Regularization for Deep Forward Networks** - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_6_Regularization_for_Deep_Learning/Readme.md)
