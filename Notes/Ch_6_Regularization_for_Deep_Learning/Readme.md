@@ -15,8 +15,15 @@
  * An eﬀective regularizer is one that makes a proﬁtable trade, **reducing variance** signiﬁcantly while **not overly increasing bias.**<br>
  <img src="./images/01.bias_variance_trade_off.png"></img>
 
-
-
 # Strategies to make Deep Regularization Model
 ## Parameter Norm Penalty
-* **Purpose :** Limit model's capacity by **adding norm penalty Ω(θ)** parameter to objective function **J**.  
+* Limits the model's capacity by **adding norm penalty Ω(θ)** parameter to objective function **J**. <br>
+ <img src="./images/02.norm_penalities.png"></img>
+* Does not modify the model in inference phase, but **adds penalties in learning phase**.
+* Norm penalty **penalizes only weights**, leaving **biases unregularized.** 
+* Also known as **Weight Decay.**
+
+## Modified Objective Function
+* ***w*** denotes all the weights that should be aﬀected by a norm penalty, **vector θ** denotes all the parameters, including both ***w*** and the **unregularized parameters.**
+* Regularized objective function **decreases both J and θ.**
+* Setting **α ∈[0, ∞)** to 0 results in **no regularization** and **larger values of α** corresponds to **more regularization**.
