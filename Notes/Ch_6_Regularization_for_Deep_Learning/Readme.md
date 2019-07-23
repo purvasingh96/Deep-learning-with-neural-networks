@@ -16,7 +16,7 @@
  <img src="./images/01.bias_variance_trade_off.png"></img>
 
 # Strategies to make Deep Regularization Model
-## Parameter Norm Penalty
+# Parameter Norm Penalty
 * Limits the model's capacity by **adding norm penalty Ω(θ)** parameter to objective function **J**. <br>
  <img src="./images/02.norm_penalities.png"></img>
 * Does not modify the model in inference phase, but **adds penalties in learning phase**.
@@ -27,3 +27,22 @@
 * ***w*** denotes all the weights that should be aﬀected by a norm penalty, **vector θ** denotes all the parameters, including both ***w*** and the **unregularized parameters.**
 * Regularized objective function **decreases both J and θ.**
 * Setting **α ∈[0, ∞)** to 0 results in **no regularization** and **larger values of α** corresponds to **more regularization**.
+
+# L2 Parameter Regularization
+
+* Commonly known as **Weight decay**, this regularization strategy drives **weights closer to origin.** by adding regularization term :<br>
+<img src="./images/03.l2_norm_penalty.png"></img>
+
+## L2 norm calculation
+* Substituting **squared l2 norm** as penalty -<br>
+<img src="./images/04.l2_norm_substitution.png"></img>
+
+
+
+
+
+
+
+
+
+
