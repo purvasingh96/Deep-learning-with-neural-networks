@@ -120,12 +120,12 @@
    * **Smaller α** will result in **larger constraint** region.
 
 # Explicit Constraints v/s Penalties
-* For example, in **stochastic gradient descent**, we take a step downhill on J(θ) and then **project θ back to nearest point that satisﬁes Ω(θ)< k**, thus saving us from finding value of **α coressponding to k**.
-* **Penalties** can cause **nonconvex optimization procedures** (unbounded objective function, or optimal solution is the "global optimum" across all feasible regions.) to get stuck in **local minima** corresponding to **small θ.**
-   * This manifests as **training neural-net with dead-units.**
-   * Dead-units **contribute very less to learning of NN**, since weights going in and out of them are very small.
-   * **Explicit constraints with reporjection** work better since they **avoid weights to approach origin.**
-   * Explict constraints come into picture when **weights become larger and try to leave constraint region.**
+* For example, in **stochastic gradient descent**, we take a step downhill on J(θ) and then **project θ back to nearest point that satisﬁes Ω(θ)< k**, thus saving us from finding value of **α coressponding to k**.<br><br>
+* **Penalties** can cause **nonconvex optimization procedures** (unbounded objective function, or optimal solution is the "global optimum" across all feasible regions.) to get stuck in **local minima** corresponding to **small θ.**<br><br>
+   * This manifests as **training neural-net with dead-units.**<br>
+   * Dead-units **contribute very less to learning of NN**, since weights going in and out of them are very small.<br>
+   * **Explicit constraints with reporjection** work better since they **avoid weights to approach origin.**<br>
+   * Explict constraints come into picture when **weights become larger and try to leave constraint region.**<br>
 
 
 
