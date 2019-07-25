@@ -112,8 +112,20 @@
 * The solution to **above constraint problem is given by**<br>
 <img src="./images/32.solution_to_constrained_lagrange.png"></img>
 * **α must increase** whenever **Ω(θ) > k** and **decrease** whenever **Ω(θ) < k.**
+* Effect of constraints can be seen by **fixing** α* and viewing problem as **function of θ**<br>
+<img src="./images/33.effect_of_constraints.png"></img>
+   * Value of α* **does not directly tell us value of k.**
+   * We can **solve for k**, but the **relationship** between k and α* **depends on form of J.**
+   * **Larger α** will result in **smaller constraint** region.
+   * **Smaller α** will result in **larger constraint** region.
 
-
+# Explicit Constraints v/s Penalties
+* For example, in **stochastic gradient descent**, we take a step downhill on J(θ) and then **project θ back to nearest point that satisﬁes Ω(θ)< k**, thus saving us from finding value of **α coressponding to k**.
+* **Penalties** can cause **nonconvex optimization procedures** (unbounded objective function, or optimal solution is the "global optimum" across all feasible regions.) to get stuck in **local minima** corresponding to **small θ.**
+   * This manifests as **training neural-net with dead-units.**
+   * Dead-units **contribute very less to learning of NN**, since weights going in and out of them are very small.
+   * **Explicit constraints with reporjection** work better since they **avoid weights to approach origin.**
+   * Explict constraints come into picture when **weights become larger and try to leave constraint region.**
 
 
 
