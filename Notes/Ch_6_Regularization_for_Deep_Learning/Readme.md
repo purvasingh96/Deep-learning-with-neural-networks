@@ -82,8 +82,50 @@
    
 # Comparing L1 and L2 Norm Parameterization
 * L1 norm is commonly used in ML if **difference between zero and non-zero elements is very important.**
-* 
-   
+
+* **Sparsity** refers to the fact that some parameters have an **optimal value of zero.** In this context, L1 parameterization is **more sparse than L2** parameterization and can cause parameters to become 0 **for large values of α.**
+
+* **Sparsity** of L1 norm helps in **feature-selection, e.g. LASSO**, which integrates **L1 penalty with linear model** and a **least-squares cost function**. The L1 penalty causes a subset of the **weights to become zero**, suggesting that the corresponding **features may safely be discarded.** 
+
+# Norm Regularization without Bias
+* Usually **bias** of each weight is **excluded in penalty terms**<br>
+<img src="./images/25.regularization_without_bias.png"></img>
+* The biases require **less data** to fit than the weights.
+* Each **weight specifies** how **two variables interact**, while **bias specifies** how **one variable** interacts.
+* Regularization of bias parameter can cause **under-fitting.**
+
+# Norm Penalties as Constrained Optimization
+* Sometimes, we may wish to find **maximal/minimal value of f(x), for value of x in some set S.** To express function with **constrained condition** is difficult.<br>
+<img src="./images/26.norms_with_constrains.png"></img>
+
+## Generalized Lagrange Function
+* Generalized Lagrange function is given by -<br>
+<img src="./images/27.generalized_lagrange.png"></img>
+* The **constraint region** for above lagrange can be defined as <br>
+<img src="./images/28.gen_lag_constrains.png"></img>
+* **Solution (optimal x value)** for above lagrange equation can be found by solving - <br>
+<img src="./images/30.constrains_2.png"></img>
+* Therefore, **cost function regulaized by norm penalty** is given by - <br>
+<img src="./images/31.reg_function_with_constrains.png"></img>
+* The **generalized function when we want to constrain Ω(θ) to be less than some constant k, we could construct a generalized Lagrange function**<br>
+<img src="./images/29.lagrange_with_constrains.png"></img>
+* The solution to **above constraint problem is given by**<br>
+<img src="./images/32.solution_to_constrained_lagrange.png"></img>
+* **α must increase** whenever **Ω(θ) > k** and **decrease** whenever **Ω(θ) < k.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
    
    
