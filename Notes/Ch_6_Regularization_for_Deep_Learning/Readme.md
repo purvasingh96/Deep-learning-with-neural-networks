@@ -64,6 +64,32 @@
  * Only directions along which parameters contribute significantly to **reducing objective function are preserved intact.** 
   <img src="./images/14.effect_of_weight_decay.png"></img><br>
 
+# L1 Norm Parameterization
+* L1 weight decay controls **strength of regularization by scaling penalty Ω using a positive hyperparameter α**. Formally, L1 regularization on the model parameter **w** is deﬁned as<br>
+<img src="./images/15.l1_regularization.png"></img>
+
+## L1 Norm Calculation
+* Subsituting **L1 norm to Ω(θ)**<br>
+<img src="./images/16.l1_objective_function.png"></img>
+* Calculating **gradient**<br>
+<img src="./images/17.l1_gradient.png"></img>
+* L1 regularized objective function **decomposed into a sum over the parameters** <br>
+<img src="./images/18.l1_decomposition_over_params.png"></img>
+* Problem of solving the above equation has a analytical solution of following form <br>
+<img src="./images/19.minimize_function.png"></img>
+   * <img src="./images/20.case1_1.png"></img><img src="./images/21.case_1_2.png"></img>: Here optimal value of **wi** under regularized objective function would be <img src="./images/23.case1_3.png"></img>
+   * <img src="./images/20.case1_1.png"></img><img src="./images/22.case_2_2.png"></img>: Regularization **shifts wi to direction by distance equal to** <img src="./images/24.case_2_2.png"></img>
+   
+# Comparing L1 and L2 Norm Parameterization
+* L1 norm is commonly used in ML if **difference between zero and non-zero elements is very important.**
+* 
+   
+   
+   
+   
+
+
+
 
 
 
