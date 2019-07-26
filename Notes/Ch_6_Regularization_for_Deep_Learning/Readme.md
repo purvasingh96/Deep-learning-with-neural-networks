@@ -127,9 +127,17 @@
    * **Explicit constraints with reporjection** work better since they **avoid weights to approach origin.**<br>
    * Explict constraints come into picture when **weights become larger and try to leave constraint region.**<br>
 
+# Dataset Augmentation
+The best way to make a machine learning model generalize better is to train it on **more data**.**Data augmentation** is a way of **creating fake data** and adding it to training set.<br>
+<img src="./images/34.data_augmentation.png"></img>
 
-
-
+## Noise Robustness
+### Adding Noise to Weights
+* Consider the regression setting, where we wish to **train functionˆy(x)** that maps set of features x to a scalar using the **least-squares cost function** between the model predictions ˆy(x) and the true values y:
+* Now assuming we add some random peturbation, <img src="./images/36.peturbation.png"></img> of **network weights.**
+* Denoting **peturbed model as **<img src="./images/37.peturbed_model.png"></img>
+* Below diagram shows **how objective function changes before and after adding noise to weights**<br>
+<img src="./images/39.noise_robustness.png"></img>
 
 
 
