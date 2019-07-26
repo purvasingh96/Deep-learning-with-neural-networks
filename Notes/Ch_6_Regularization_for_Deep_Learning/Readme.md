@@ -132,12 +132,21 @@ The best way to make a machine learning model generalize better is to train it o
 <img src="./images/34.data_augmentation.png"></img>
 
 ## Noise Robustness
-### Adding Noise to Weights
+### Injecting Noise to Weights
 * Consider the regression setting, where we wish to **train functionˆy(x)** that maps set of features x to a scalar using the **least-squares cost function** between the model predictions ˆy(x) and the true values y:
 * Now assuming we add some random peturbation, <img src="./images/36.peturbation.png"></img> of **network weights.**
 * Denoting **peturbed model as **<img src="./images/37.peturbed_model.png"></img>
-* Below diagram shows **how objective function changes before and after adding noise to weights**<br>
+* Below diagram shows **how objective function changes before and after adding noise to weights**
+* Injecting **noise weights** makes model relatively **insensitive to small variations in weights.**<br>
 <img src="./images/39.noise_robustness.png"></img>
+
+### Injecting Noise at Labels
+* Most datasets have some number of **mistakes in their y labels**. It can be **harmful to maximize log p(y | x) when y is a mistake.**
+
+#### Label Smoothing
+* Assuming for small constant ε,  training set label **y is correct with probability 1− ε**.
+* Label smoothing, **regularizes model** based on **softmax with k output values** by replacing the **hard 0 and 1** classiﬁcation targets with **targets of ε/k−1and 1− ε, respectively**.
+<img src="./images/40.noise_injection_for_labels.png"></img>
 
 
 
