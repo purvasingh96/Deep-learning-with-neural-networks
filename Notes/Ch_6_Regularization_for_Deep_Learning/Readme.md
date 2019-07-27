@@ -23,6 +23,7 @@
       - [Label Smoothing](#label-smoothing)
 - [Semi-Supervised Learning](#semi-supervised-learning)
 - [Multi-task Learning](#multi-task-learning)
+  * [Types of Multi-task Learning](#Types-of-Multi-task-Learning)
 - [Early Stopping](#early-stopping)
   * [Advantages of Early Stopping](#advantages-of-early-stopping)
   * [Disadvantages of Early Stopping](#disadvantages-of-early-stopping)
@@ -184,10 +185,20 @@ The best way to make a machine learning model generalize better is to train it o
 # Multi-task Learning
 * Way to **improve generalization** by **pooling examples arising out of several tasks**. 
 * Below diagram shows multi-tasking example where diﬀerent **supervised tasks** share the **same input x** and **intermediate-level representation h**.
+* Optimizes more than one **cost functions.**
+* Improving generalization by **leveraging domain specific information** contained in training data
 * Model has following 2 parts and associated parameters
    * **Task-speciﬁc parameters** - beneﬁt from the examples of their task to achieve good generalization.
    * **Generic parameters** - which beneﬁt from thepooled data of all the tasks
 <img src="./images/41.multi_task_learning.png"></img>
+## Types of Multi-task Learning
+ * **Hard-parameter sharing :** 
+   * Greatly reduces risk of **over-fitting**
+   * Similar concept of **bagging**.<br>
+   <img src="./images/43.Hard_MTL.png"></img><br>
+ * **Soft paramtere sharing :**
+   * Take the role of **regularization**.<br>
+   <img src="./images/43.soft_mtl.png"></img><br>
 
 # Early Stopping
 * **Motivation :** When training large models with sufficient **representational capacity**, with time, **training error decreases** but **validation set error begins to rise again.**<br>
