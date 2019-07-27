@@ -162,6 +162,27 @@ The best way to make a machine learning model generalize better is to train it o
    * **Generic parameters** - which beneﬁt from thepooled data of all the tasks
 <img src="./images/41.multi_task_learning.png"></img>
 
+# Early Stopping
+* **Motivation :** When training large models with sufficient **representational capacity**, with time, **training error decreases** but **validation set error begins to rise again.**<br>
+* Therefore, instead of returning latest parameters, we keep a **copy of model parameters** every time error on validation set improves **(model hits the lowest validation set error)**.<br>
+* Algorithm **terminates when no parameters have improved** over the best recorded validation error **for some pre-speciﬁed number of iterations.** This is called **Early Stopping.** (effective hyper-parameter selection)<br>
+* Controls **effective capacity** of model.
+
+## Advantages of Early Stopping
+* Early stopping requires **no change in training proceedure/objective function/set of allowable parameter values** (the learning dynamics).<br>
+* Early stopping can be used **alone or in conjunction** with other regularization strategies.<br>
+* Early stopping requires **validation data set**(extra data not included with training data). Exploiting this data requires **extra training** after initial training. Following are 2 strategies used for 2nd training -<br>
+   * Initialize model again and train all data. For 2nd training round, train data for same #steps as early-stopping predicted. <br>
+      * No good way of knowing whether to train for **same #paramter updates or same #passes** through dataset.<br>
+   * Keep parameters obtained from 1st training round and then continue training using all data.<br>
+      * Monitor **average loss function on validation set** and continue training till it **falls below** the value of training set **objective at which early stopping procedure halted**. <br>
+      * **Prevents high cost** of re-training model from scratch.<br>
+      * May **not ever terminate**, if objective on validation set never reaches the target value.<br>
+
+## Disadvantages of Early Stopping
+* Expensive **cost of selecting effective hyperparameter**. 
+* Additional **cost to maintain copy** of model parameters.
+
 
 
 
