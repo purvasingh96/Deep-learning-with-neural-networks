@@ -167,6 +167,8 @@ The best way to make a machine learning model generalize better is to train it o
 * Therefore, instead of returning latest parameters, we keep a **copy of model parameters** every time error on validation set improves **(model hits the lowest validation set error)**.<br>
 * Algorithm **terminates when no parameters have improved** over the best recorded validation error **for some pre-speciﬁed number of iterations.** This is called **Early Stopping.** (effective hyper-parameter selection)<br>
 * Controls **effective capacity** of model.
+* Excessive training **can cause over-fitting.**<br>
+<img src="./images/42.extra_training_causes_overfitting.png"></img>
 
 ## Advantages of Early Stopping
 * Early stopping requires **no change in training proceedure/objective function/set of allowable parameter values** (the learning dynamics).<br>
