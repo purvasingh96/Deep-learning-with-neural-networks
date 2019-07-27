@@ -148,6 +148,26 @@ The best way to make a machine learning model generalize better is to train it o
 * Label smoothing, **regularizes model** based on **softmax with k output values** by replacing the **hard 0 and 1** classiﬁcation targets with **targets of ε/k−1and 1− ε, respectively**.
 <img src="./images/40.noise_injection_for_labels.png"></img>
 
+# Semi-Supervised Learning
+* Semi-supervised learning basically represents learning of a function **h=f(x)** so that examples from the **same class have similar representations.**
+* Instead of having **separate unsupervised and supervised components** in model, one can construct models in which a **generative model of either P(x) or P(x, y)** shares parameters with a **discriminative model of P(y | x)**. 
+* One can then **trade oﬀ the supervised criterion−log P(y | x)** with the **unsupervised or generative one** (such as−log P(x) or−log P(x, y))
+* E.g.**P.C.A**
+
+# Multi-task Learning
+* Way to **improve generalization** by **pooling examples arising out of several tasks**. 
+* Below diagram shows multi-tasking example where diﬀerent **supervised tasks** share the **same input x** and **intermediate-level representation h**.
+* Model has following 2 parts and associated parameters
+   * **Task-speciﬁc parameters** - beneﬁt from the examples of their task to achieve good generalization.
+   * **Generic parameters** - which beneﬁt from thepooled data of all the tasks
+<img src="./images/41.multi_task_learning.png"></img>
+
+
+
+
+
+
+
 
 
 
