@@ -54,8 +54,21 @@ We want to express that certain parameters **should be close** to one another.
 ## Usage of Bagging
 * **Trend regression** on the data ozone-temperature.
 * **Gray line** is regression line with each samples.
-* **Red line** is average line
+* **Red line** is average line<br>
 <img src="./images/53.bagging_examples.png"></img><br>
+
+## Tacit Rules of Bagging
+* **OOB (Out-Of-bag) Sampling**
+  * Special rule for sampling with **replacement.**
+  * If we sample the example with **random sampling replacement**, selecting probability of each example is:
+<img src="./images/54.OOB_1.png"></img><br> 
+  * If **N is large enough**, then<br>
+<img src="./images/55.OOB_2.png"></img><br> 
+
+* Bagging in **neural networks**
+  * Random initialization
+  * Random selection  of minibatches
+  * Differences in hyperparameter
 
 
 
