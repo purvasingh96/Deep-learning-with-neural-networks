@@ -1,4 +1,4 @@
-# Regularization for Deep Learning
+# Regularization for Deep Learning : Part- 1
 - [Regularization for Deep Learning](#regularization-for-deep-learning)
 - [Overview](#overview)
 - [Bias Variance Trade-Off](#bias-variance-trade-off)
@@ -27,6 +27,7 @@
 - [Early Stopping](#early-stopping)
   * [Advantages of Early Stopping](#advantages-of-early-stopping)
   * [Disadvantages of Early Stopping](#disadvantages-of-early-stopping)
+- [Regularization for Deep Learning : Part - 2](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_6_Regularization_for_Deep_Learning/Regularization_for_deep_learning_part_2.md)
 
 # Overview
 * Regularization can be defined as any **modiﬁcation** we make to learning algorithm that is intended to **reduce its [generalization error](https://github.com/purvasingh96/Deep-learning-with-neural-networks/tree/master/Notes/Ch_4_Machine_Learning_Basics#capacity-overfitting-and-underfitting) but not its training error.**
