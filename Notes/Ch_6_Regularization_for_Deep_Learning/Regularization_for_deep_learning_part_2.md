@@ -55,7 +55,7 @@ We want to express that certain parameters **should be close** to one another.
 * **Trend regression** on the data ozone-temperature.
 * **Gray line** is regression line with each samples.
 * **Red line** is average line
-<img src="./images/52.eight_detector.png"></img><br>
+<img src="./images/53.bagging_examples.png"></img><br>
 
 
 
