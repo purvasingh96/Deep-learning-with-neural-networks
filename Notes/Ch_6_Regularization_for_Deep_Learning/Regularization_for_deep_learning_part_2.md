@@ -31,3 +31,36 @@ We want to express that certain parameters **should be close** to one another.
 * Example: Paramter sharing in CNNs<br>
 <img src="./images/44.param_sharing_for_CNN.png"></img>
 
+# Bagging and Ensemble Methods
+* Bagging (**bootstrap aggregating**) - technique for reducing general-ization error by **combining several models.**
+* Train several diﬀerent **models separately**, then have **all models vote** on the output for test examples. This strategy is known as **model averaging.** Techniques employing this strategy are known as **ensemble methods.**
+<img src="./images/49.bagging.png"></img><br>
+
+## How does Bagging work?
+* Considering **k regression models** (with minimizing MSE).
+* Suppose each model makes  error **εi** on each example, then<br>
+<img src="./images/50.bagging_2.png"></img><br>
+* Error made by **average prediction of models is**<br>
+<img src="./images/51.bagging_3.png"></img><br>
+* **Expected square error** of ensemble predictor is <br>
+<img src="./images/52.bagging_4.png"></img><br>
+  * If errors are **perfectly correlated** and **c=v**, **MSE=v** and model won't work at all.
+  * If errors are **perfectly uncorrelated** and **c= 0**, error will be only **v/k**.
+  
+## Bagging Example 
+* Below is an example of **8-detector**, where **first ensemble** learns that a **loop at top** implies the digit is 8 and **second ensemble** learns that **loop at bottom** implies 8.<br>
+<img src="./images/52.eight_detector.png"></img><br>
+
+## Usage of Bagging
+* **Trend regression** on the data ozone-temperature.
+* **Gray line** is regression line with each samples.
+* **Red line** is average line
+<img src="./images/52.eight_detector.png"></img><br>
+
+
+
+
+
+
+
+
