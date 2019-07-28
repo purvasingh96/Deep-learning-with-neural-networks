@@ -82,7 +82,31 @@ We want to express that certain parameters **should be close** to one another.
   * Random selection  of minibatches
   * Differences in hyperparameter
 
+# Dropout
+## Overfitting
+* Excessive focus on training data can lead to **poor results on actual test data**.<br>
+<img src="./images/56.overfitting.png"></img><br> 
 
+## Solution for Overfitting
+* Regularization
+  * L1-norm penalty
+  * L2-norm penalty
+* Data augmentation
+* Dropout (2012)
+   * A method of bagging applied to neural networks
+   * An inexpensive but powerful method of regularizing a broad family of models
+   
+## What is Dropout?
+* A tehnique that **omits a portion of network.**
+* Trains the ensembles consisting of all subnetworks that can be formed by **removing nonoutput units** from an underlying base network.
+* A unit from network can be removed by multiplying **its output value by zero**.
+* Typically, **input unit** is included with **probability 0.8**, and a **hidden unit** is included with **probability 0.5**.
+
+## Differences between Bagging and Dropout
+| S.No. | Bagging                                                                | Dropout                                                                                                                                                                                                                     |
+|-------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.    | All models are **independent**                                             | Models **share parameters**.<br> Each model inherits a different subset of parameters<br> from parent neural network.                                                                                                           |
+| 2.    | Each model is **trained to** <br> **convergence** on its own training<br> set. | Most models are **not explicitly trained** at all.<br> Tiny fraction of **possible subnetworks are** each **trained**<br> for single step and parameter sharing causes **remaining subnetworks**<br> to **arrive at good settings** of network. |
 
 
 
