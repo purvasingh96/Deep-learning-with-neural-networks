@@ -107,6 +107,8 @@ We want to express that certain parameters **should be close** to one another.
 * Avoids **co-adaptation**, a trend that some neurons tend to represent similar features
 * Captures **clear features** by avoiding co-adaptations.
 <img src="./images/59.effect_of_dropout.png"></img>
+* Makes neurons **more sparse.**
+<img src="./images/60.sparsity_due_to_dropout.png"></img>
 
 ## Problems Addressed by Dropout
 * **Omitting of neurons**, to mimic the voting in ensemble technique, instead of building the multiple models.
@@ -127,6 +129,14 @@ We want to express that certain parameters **should be close** to one another.
 | 1.    | Computationally **cheap**, ***O(n) computation*** per example per update. | Cost of using dropout in **complete system can be significant**.                              |
 | 2.    | **Does not limit type of model** or training procedure that can be used.  | When extremely **few labeled training examples** are available, dropout is **less eﬀective.** |
 
+## Dropout Rate (p)
+* Default interpretation of the dropout hyperparameter is **probability of training a given node in a layer**, where **1.0 means no dropout**, and **0.0 means no outputs from the layer.**
+* A **good value for dropout** in a hidden layer is between **0.5 and 0.8**. 
+* **Input layers** use a larger dropout rate, such as of **0.8.**
+
+## Effect of Data Set Size on Dropout
+* Dropout is more powerful for **larger dataset.**
+ <img src="./images/61.effect_of_dataset_size.png"></img><br>
 
 
 
