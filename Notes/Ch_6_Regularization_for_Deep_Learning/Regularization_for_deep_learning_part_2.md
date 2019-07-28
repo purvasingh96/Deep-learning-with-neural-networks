@@ -97,10 +97,14 @@ We want to express that certain parameters **should be close** to one another.
    * An inexpensive but powerful method of regularizing a broad family of models
    
 ## What is Dropout?
-* A tehnique that **omits a portion of network.**
+* A technique that **omits a portion of network.**
 * Trains the ensembles consisting of all subnetworks that can be formed by **removing nonoutput units** from an underlying base network.
 * A unit from network can be removed by multiplying **its output value by zero**.
 * Typically, **input unit** is included with **probability 0.8**, and a **hidden unit** is included with **probability 0.5**.
+
+## Problems Addressed by Dropout
+* **Omitting of neurons**, to mimic the voting in ensemble technique, instead of building the multiple models.
+* **Product the probability** that a neurons will survive to weight, at inference level.
 
 ## Differences between Bagging and Dropout
 | S.No. | Bagging                                                                | Dropout                                                                                                                                                                                                                     |
