@@ -138,7 +138,15 @@ We want to express that certain parameters **should be close** to one another.
 * Dropout is more powerful for **larger dataset.**
  <img src="./images/61.effect_of_dataset_size.png"></img><br>
 
+# Adversarial Training
+* Applying an **imperceptible non-random perturbation** to a test image, it is possible to arbitrarily **change the network’s prediction.**
+* Primary causes of adversarial examples is **excessive linearity.**
+* Value of a linear function in neural networks, build out of linear blocks, can change rapidly, if it has **numerous inputs.**
+* Adversarial training helps to illustrate **power of using a large function family** in combination with **aggressive regularization.**
+* Adversarial examples also provide a means of **accomplishing semi-supervised learning**. 
 
-
-
-
+## Virtual Adversarial Examples
+* At point ***x***, **not associated with any label**, model itself assigns some label ***ˆy***, which **may/maynot be a true label.**
+* We can seek an **adversarial example x'** that causes the classiﬁer to output a **label y' with y' != ˆy**.
+* Adversarial examples generated using **not the true label** but a l**abel provided by a trained model** are called **virtual adversarial example.**
+* The classiﬁer may then be trained to **assign same label to x and x'.**
