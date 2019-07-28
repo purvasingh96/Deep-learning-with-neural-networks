@@ -101,6 +101,12 @@ We want to express that certain parameters **should be close** to one another.
 * Trains the ensembles consisting of all subnetworks that can be formed by **removing nonoutput units** from an underlying base network.
 * A unit from network can be removed by multiplying **its output value by zero**.
 * Typically, **input unit** is included with **probability 0.8**, and a **hidden unit** is included with **probability 0.5**.
+<img src="./images/58.dropout_modelling_00'.png"></img>
+
+## Effects of Dropout
+* Avoids **co-adaptation**, a trend that some neurons tend to represent similar features
+* Captures **clear features** by avoiding co-adaptations.
+<img src="./images/59.effect_of_dropout.png"></img>
 
 ## Problems Addressed by Dropout
 * **Omitting of neurons**, to mimic the voting in ensemble technique, instead of building the multiple models.
