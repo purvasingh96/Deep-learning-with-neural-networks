@@ -1,6 +1,5 @@
 # Regularization for Deep Learning : Part - 2
-
-- [Regularization for Deep Learning : Part - 2](#regularization-for-deep-learning---part---2)
+- [Regularization for Deep Learning : Part - 2](#Regularization-for-Deep-Learning-:-Part---2)
 - [Parameter Tying](#parameter-tying)
   * [Paramter Dependency](#paramter-dependency)
   * [Motivation and Goal](#motivation-and-goal)
@@ -8,10 +7,22 @@
   * [L2 Penalty for Parameter Tying](#l2-penalty-for-parameter-tying)
 - [Parameter Sharing](#parameter-sharing)
 - [Bagging and Ensemble Methods](#bagging-and-ensemble-methods)
-  * [How does Bagging work?](#how-does-bagging-work-?)
+  * [How does Bagging work?](#how-does-bagging-work-)
   * [Bagging Example](#bagging-example)
   * [Usage of Bagging](#usage-of-bagging)
   * [Tacit Rules of Bagging](#tacit-rules-of-bagging)
+- [Dropout](#dropout)
+  * [Overfitting](#overfitting)
+  * [Solution for Overfitting](#solution-for-overfitting)
+  * [What is Dropout?](#what-is-dropout-)
+  * [Effects of Dropout](#effects-of-dropout)
+  * [Problems Addressed by Dropout](#problems-addressed-by-dropout)
+  * [Differences between Bagging and Dropout](#differences-between-bagging-and-dropout)
+  * [Advantages and Disadvantages of Dropout](#advantages-and-disadvantages-of-dropout)
+  * [Dropout Rate (p)](#dropout-rate--p-)
+  * [Effect of Data Set Size on Dropout](#effect-of-data-set-size-on-dropout)
+- [Adversarial Training](#adversarial-training)
+  * [Virtual Adversarial Examples](#virtual-adversarial-examples)
 
 # Parameter Tying
 ## Paramter Dependency
