@@ -15,4 +15,5 @@ This repository contains -<br>
 * **Chapter 4: Machine Learning Basics** - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_4_Machine_Learning_Basics/ReadMe.md)
 * **Chapter 5: Deep Forward Networks** - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_5_Deep_Forward_Networks/ReadMe.md)
 * **Chapter 6: Regularization for Deep Forward Networks** - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_6_Regularization_for_Deep_Learning/Readme.md)
+* **Chapter 7: Optimization for Training Deep Models** - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_7_Optimization_for_training_deep_models/Readme.md)
 * **[References](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/References.md)**
