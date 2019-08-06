@@ -77,8 +77,15 @@
 * **Critical points** with **extremely high cost** are more likely to be **local maxima.**
 
 ## Cliﬀs and Exploding Gradients
-* **Neural networks with many layers** often have extremely steep regions resembling **cliﬀs,** resulting due to **multiplication of  several large weights together.**
+* **Neural networks with many layers** often have extremely steep regions resembling **cliﬀs,** resulting due to **multiplication of  several large weights together.**<br>
 <img src="./images/07.cliffs.png"></img>
+* **Gradient doesnot specify optimal size** but specifies **optimal direction withinan inﬁnitesimal region.**
+* When **traditional gradient descent** algorithm proposes **making a very large step :**
+     * **Gradient Clipping** interevens
+     * Reduces **step-size**
+     *  making it **less likely to go outside** the region where gradient indicates **direction of approximately steepest descent.**
+ * Following is an example of **Gradient Clipping for Handling Cliffs**<br>
+ <img src="./images/08.gradient_clipping.png"></img>
 
 
 
