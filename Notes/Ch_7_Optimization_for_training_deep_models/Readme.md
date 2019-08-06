@@ -46,3 +46,7 @@
 * Each iteration in **minibatch** may have **poor optimization performance** than batch algorithm.
 * However, after **many iterations**,mini-batch algorithm generally **converges to optimal state.**
 <img src="./images/03.batch_vs_minibatch.png"></img>
+
+# Challenges in Neural Network Optimization
+## Ill-Conditioning
+* Arises due to **ill-conditioning of Hessian matrix, H.**
