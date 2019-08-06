@@ -45,4 +45,4 @@
 ## Batch v/s Minibatch
 * Each iteration in **minibatch** may have **poor optimization performance** than batch algorithm.
 * However, after **many iterations**,mini-batch algorithm generally **converges to optimal state.**
-
+<img src="./images/03.batch_vs_minibatch.png"></img>
