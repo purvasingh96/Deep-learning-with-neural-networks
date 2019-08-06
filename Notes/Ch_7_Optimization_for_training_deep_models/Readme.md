@@ -50,3 +50,52 @@
 # Challenges in Neural Network Optimization
 ## Ill-Conditioning
 * Arises due to **ill-conditioning of Hessian matrix, H.**
+* **SGD gets stuck** i.e. even very **small steps increase cost function.**
+* 2nd order **Taylor series of cost function** predicts that gradient step of  −ε**g** will **add following term to cost**.<br>
+<img src="./images/04.ill_conditioning.png"></img>
+* **Ill conditioning in Taylor-Series** occurs when:<br>
+<img src="./images/05.ill_conditioing_in_taylor_series.png"></img>
+
+## Local Minima
+* If **starting point** of gradient descent was chosen **inappropriately**, a non-convex fucntion **cannot reach global minimum.**<br>
+<img src="./images/05.issue_with_local_minima.png"></img>
+
+## Plateaus, Saddle Points and Other Flat Regions
+* In non-convex functions, **local minima are rare** as compared to other **zero gradient point called saddle points.**
+* At **saddle point**, **Hessian matrix** has both **positive and negative eigenvalues**.
+* **Cost (+) > Cost( saddle point ) > Cost (-)**<br>
+   * Cost (+) : Cost of points lying on **+ve eigen vectors**.<br>
+   * Cost (-) : Cost of points lying on **-ve eigen vectors**
+* Sample **saddle point in a deep neural network** is shown below<br>
+<img src="./images/06.saddle_point.png"></img>
+
+### Properties Observed of Random Functions w.r.t Eigen Values
+* In higher-dimensional spaces, **local minima are rare**, and **saddle points are more common.**
+* **Eigenvalues** of Hessian become **more likely to be positive** as we reach regions of **lower cost.**
+* **Local minima** are much more likely to **have low cost** than high cost.
+* **Critical points** with **high cost** are far more likely to be **saddle points.**
+* **Critical points** with **extremely high cost** are more likely to be **local maxima.**
+
+## Cliﬀs and Exploding Gradients
+* **Neural networks with many layers** often have extremely steep regions resembling **cliﬀs,** resulting due to **multiplication of  several large weights together.**
+<img src="./images/07.cliffs.png"></img>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
