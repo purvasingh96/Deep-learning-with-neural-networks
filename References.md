@@ -8,6 +8,7 @@
 6. [InfolabAI's deep-learning repository](https://github.com/InfolabAI/DeepLearning/blob/master)
 7. [Bharat Raj's Medium post on data augmentation](https://medium.com/nanonets/how-to-use-deep-learning-when-you-have-limited-data-part-2-data-augmentation-c26971dc8ced)
 8. [Parameter Sharing for CNNs - Image from Hugo Larochelle's Youtube Lecture](https://www.youtube.com/watch?v=aAT1t9p7ShM)
+9. [Holehouse's Large Scale Machine Learning](http://www.holehouse.org/mlclass/17_Large_Scale_Machine_Learning.html)
 
 
 ## Research Papers 
