@@ -86,6 +86,17 @@
      *  making it **less likely to go outside** the region where gradient indicates **direction of approximately steepest descent.**
  * Following is an example of **Gradient Clipping for Handling Cliffs**<br>
  <img src="./images/08.gradient_clipping.png"></img>
+ 
+## Long Term Dependencies
+* Computational graph becomes **extremely deep.**
+* **Repeated application of same parameters** gives rise to especially pronounced diﬃculties.
+### Sample Scenario describing Exploding Gradient Problem
+* Computational graph containing path that consists of **repeatedly multiplying by a matrix W,** which after **t-steps** is equivalent to **multiplying by**  <img src="./images/09.wt.png"></img> --<br>
+   * <img src="./images/10.wt_expansion.png"></img><br>
+   * If **λi > 1**, *explosion,* makes learning **unstable**<br>
+   * If **λi < 1**, *vanish,*, make it **diﬃcult to know which direction** parameters should move **to improve cost function**
+
+
 
 
 
