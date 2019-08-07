@@ -95,6 +95,25 @@
    * <img src="./images/10.wt_expansion.png"></img><br>
    * If **λi > 1**, *explosion,* makes learning **unstable**<br>
    * If **λi < 1**, *vanish,*, make it **diﬃcult to know which direction** parameters should move **to improve cost function**
+   
+# Basic Algorithms
+
+# Stochastic Gradient Descent (SGD)
+* **Unbiased estimate** of gradient can be calculated by taking **average gradient on a minibatch** of **m examples** drawn i.i.d from the data-generating distribution.
+* **Crucial parameter** for the SGD algorithm is the **learning rate.**
+* **Learning rate** should be **decayed** with time until iteration **τ**.<br>
+<img src="./images/12.learning_rate_decay.png"></img><br>
+* **Suﬃcient condition** to guarantee **convergence of SGD** is<br>
+<img src="./images/11.sgd_convergence.png"></img><br>
+* <img src="./images/13.et.png"></img> should be set to **1% of** <img src="./images/14.e0.png"></img><br>
+* If value of  <img src="./images/14.e0.png"></img> is -
+      * **too high,** curve shows **violent oscillations**, cost function **increases.**
+      * **too low,** curve can get **stuck in high cost value.**
+* **Batch gradient descent** enjoys **better convergence rates** than stochastic gradient descent in theory.
+* **Gradient Formula**<br>
+<img src="./images/15.gradient.png"></img>
+* **Updation Formula**<br>
+<img src="./images/16.update.png"></img>
 
 
 
