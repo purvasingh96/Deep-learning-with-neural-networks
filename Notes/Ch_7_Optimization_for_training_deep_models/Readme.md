@@ -115,7 +115,23 @@
 * **Updation Formula**<br>
 <img src="./images/16.update.png"></img>
 
+# Momentum
+* Momentum method is designed to **accelerate learning.**
+* Accumulates an **exponentially decaying moving** average of past gradients and continues to move in their direction.
+* Below is comparison of **graident descent with and without momentum** -<br>
+<img src="./images/17.gd_with_without_momentum.png"></img>
+* **Update rule** in momentum method is given by -<br>
+<img src="./images/18.update_for_momentum.png"></img>
+* **Accumulate velocity**- <br>
+<img src="./images/19.accumulate_velocity.png"></img>
 
+# Nesterov Momentum
+* **Gradient** is evaluated **after current velocity** is applied.
+* Attempt to **add a correction factor** to the standard method of momentum.
+* Comparison between **standard momentum and Nesterov momentum methods** are given as follows -<br>
+<img src="./images/21.comparison_p_vs_np.png"></img>
+* **Update rule**<br>
+<img src="./images/20.nestrov_momentum_update.png"></img>
 
 
 
