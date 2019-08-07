@@ -133,7 +133,17 @@
 * **Update rule**<br>
 <img src="./images/20.nestrov_momentum_update.png"></img>
 
-
+# Algorithms with Adaptive Learning Rate
+# AdaGrad
+* **Adaptive Gradient** is a modified SGD with **per-parameter learning rate.**
+      * **Increases learning rate** for parameters having **small gradient.**
+      * **Decreases learning rate** for parameters having **large gradient.**
+ * **Gradient** for AdaGrad is given by -<br>
+ <img src="./images/22.grad_update_for_adagrad.png"></img>
+ * **Accumulate Squared Gradients**<br>
+ <img src="./images/23.accumulate_adagrad.png"></img> <br>
+ * **Apply Update**<br>
+  <img src="./images/24.update_adagrad.png"></img> 
 
 
 
