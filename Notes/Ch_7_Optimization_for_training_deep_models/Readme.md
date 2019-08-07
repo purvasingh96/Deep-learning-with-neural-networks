@@ -145,7 +145,24 @@
  * **Apply Update**<br>
   <img src="./images/24.update_adagrad.png"></img> 
 
+# RMSProp
+* **Root Mean Square Propagation** is modified version of **AdaGrad.**
+* Modifies **Gradient accumulation** to **exponentially weighted moving average.**
+* **Gradient -**<br>
+ <img src="./images/25.rmsprop_gradient.png"></img> 
+ * **Accumulate Squared Gradients -**<br>
+ <img src="./images/26.accumulate_rmsprop.png"></img> 
+ * **Apply update -**<br>
+ <img src="./images/27.update_rmsprop.png"></img>
 
+# Adam
+* Combination of **RMSProp and momentum.**
+* Accumulate **first and second order moment estimates -**<br>
+ <img src="./images/28.momentum_update_adam.png"></img>
+* Correct **bias in 1st and 2nd order moments -**<br>
+  <img src="./images/29.bias_update_adam.png"></img>
+* **Apply update -**<br>
+  <img src="./images/30.final_update_adam.png"></img>
 
 
 
