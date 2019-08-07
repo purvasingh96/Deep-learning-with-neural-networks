@@ -164,6 +164,22 @@
 * **Apply update -**<br>
   <img src="./images/30.final_update_adam.png"></img>
 
+# Approximate Second-Order Methods
+## Newton's Method
+* Optimization scheme based on **second-order Taylor series expansion** to approximate **J(θ)** near some point θ0, **ignoring derivatives of higher order.**<br>
+ <img src="./images/31.taylor_expansion.png"></img>
+* **Newton parameter update rule** is given by -<br>
+ <img src="./images/32.update_rule_newton.png"></img>
+* Newton’s method can be **applied iteratively,** as long as Hessian remains **positive deﬁnite.**
+* Hessian matrix can be **regularized, as below** incase eigen values of Hessian matrix are **not positive definite**, Newton's method can **cause updates to move in wrong direction.**<br>
+ <img src="./images/33.regularized_newton.png"></img>
+ * **Disadvantages of Newton's Method:**<br>
+      * Huge computational **cost.**
+      * Computational **complexity** of <img src="./images/34.computational_complex_newton.png"></img>
+      * Networks with **very small number of parameters** can be practically trained via Newton's method.
+      
+
+
 
 
 
