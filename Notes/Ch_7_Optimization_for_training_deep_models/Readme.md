@@ -136,8 +136,8 @@
 # Algorithms with Adaptive Learning Rate
 # AdaGrad
 * **Adaptive Gradient** is a modified SGD with **per-parameter learning rate.**
-      * **Increases learning rate** for parameters having **small gradient.**
-      * **Decreases learning rate** for parameters having **large gradient.**
+    * **Increases learning rate** for parameters having **small gradient.**
+    * **Decreases learning rate** for parameters having **large gradient.**
  * **Gradient** for AdaGrad is given by -<br>
  <img src="./images/22.grad_update_for_adagrad.png"></img>
  * **Accumulate Squared Gradients**<br>
