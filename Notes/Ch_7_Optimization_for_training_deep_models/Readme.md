@@ -98,7 +98,7 @@
    
 # Basic Algorithms
 
-# Stochastic Gradient Descent (SGD)
+## Stochastic Gradient Descent (SGD)
 * **Unbiased estimate** of gradient can be calculated by taking **average gradient on a minibatch** of **m examples** drawn i.i.d from the data-generating distribution.
 * **Crucial parameter** for the SGD algorithm is the **learning rate.**
 * **Learning rate** should be **decayed** with time until iteration **τ**.<br>
@@ -115,7 +115,7 @@
 * **Updation Formula**<br>
 <img src="./images/16.update.png"></img>
 
-# Momentum
+## Momentum
 * Momentum method is designed to **accelerate learning.**
 * Accumulates an **exponentially decaying moving** average of past gradients and continues to move in their direction.
 * Below is comparison of **graident descent with and without momentum** -<br>
@@ -125,7 +125,7 @@
 * **Accumulate velocity**- <br>
 <img src="./images/19.accumulate_velocity.png"></img>
 
-# Nesterov Momentum
+## Nesterov Momentum
 * **Gradient** is evaluated **after current velocity** is applied.
 * Attempt to **add a correction factor** to the standard method of momentum.
 * Comparison between **standard momentum and Nesterov momentum methods** are given as follows -<br>
@@ -134,7 +134,7 @@
 <img src="./images/20.nestrov_momentum_update.png"></img>
 
 # Algorithms with Adaptive Learning Rate
-# AdaGrad
+## AdaGrad
 * **Adaptive Gradient** is a modified SGD with **per-parameter learning rate.**
     * **Increases learning rate** for parameters having **small gradient.**
     * **Decreases learning rate** for parameters having **large gradient.**
@@ -145,7 +145,7 @@
  * **Apply Update**<br>
   <img src="./images/24.update_adagrad.png"></img> 
 
-# RMSProp
+## RMSProp
 * **Root Mean Square Propagation** is modified version of **AdaGrad.**
 * Modifies **Gradient accumulation** to **exponentially weighted moving average.**
 * **Gradient -**<br>
@@ -155,7 +155,7 @@
  * **Apply update -**<br>
  <img src="./images/27.update_rmsprop.png"></img>
 
-# Adam
+## Adam
 * Combination of **RMSProp and momentum.**
 * Accumulate **first and second order moment estimates -**<br>
  <img src="./images/28.momentum_update_adam.png"></img>
@@ -178,8 +178,13 @@
       * Computational **complexity** of <img src="./images/34.computational_complex_newton.png"></img>
       * Networks with **very small number of parameters** can be practically trained via Newton's method.
       
+## Conjugate Gradients
 
-
+* Method to **eﬃciently avoid calculation of inverse Hessian** by iteratively descending conjugate directions.
+* **Current line search direction**, is guaranteed to be **orthogonal to previous line search direction.**
+* **Problem Statement :** By **following gradient** at end of each line search we are **undoing progress we have already made in the direction of the previous line search.**
+ <img src="./images/35.congugate_directions.png"></img>
+* 
 
 
 
