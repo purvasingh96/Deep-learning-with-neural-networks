@@ -244,7 +244,11 @@ In very deep models, involving several composition of layers, **gradient** tells
 * When applying **Polyak averaging to nonconvex problems**, we use an **exponentially decaying running average-**<br>
 <img src="./images/47.polyak_averaging_noncovex.png"></img>
 
-
+## Supervised Pretraining
+* Basic idea is to - **train model to solve a simpler task, then move on to confront the ﬁnal task.**
+* Strategies involving **training models on simple tasks before confronting the model to perform final task** is called **pretraining.**
+* Approach to **break supervised learning problems** into other **simpler supervised** learning problems is known as **greedy supervised pretraining.**
+* 
 
 
 
