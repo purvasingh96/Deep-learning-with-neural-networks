@@ -222,7 +222,15 @@ In very deep models, involving several composition of layers, **gradient** tells
 <img src="./images/44.batch_normalization.png"></img>
 * Normalization operation **removes effect** of any action t**hat can increase standard deviation/mean.**
 
-
+## Batch Transformation
+* Simply normalizing each input of a layer may change what the layer can represent.
+* Therefore, we need to introduce **linear transformation** for each activation function -<br>
+* γ,β are **learned at each step**, where -
+<img src="./images/45.batch_transformation.png"></img>
+   * **γ** : scale factor
+   * **β** : shift factor
+* Below is an example of Neural Network **with and without Batch Normalization** -<br>
+<img src="./images/46.comparison_bw_bn_nonbn.png"></img>
 
 
 
