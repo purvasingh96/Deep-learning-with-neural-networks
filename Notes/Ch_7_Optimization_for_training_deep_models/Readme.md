@@ -182,10 +182,20 @@
 
 * Method to **eﬃciently avoid calculation of inverse Hessian** by iteratively descending conjugate directions.
 * **Current line search direction**, is guaranteed to be **orthogonal to previous line search direction.**
-* **Problem Statement :** By **following gradient** at end of each line search we are **undoing progress we have already made in the direction of the previous line search.**
- <img src="./images/35.congugate_directions.png"></img>
-* 
 
+### Problem Statement
+By **following gradient** at end of each line search we are **undoing progress we have already made in the direction of the previous line search.**
+ <img src="./images/35.congugate_directions.png"></img>
+### Solution 
+* We seek to ﬁnd a **search direction** that is **conjugate to previous** line search direction.
+* At iteration *t*, direction, next search direction will be of the form -<br>
+<img src="./images/36.congugate_solution.png"></img>
+* <img src="./images/37.bt.png"></img> magnitude controls how much of direction, <img src="./images/38.dt_1.png"></img>,
+we should **add back to current search direction.**
+* Two directions <img src="./images/39.dt.png"></img> and <img src="./images/38.dt_1.png"></img>  are said to be **orthognal** iff -<br>
+<img src="./images/40.conjugates.png"></img> 
+* Two methods to compute value of <img src="./images/37.bt.png"></img> are -<br>
+<img src="./images/41.bt_computation.png"></img> 
 
 
 
