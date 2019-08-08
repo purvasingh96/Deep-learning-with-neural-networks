@@ -211,6 +211,16 @@ we should **add back to current search direction.**
 * Can be used to store **more information about matrix M**, which costs only **O(n) per step.**
 
 
+# Optimization Strategies and Meta-Algorithms
+## Batch Normalization
+### Problem Statement
+In very deep models, involving several composition of layers, **gradient** tells how to **update each parameter**, assuming that **other layers do not change.**
+
+### Solution
+* Batch normalization provides a way of **reparametrizing almost any deep network.**
+* BN **normalizes** each layer's input of a given **mini-batch** as follows -<br>
+<img src="./images/44.batch_normalization.png"></img>
+* Normalization operation **removes effect** of any action t**hat can increase standard deviation/mean.**
 
 
 
