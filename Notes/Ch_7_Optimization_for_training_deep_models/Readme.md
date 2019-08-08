@@ -1,5 +1,47 @@
+Table of Contents
+===================
+- [Optimization for Training Deep Models](#optimization-for-training-deep-models)
+- [Learning v/s Optimizing](#learning-v-s-optimizing)
+  * [Emperical Risk](#emperical-risk)
+  * [Disadvantages of Emperical Risk Method](#disadvantages-of-emperical-risk-method)
+- [Surrogate Loss Function and Early Stopping](#surrogate-loss-function-and-early-stopping)
+  * [Difference between Genral Optimization and Optimizing Training Algorithms](#difference-between-genral-optimization-and-optimizing-training-algorithms)
+- [Batch and Mini-batch Algorithms](#batch-and-mini-batch-algorithms)
+  * [Various Information extracted from Batch/Minibatch Algorithms](#various-information-extracted-from-batch-minibatch-algorithms)
+  * [Batch v/s Minibatch](#batch-v-s-minibatch)
+- [Challenges in Neural Network Optimization](#challenges-in-neural-network-optimization)
+  * [Ill-Conditioning](#ill-conditioning)
+  * [Local Minima](#local-minima)
+  * [Plateaus, Saddle Points and Other Flat Regions](#plateaus--saddle-points-and-other-flat-regions)
+    + [Properties Observed of Random Functions w.r.t Eigen Values](#properties-observed-of-random-functions-wrt-eigen-values)
+  * [Cliﬀs and Exploding Gradients](#cli-s-and-exploding-gradients)
+  * [Long Term Dependencies](#long-term-dependencies)
+    + [Sample Scenario describing Exploding Gradient Problem](#sample-scenario-describing-exploding-gradient-problem)
+- [Basic Algorithms](#basic-algorithms)
+  * [Stochastic Gradient Descent (SGD)](#stochastic-gradient-descent--sgd-)
+  * [Momentum](#momentum)
+  * [Nesterov Momentum](#nesterov-momentum)
+- [Algorithms with Adaptive Learning Rate](#algorithms-with-adaptive-learning-rate)
+  * [AdaGrad](#adagrad)
+  * [RMSProp](#rmsprop)
+  * [Adam](#adam)
+- [Approximate Second-Order Methods](#approximate-second-order-methods)
+  * [Newton's Method](#newton-s-method)
+  * [Conjugate Gradients](#conjugate-gradients)
+    + [Problem Statement](#problem-statement)
+    + [Solution](#solution)
+- [Broyden–Fletcher–Goldfarb–Shanno (BFGS) Algorithm](#broyden-fletcher-goldfarb-shanno--bfgs--algorithm)
+  * [Limited Memory BFGS (L-BFGS)](#limited-memory-bfgs--l-bfgs-)
+- [Optimization Strategies and Meta-Algorithms](#optimization-strategies-and-meta-algorithms)
+  * [Batch Normalization](#batch-normalization)
+    + [Problem Statement](#problem-statement-1)
+    + [Solution](#solution-1)
+  * [Batch Transformation](#batch-transformation)
+  * [Coordinate Descent](#coordinate-descent)
+  * [Polyak Averaging](#polyak-averaging)
+  * [Supervised Pretraining](#supervised-pretraining)
+  
 # Optimization for Training Deep Models
-
 # Learning v/s Optimizing
 * Machine learning acts **indirectly** by trying to **optimize performance measure, P,** defined w.r.t test set.
 * Goal of learning is to reduce **expected generalization errror.**
