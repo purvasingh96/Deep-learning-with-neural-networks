@@ -232,6 +232,22 @@ In very deep models, involving several composition of layers, **gradient** tells
 * Below is an example of Neural Network **with and without Batch Normalization** -<br>
 <img src="./images/46.comparison_bw_bn_nonbn.png"></img>
 
+## Coordinate Descent
+* Solving an optimization problem  quickly by **breaking it into separate pieces.**
+* Given a **function f(x)**, minimize it first w.r.t **x1**, then w.r.t x2 and so on, to **eventually arrive at local minimum.**
+* This approach is called **coordinate descent**, since we are **optimizing one coordinate at a time.**
+* **Not a very good strategy** when **value of one variable strongly inﬂuences** optimal value of another variable.
+
+## Polyak Averaging
+* **Averaging several points** in the trajectory through parameter space visited by an optimization algorithm.
+* This approach has **strong convergence guarentee** in case of some problems such as **SGD applied to convex problems.** 
+* When applying **Polyak averaging to nonconvex problems**, we use an **exponentially decaying running average-**<br>
+<img src="./images/47.polyak_averaging_noncovex.png"></img>
+
+
+
+
+
 
 
 
