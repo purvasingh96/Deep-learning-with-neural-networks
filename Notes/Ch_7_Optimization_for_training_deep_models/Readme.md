@@ -197,6 +197,18 @@ we should **add back to current search direction.**
 * Two methods to compute value of <img src="./images/37.bt.png"></img> are -<br>
 <img src="./images/41.bt_computation.png"></img> 
 
+# Broyden–Fletcher–Goldfarb–Shanno (BFGS) Algorithm
+* Similar to **conjugate gradient** method plus additional advantages of **Newton's method.** 
+* Problem with **Newton's method** was **finding inverse of Hessian matrix,** which was later approximated using matrix, <img src="./images/42.mt.png"></img> , which is iteratievely refined using **low-rank updates**.
+* Success of BFGS  is **not heavily dependent** on line search **ﬁnding a point very close to true minimum** along the line.
+* Hence, BFGS acn spend **less time reﬁning each line search.**
+* BFGS should **store inverse Hessian matrix**, hence it requires, <img src="./images/43.memory_space_BFGS.png"></img> memory.
+* **Solution** to above problem statement is given by **L-BFGS**
+
+## Limited Memory BFGS (L-BFGS)
+* Memory cost of BFGS can be avoided by **not storing inverse of Hessian matrix.**
+* Computes **approximation M** using same method as BFGS algorithm but **beginning with the assumption that M(t−1) is identity matrix**, rather than storing approximation from one step to next.
+* Can be used to store **more information about matrix M**, which costs only **O(n) per step.**
 
 
 
