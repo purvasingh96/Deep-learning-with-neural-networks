@@ -293,7 +293,7 @@ In very deep models, involving several composition of layers, **gradient** tells
 * Below is an example demonstrating **supervised pre-training.**<br>
 <img src="./images/48.supervised_pretraining.png"></img>
 
-
+[Back to top](#optimization-for-training-deep-models)
 
 
 
