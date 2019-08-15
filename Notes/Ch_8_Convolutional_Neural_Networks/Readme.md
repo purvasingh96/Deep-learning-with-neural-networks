@@ -69,7 +69,10 @@ The convolution operates on the **input** with a **kernel (weights)** to produce
 <img src="./images/15.equivariance_rotate_scale.png"></img><br>
 
 # Pooling
-
+* A convolution layer consists of **3 layers -**<br>
+     * Convolution
+     * Activation
+     * Pooling
 
 
 
