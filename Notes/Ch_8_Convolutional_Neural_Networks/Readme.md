@@ -25,4 +25,10 @@ The convolution operates on the **input** with a **kernel (weights)** to produce
 * **Convolution operation:**<br>
 <img src="./images/06.commutative_rhs.png"></img>
 * **Correlation operation:**<br>
-<img src="./images/07.cross_correlation.png"></img>
+<img src="./images/07.cross_correlation.png"></img><br>
+
+## Toeplitz and Block-Circulant Matrix
+* **1D** convolution operation can be represented as a **matrix vector product.** 
+* The kernel marix is obtained by composing weights into a **Toeplitz matrix.**
+* Toeplitz matrix has the property that **values along all diagonals are constant.**<br>
+<img src="./images/08.toeplitz_matrix_1d.png"></img><br>
