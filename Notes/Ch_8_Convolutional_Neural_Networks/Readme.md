@@ -83,9 +83,9 @@ The convolution operates on the **input** with a **kernel (weights)** to produce
 ## Inputs having Variable Size
 * **Classification layers** requires **fixed size** of their inputs. 
 * **Pooling** makes their **output fixed size** by changing their **pooling size, stride etc.**<br>
-<img src="./images/17.max_pooling.png"></img><br>
+<img src="./images/18.variable_sized_inputs.png"></img><br>
 
 ## Learned Invariances
 * Pooling over feature channels can be used to develop invariance to certain transformations of the input.
 * Units in a layer may be **developed to learn rotated features** and then pooled over. This property has been used in **Maxout networks.**<br>
-<img src="./images/18.variable_sized_inputs.png"></img><br>
+<img src="./images/16.maxout_function.png"></img><br>
