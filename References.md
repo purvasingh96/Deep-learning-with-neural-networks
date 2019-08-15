@@ -11,6 +11,7 @@
 9. [Holehouse's Large Scale Machine Learning](http://www.holehouse.org/mlclass/17_Large_Scale_Machine_Learning.html)
 10. [Sanghyukchun's Blog](http://sanghyukchun.github.io/88/)
 11. [Dalmia's Medium Deep Learning Blog](https://medium.com/inveterate-learner/deep-learning-book-chapter-9-convolutional-networks-45e43bfc718d)
+12. [Max-Pooling](https://www.pexels.com/) 
 
 ## Research Papers 
 
