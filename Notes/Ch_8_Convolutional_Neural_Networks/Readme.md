@@ -9,6 +9,8 @@ The convolution operates on the **input** with a **kernel (weights)** to produce
 <img src="./images/03.1-D-cnn.png"></img><br>
 * **2-D** discrete convolution operation can be given by:<br>
 <img src="./images/04.2-D-cnn.png"></img><br>
+* **2-D convolution operation** can be visualized as below:<br>
+<img src="./images/16.convolution_operation_2.gif"></img><br>
 ## Example Demonstrating Convolution Operation
 <img src="./images/01.convolution_operation.gif"></img>
 
@@ -65,6 +67,9 @@ The convolution operates on the **input** with a **kernel (weights)** to produce
 * Translation of image results in corresponding translation in the output map.
 * Convolution operation by itself is **not equivariant to changes in scale or rotation.**<br>
 <img src="./images/15.equivariance_rotate_scale.png"></img><br>
+
+# Pooling
+
 
 
 
