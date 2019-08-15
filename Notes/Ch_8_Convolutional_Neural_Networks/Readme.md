@@ -102,7 +102,8 @@ The convolution operates on the **input** with a **kernel (weights)** to produce
 | 3.    | Infinitely strong | Demarkates certain values as **forbidden** completely  assigning them **zero probability.** |
 
 
-
-
-
-
+* Convolution imposes an **infinitely strong prior** by making the following **restrictions on weights:**<br>
+      * **Adjacent units** must have the **same weight** but shifted in space.
+      * Except for a **small spatially connected** region, all **other weights** must be **zero.**
+* Features should be **translation invariant.**
+* If tasks relies on preserving specific spatial information, then pooling can cause on all features can increase training error.
