@@ -27,8 +27,21 @@ The convolution operates on the **input** with a **kernel (weights)** to produce
 * **Correlation operation:**<br>
 <img src="./images/07.cross_correlation.png"></img><br>
 
-## Toeplitz and Block-Circulant Matrix
+## Toeplitz Matrix
 * **1D** convolution operation can be represented as a **matrix vector product.** 
 * The kernel marix is obtained by composing weights into a **Toeplitz matrix.**
 * Toeplitz matrix has the property that **values along all diagonals are constant.**<br>
 <img src="./images/08.toeplitz_matrix_1d.png"></img><br>
+
+## Block-Circulant Matrix
+* To **extend** the concept of Toeplitz matrix towards **2-D input**, we need to **convert 2-D input to 1-D vector.**
+* **Kernel needs to be modified** as before but this time resulting in a **block-circulant matrix.**
+* A **circulant matrix** is a special case of a **Toeplitz matrix** where each **row is equal to the row above shifted by one element.**<br>
+<img src="./images/09.circulant_matrix.png"></img><br>
+
+
+
+
+
+
+
