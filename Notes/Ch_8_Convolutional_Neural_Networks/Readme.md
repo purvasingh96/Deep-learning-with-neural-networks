@@ -4,6 +4,6 @@ Convolutional networks also known as convolutional neural networks, or CNNs, are
 
 # Convolution Operation
 The convolution operates on the **input** with a **kernel (weights)** to produce an **output map** given by:<br>
-<img src="./images/01.convolution_operation.png"></img>
+<img src="./images/01.updated_convolution_operation.png"></img>
 ## Example Demonstrating Convolution Operation
 <img src="./images/01.convolution_operation.gif"></img>
