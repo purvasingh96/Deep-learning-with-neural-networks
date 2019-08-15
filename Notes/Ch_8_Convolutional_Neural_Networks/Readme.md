@@ -71,8 +71,24 @@ The convolution operates on the **input** with a **kernel (weights)** to produce
 # Pooling
 * A convolution layer consists of **3 layers -**<br>
      * Convolution
-     * Activation
+     * Activation (Detector Stage)
      * Pooling
+* A pooling function **replaces the output** of net at a certain location with **summary statistic of nearby outputs.**
+* Common summary statistics are : mean, median, weighted average. 
+* Pooling makes the representation slightly **translation invariant**, in that **small translations** in the input **do not cause large changes in output map.**
+* It allows detection of a particular feature **if we only care about its existence**, not its position in an image.
+* Pooling **reduces input size to the next layer** in turn reducing the number of computations required upstream.
+
+## Learned Invariances
+* Pooling over feature channels can be used to develop invariance to certain transformations of the input.
+* Units in a layer may be **developed to learn rotated features** and then pooled over. This property has been used in **Maxout networks.**<br>
+<img src="./images/16.maxout_function.png"></img><br>
+
+
+
+
+
+
 
 
 
