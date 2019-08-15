@@ -89,3 +89,20 @@ The convolution operates on the **input** with a **kernel (weights)** to produce
 * Pooling over feature channels can be used to develop invariance to certain transformations of the input.
 * Units in a layer may be **developed to learn rotated features** and then pooled over. This property has been used in **Maxout networks.**<br>
 <img src="./images/16.maxout_function.png"></img><br>
+
+# Convolution and Pooling as an Infinitely Strong Prior
+## Weight Prior
+**Assumptions about weights (before learning)** in terms of acceptable values and range are encoded into the **prior distribution** of weights.<br>
+
+
+| S.No. | Prior Type        | Variance/Confidence Type                                                                    |
+|-------|-------------------|---------------------------------------------------------------------------------------------|
+| 1.    | Weak              | High Variance, Low Confidence                                                               |
+| 2.    | Strong            | **Narrow range** of values about which we are **confident**  before learning begins.        |
+| 3.    | Infinitely strong | Demarkates certain values as **forbidden** completely  assigning them **zero probability.** |
+
+
+
+
+
+
