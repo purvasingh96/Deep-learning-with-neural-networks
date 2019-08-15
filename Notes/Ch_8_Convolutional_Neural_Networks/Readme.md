@@ -44,11 +44,20 @@ The convolution operates on the **input** with a **kernel (weights)** to produce
 * If each of the **submatrices is itself circulant**, the matrix is called **doubly block-circulant matrix.**<br>
 <img src="./images/11.doubly_circulant_matrix.png"></img><br>
 
+# Motivation
+## Sparse Interactions
+* In traditional Neural Networks, **every output unit interacts with every input unit.** 
+* Convolutional networks, however, typically have **sparse interactions,** by making **kernel smaller than input.**
+    * Reduces memory requirements
+    * Improves statistical eﬃciency
+* In a deep convolutional network, units in the deeper layers may **indirectly interact** with a larger portion of the input.
+<img src="./images/13.comparison_sparse_interactions.png"></img><br>
 
 
-
-
-
+## Parameter Sharing
+* Parameter sharing refers to **using same parameter for more than one function in a model.**
+* In convolutional neural net, **each member of kernel** is used at **every position of input** i.e. parameters used to compute different output units are **tied together** (all times their values are same).
+* **Sparse interactions and parameter sharing combined** can improve eﬃciency of a linear function for **detecting edges** in an image
 
 
 
