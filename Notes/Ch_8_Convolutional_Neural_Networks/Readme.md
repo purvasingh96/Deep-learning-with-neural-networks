@@ -59,6 +59,13 @@ The convolution operates on the **input** with a **kernel (weights)** to produce
 * In convolutional neural net, **each member of kernel** is used at **every position of input** i.e. parameters used to compute different output units are **tied together** (all times their values are same).
 * **Sparse interactions and parameter sharing combined** can improve eﬃciency of a linear function for **detecting edges** in an image
 
+### Equivariance
+* Parameter sharing in a convolutional network **provides equivariance to translation.** <br>
+<img src="./images/14.equivariance.png"></img><br>
+* Translation of image results in corresponding translation in the output map.
+* Convolution operation by itself is **not equivariant to changes in scale or rotation.**<br>
+<img src="./images/15.equivariance_rotate_scale.png"></img><br>
+
 
 
 
