@@ -172,6 +172,12 @@ In practical implementations of the convolution operation, certain modifications
 * If the models use tied parameters, this gives rise to a type of **recursive model**<br>
 <img src="./images/26.structured_outputs.png"></img><br>
 
+# Data Types
+> The data used with a convolutional network usually consist of several channels,each channel being the observation of a diﬀerent quantity at some point in space or time.<br>
+
+* When output is **variable sized, no extra design change** needs to be made. 
+* When output requires **fixed size** (classification), a **pooling stage** with **kernel size proportional to input size** needs to be used.<br>
+<img src="./images/27.single_vs_multichanel.png"></img><br>
 
 
 
