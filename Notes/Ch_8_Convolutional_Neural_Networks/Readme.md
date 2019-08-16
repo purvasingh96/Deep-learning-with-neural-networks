@@ -179,6 +179,29 @@ In practical implementations of the convolution operation, certain modifications
 * When output requires **fixed size** (classification), a **pooling stage** with **kernel size proportional to input size** needs to be used.<br>
 <img src="./images/27.single_vs_multichanel.png"></img><br>
 
+# Efficient Convolution Algorithms
+* Convolution is equivalent to converting both **input and kernel** to frequency domain using a **Fourier transform**, performing **point-wise multiplication of two signals**:<br>
+<img src="./images/30.eca_1.png"></img><br>
+* Converting back to **time domain** using an **inverse Fourier transform.** <br>
+<img src="./images/31.eca_2.png"></img><br>
+* When a **d-dimensional kernel** can be expressed as **outer product of d vectors**, one vector per dimension, the kernel is called **separable.**
+* The kernel also takes **fewer parameters** to represent as vectors.<br>
+
+| Kernel Type            | Runtime complexity for *d-dimensional kernel* with *w elements wide* |
+|------------------------|----------------------------------------------------------------------|
+| **Traditional Kernel** | <img src="./images/28.traditional_kernel.png"></img><br>             |
+| **Separable Kernel**   | <img src="./images/29.sepearable_kernel.png"></img><br>              |
+
+
+
+
+
+
+
+
+
+
+
 
 
 
