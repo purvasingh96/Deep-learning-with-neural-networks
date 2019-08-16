@@ -117,7 +117,6 @@ In practical implementations of the convolution operation, certain modifications
 * Multi-channel convolutions are commutative iff **number of output and input channels is the same.**
 
 ## Effect of Strides
-
 * **Stride** is the number of **pixels shifts** over the input matrix.
 * In order to allow for calculation of features at a **coarser level** strided convolutions can be used. 
 * The effect of strided convolution is the same as that of a **convolution followed by a downsampling stage.**
@@ -125,23 +124,20 @@ In practical implementations of the convolution operation, certain modifications
 * Below is an example representing **2-D Convolution, with (3 * 3) Kernel and Stride of 2 units.**<br>
 <img src="./images/19.stride_2.gif"></img><br>
 
+## Effect of Zero Padding
+* Convolution networks can implicitly zero pad the input V, to make it wider.
+* Without zero padding,the width of representation shrinks by one pixel less than the kernel width at each layer.
+* Zero padding the input allows to control kernel width and size of output independently.
+
+### Zero Padding Strategies
+3 common zero padding strategies are:<br>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| Zero Padding Type       | Properties                                                                                                                                                                                                                                                                                                                                                                                                                                | Example                                                 |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| **Valid Zero-Padding**  | 1. **No zero padding** is used.<br> 2. Output is computed only at places where **entire kernel lies inside the input.**<br> 3. **Shrinkage > 0**<br> 4. **Limits #convolution layers** to be used in network<br> 5. Input's width = m, Kernel's width = k,<br> **Width of Output = m-k+1**<br>                                                                                                                                                | <img src="./images/20.valid_zer_padding.gif"></img><br> |
+| **Same Zero-Padding**   | 1. Just enough **zero padding is added** to keep:<br>      1.a. **Size(Ouput) = Size(Input)**<br> 2. Input is padded by **(k-1) zeros**<br> 3. Since the **#output units connected to border pixels is less** <br> than that for centre pixels, it may **under-represent border pixels.**<br> 4. Can **add as many convolution layers** as hardware can support<br> 5. Input's width = m, Kernel's width = k,<br> **Width of Output = m**<br> | <img src="./images/21.same_zero_padding.gif"></img><br> |
+| **Strong Zero-Padding** | 1. The input is padded by enough zeros such that **each input pixel is<br>  connected to same #output units.**<br> 2. Allows us to make an **arbitrarily deep NN.**<br> 3. Can **add as many convolution layers** as hardware can support<br> 4. Input's width = m, Kernel's width = k,<br> **Width of Output = m+k-1**<br>                                                                                                                   | <img src="./images/22.full_sero_padding.gif"></img><br> |
 
 
 
