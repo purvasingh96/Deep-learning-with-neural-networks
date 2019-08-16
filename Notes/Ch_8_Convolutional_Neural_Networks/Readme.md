@@ -194,6 +194,26 @@ In practical implementations of the convolution operation, certain modifications
 
 
 
+# Random and Unsupervised Features
+To reduce the cost of convolutional network training, we have to use features that are not trained in a supervised way:
+* **Random Initialization:** 
+     * Layers consisting of **convolution followed by pooling** naturally become **frequency selective and translation invariant** when assigned random weights.
+     * **Randomly initialize** several CNN architectures and just **train the last classification layer**.
+     * Once a winner is determined, train that model using a **more expensive approach** (supervised approach).
+* **Hand Designed Kernels:**
+      * Used to **detect edges** at a certain orientation or scale.
+* **Unsupervised Training:**
+      * Unsupervised pre-training may offer **regularization effect**. 
+      * It may also allow for **training of larger CNNs** because of **reduced computation cost.**
+      
+## Greedy Layer-wise Pre-training
+Instead of training an entire convolutional layer at a time, we can **train a model of a small patch:** 
+* Train the **ﬁrst layer in isolation.**
+* **Extract all features** from the ﬁrst layer **only once.**
+* Once the first layer is trained, its **output is stored** and **used as input** for training the next layer.
+* We can **train very large models** and incur a **high computational cost** only at inference time.
+
+      
 
 
 
