@@ -9,3 +9,4 @@ Table of Contents
   * [Back Propagation](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_5_Deep_Forward_Networks/Ch_5.1_Back_Propagation/Readme.md)
 * [Regularization for Deep Learning](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_6_Regularization_for_Deep_Learning/Readme.md)
 * [Optimization for Training Deep Models](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_7_Optimization_for_training_deep_models/Readme.md)
+* [Convolution Neural Networks](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_8_Convolutional_Neural_Networks/Readme.md)
