@@ -1,3 +1,41 @@
+Table of Contents
+===================
+- [Convolutional Neural Networks](#convolutional-neural-networks)
+- [Convolution Operation](#convolution-operation)
+  * [Example Demonstrating Convolution Operation](#example-demonstrating-convolution-operation)
+  * [Properties of Convolution Operation and Cross-Correlation](#properties-of-convolution-operation-and-cross-correlation)
+    + [Commutative Property](#commutative-property)
+    + [Cross-Correlation](#cross-correlation)
+  * [Toeplitz Matrix](#toeplitz-matrix)
+  * [Block-Circulant and Doubly-Block-Circulant Matrix](#block-circulant-and-doubly-block-circulant-matrix)
+- [Motivation](#motivation)
+  * [Sparse Interactions](#sparse-interactions)
+  * [Parameter Sharing](#parameter-sharing)
+    + [Equivariance](#equivariance)
+- [Pooling](#pooling)
+  * [Inputs having Variable Size](#inputs-having-variable-size)
+  * [Learned Invariances](#learned-invariances)
+- [Convolution and Pooling as an Infinitely Strong Prior](#convolution-and-pooling-as-an-infinitely-strong-prior)
+  * [Weight Prior](#weight-prior)
+- [Variants of the Basic Convolution Function](#variants-of-the-basic-convolution-function)
+  * [Effect of Strides](#effect-of-strides)
+  * [Effect of Zero Padding](#effect-of-zero-padding)
+    + [Zero Padding Strategies](#zero-padding-strategies)
+- [Types of Convolution](#types-of-convolution)
+  * [Comparing Unshared, Tiled and Traditional Convolutions](#comparing-unshared--tiled-and-traditional-convolutions)
+  * [Examples of Unshared, Tiled and Traditional Convolutions](#examples-of-unshared--tiled-and-traditional-convolutions)
+    + [Unshared Convolution](#unshared-convolution)
+    + [Tiled Convolution](#tiled-convolution)
+    + [Traditional Convolution](#traditional-convolution)
+    + [Comparing Computation Times](#comparing-computation-times)
+- [Structured Outputs](#structured-outputs)
+- [Data Types](#data-types)
+- [Efficient Convolution Algorithms](#efficient-convolution-algorithms)
+  * [Fourier Transform](#fourier-transform)
+  * [Separable Kernels](#separable-kernels)
+- [Random and Unsupervised Features](#random-and-unsupervised-features)
+  * [Greedy Layer-wise Pre-training](#greedy-layer-wise-pre-training)
+
 # Convolutional Neural Networks
 
 Convolutional networks also known as convolutional neural networks, or CNNs, are a specialized kind of neural network for **processing data that has a known grid-like topology.**
@@ -226,7 +264,7 @@ Instead of training an entire convolutional layer at a time, we can **train a mo
 * Once the first layer is trained, its **output is stored** and **used as input** for training the next layer.
 * We can **train very large models** and incur a **high computational cost** only at inference time.
 
-      
+[Scroll To Top](#convolutional-neural-networks)  
 
 
 
