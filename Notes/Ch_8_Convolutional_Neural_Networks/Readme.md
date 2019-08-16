@@ -166,8 +166,11 @@ In practical implementations of the convolution operation, certain modifications
 <img src="./images/25.computation.png"></img><br>
 
 # Structured Outputs
-
-
+* Convolutional networks can be trained to output **high-dimensional structured output** rather than just a classification score.
+* To produce an **output map as same size as input map**, only **same-padded convolutions** can be stacked.
+* The output of the first labelling stage can be **refined successively** by another convolutional model. 
+* If the models use tied parameters, this gives rise to a type of **recursive model**<br>
+<img src="./images/26.structured_outputs.png"></img><br>
 
 
 
