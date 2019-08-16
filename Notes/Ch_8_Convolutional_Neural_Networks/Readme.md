@@ -162,6 +162,9 @@ In practical implementations of the convolution operation, certain modifications
 ### Traditional Convolution
 <img src="./images/24.traditional_convolution.png"></img><br>
 
+### Comparing Computation Times
+<img src="./images/25.computation.png"></img><br>
+
 # Structured Outputs
 
 
