@@ -189,6 +189,10 @@ In practical implementations of the convolution operation, certain modifications
 <img src="./images/27.single_vs_multichanel.png"></img><br>
 
 # Efficient Convolution Algorithms
+## Fourier Transform
+The Fourier Transform is a tool that breaks a waveform (a function or signal) into an alternate representation, characterized by sine and cosines. <br>
+<img src="./images/33.fourier_transform.png" height="200px" width="400px"></img><br>
+## Separable Kernels
 * Convolution is equivalent to converting both **input and kernel** to frequency domain using a **Fourier transform**, performing **point-wise multiplication of two signals**:<br>
 <img src="./images/30.eca_1.png"></img><br>
 * Converting back to **time domain** using an **inverse Fourier transform.** <br>
