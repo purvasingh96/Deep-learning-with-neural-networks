@@ -151,4 +151,21 @@ In practical implementations of the convolution operation, certain modifications
 | **Traditional Convolution** | 1. Equivalent to **tiled convolution with t=1.**<br> 2. Has the **same connectivity as unshared convolution**<br>                                                                                                                                                                                 |                                                                                                                                                                                                                                                                                                |
 
 
+## Examples of Unshared, Tiled and Traditional Convolutions
+
+### Unshared Convolution
+<img src="./images/22.unshared_convolution.png"></img><br>
+
+### Tiled Convolution
+<img src="./images/23.tiled_convolution.png"></img><br>
+
+### Traditional Convolution
+<img src="./images/24.traditional_convolution.png"></img><br>
+
+
+
+
+
+
+
 
