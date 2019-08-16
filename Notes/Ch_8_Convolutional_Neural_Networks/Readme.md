@@ -107,3 +107,44 @@ The convolution operates on the **input** with a **kernel (weights)** to produce
      * Except for a **small spatially connected** region, all **other weights** must be **zero.**
 * Features should be **translation invariant.**
 * If tasks relies on preserving specific spatial information, then pooling can cause on all features can increase training error.
+
+# Variants of the Basic Convolution Function
+
+In practical implementations of the convolution operation, certain modifications are made which deviate from standard discrete convolution operation -
+
+* In general a convolution layer consists of application of **several different kernels** to the input. Since, convolution with a **single kernel can extract only one kind of feature.**
+* The input is generally not real-valued but instead **vector valued.** 
+* Multi-channel convolutions are commutative iff **number of output and input channels is the same.**
+
+## Effect of Strides
+
+* **Stride** is the number of **pixels shifts** over the input matrix.
+* In order to allow for calculation of features at a **coarser level** strided convolutions can be used. 
+* The effect of strided convolution is the same as that of a **convolution followed by a downsampling stage.**
+* Strides can be used to **reduce the representation size.**
+* Below is an example representing **2-D Convolution, with (3 * 3) Kernel and Stride of 2 units.**<br>
+<img src="./images/19.stride_2.gif"></img><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
