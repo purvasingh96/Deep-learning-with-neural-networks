@@ -12,6 +12,7 @@
 10. [Sanghyukchun's Blog](http://sanghyukchun.github.io/88/)
 11. [Dalmia's Medium Deep Learning Blog](https://medium.com/inveterate-learner/deep-learning-book-chapter-9-convolutional-networks-45e43bfc718d)
 12. [Max-Pooling](https://www.pexels.com/) 
+13. [Zero padding examples from Miro's medium blog](https://miro.medium.com/max/311/1*hOI0jW3CcS_yuxcmJIYjKw.gif)
 
 ## Research Papers 
 
