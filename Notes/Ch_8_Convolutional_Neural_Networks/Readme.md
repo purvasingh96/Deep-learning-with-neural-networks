@@ -172,6 +172,15 @@ In practical implementations of the convolution operation, certain modifications
 * If the models use tied parameters, this gives rise to a type of **recursive model**<br>
 <img src="./images/26.structured_outputs.png"></img><br>
 
+| Variable  | Description                                            |
+|-----------|--------------------------------------------------------|
+| **X**     | Input image tensor                                     |
+| **Y**     | Probability distribution over tensor for each pixel    |
+| **H**     | Hidden representation                                  |
+| **U**     | Tensor of convolution kernels                          |
+| **V**     | Tensor of kernels to produce estimation of lables      |
+| **W**     | Kernel tensor to convolve over Y to provide input to H |
+
 # Data Types
 > The data used with a convolutional network usually consist of several channels,each channel being the observation of a diﬀerent quantity at some point in space or time.<br>
 
