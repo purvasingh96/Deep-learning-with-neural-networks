@@ -19,6 +19,7 @@ This repository contains -<br>
   - Chapter 6: Deep Feedforward Networks - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_5_Deep_Forward_Networks/ReadMe.md)
   - Chapter 7: Regularization for Deep Learning - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_6_Regularization_for_Deep_Learning/Readme.md)
   - Chapter 8: Optimization for Training Deep Models - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_7_Optimization_for_training_deep_models/Readme.md)
+  - Chapter 9: Convolution Neural Network - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_8_Convolutional_Neural_Networks/Readme.md)
   
 - **[References](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/References.md)**
 
