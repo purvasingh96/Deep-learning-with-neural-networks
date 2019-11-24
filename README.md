@@ -1,12 +1,14 @@
 [![Download](https://img.shields.io/badge/download-book-brightgreen.svg)](https://github.com/purvasingh96/Deep-learning-with-neural-networks/raw/master/Deep-Learning-Book.pdf)
 # Overview
 
-<img src="./deep-learning-book-goodfellow-cover.jpg" width="400" alt="Cover of the deep learning book by Goodfellow, Bengio and Courville" title="The Deep Learning Book - Goodfellow, I., Bengio, Y., and Courville, A. (2016)">
+| <img src="./deep-learning-book-goodfellow-cover.jpg" width="350" height="400"> | <img src="./bertelsmann.png"> |
+|-------------------------------------------------------------------|-------------------------------|
 
 This repository contains -<br>
 :heavy_check_mark: Chapter-wise **summarized notes**.<br>
 :heavy_check_mark: Chapter-wise **PDF.**<br>
 :heavy_check_mark: Chapter-wise **codes.** (.ipynb files)<br>
+:heavy_check_mark: Summarized notes on Udacity's **Nanodegree in AI** ([Bertelsmann Scholarship](https://www.udacity.com/bertelsmann-tech-scholarships))<br>
 
 # Chapters
 - **Part I: Applied Math and Machine Learning Basics**
