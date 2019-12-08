@@ -9,11 +9,20 @@ This repository provides tutorial code for deep learning researchers to learn [P
 
 ## Get Started Locally
 
-### Install Jupyter Notebook
+### Install and Launch Jupyter Notebook
+
+To **install** jupyter notebook, run the following command - 
 ```
 conda install numpy jupyter notebook
 ```
 If you haven't used conda before, please read the [documentation](https://conda.io/en/latest/) to learn how to create environments and install packages. I suggest installing Miniconda instead of the whole Anaconda distribution. The normal package manager pip also works well. 
+
+To **launch** jupyter notebook, run the following command - 
+```
+jupyter notebook
+```
+
+Your jupyter notebook should be running on **localhost:8888**
 
 ### Install Pytorch
 
