@@ -34,5 +34,5 @@ conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 ```
 
 ### Verification 
-To ensure that PyTorch was installed correctly, we can verify the installation by running sample PyTorch code. 
+To ensure that PyTorch was installed correctly, we can verify the installation by running [sample PyTorch code.](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/01.verify_pytorch_installation.ipynb) 
 
