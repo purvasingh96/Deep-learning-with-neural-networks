@@ -33,6 +33,20 @@ The easiest way to install PyTorch and torchvision locally is by following the i
 conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 ```
 
+### Installing helper module
+
+To install **helper module** 
+
+```
+pip install torch-helpers
+```
+
+Or
+
+```
+!wget https://raw.githubusercontent.com/udacity/deep-learning-v2-pytorch/3bd7dea850e936d8cb44adda8200e4e2b5d627e3/intro-to-pytorch/helper.py
+```
+
 ### Verification 
 To ensure that PyTorch was installed correctly, we can verify the installation by running [sample PyTorch code.](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/01.verify_pytorch_installation.ipynb) 
 
