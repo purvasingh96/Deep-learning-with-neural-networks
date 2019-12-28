@@ -111,17 +111,19 @@ The convolution operates on the **input** with a **kernel (weights)** to produce
      * Convolution
      * Activation (Detector Stage)
      * Pooling
+  
 * A pooling function **replaces the output** of net at a certain location with **summary statistic of nearby outputs.**
 * Common summary statistics are : **mean, median, weighted average.** <br>
 <img src="./images/17.max_pooling.png"></img><br>
 * Pooling makes the representation slightly **translation invariant**, in that **small translations** in the input **do not cause large changes in output map.**
 * It allows detection of a particular feature **if we only care about its existence**, not its position in an image.
 * Pooling **reduces input size to the next layer** in turn reducing the number of computations required upstream.
+<img src="./images/35.image_classification_01.png"></img><br>
 
 ## Inputs having Variable Size
 * **Classification layers** requires **fixed size** of their inputs. 
 * **Pooling** makes their **output fixed size** by changing their **pooling size, stride etc.**<br>
-<img src="./images/18.variable_sized_inputs.png"></img><br>
+<img src="./images/36.image_classification_02.png"></img><br>
 
 ## Learned Invariances
 * Pooling over feature channels can be used to develop invariance to certain transformations of the input.
