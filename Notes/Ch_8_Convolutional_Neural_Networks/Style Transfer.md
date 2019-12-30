@@ -53,7 +53,8 @@ Below are the steps to follow inorder to calculate Gram matrix for the above inp
 3. Finally, we are left with 8-by-8 Gram matrix whose values indicate similarities between the layers. Hence, *G(4,2)* will indicates similarity between 4th and 2nd feature maps in a layer. 
 
 
-
+# Style Loss
+To calculate style loss between style image and target image, we find the **mean squared distance between style and target image's Gram matrices**.
 
 
 
