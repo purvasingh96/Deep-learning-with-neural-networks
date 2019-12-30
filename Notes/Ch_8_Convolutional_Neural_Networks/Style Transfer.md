@@ -54,7 +54,13 @@ Below are the steps to follow inorder to calculate Gram matrix for the above inp
 
 
 # Style Loss
-To calculate style loss between style image and target image, we find the **mean squared distance between style and target image's Gram matrices**.
+To calculate style loss between style image and target image, we find the **mean squared distance between style and target image's Gram matrices**. This list of Gram matricies of style (Ss) and target (Ts) image are predefined. Style loss is hence given by -<br>
+<img src="./images/style_transfer/14. style_loss.png"></img><br>
+
+## Total loss
+Total loss is given by **sum of style loss and content loss.**<br>
+<img src="./images/style_transfer/15. total_loss.png"></img><br>
+
 
 
 
