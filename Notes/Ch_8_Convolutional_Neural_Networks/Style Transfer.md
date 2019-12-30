@@ -61,8 +61,13 @@ To calculate style loss between style image and target image, we find the **mean
 Total loss is given by **sum of style loss and content loss.**<br>
 <img src="./images/style_transfer/15. total_loss.png"></img><br>
 
+## Loss Weights
+Since style loss and content loss are calculated differently, these values will be different from one another and we would want our target image to take both losses fairly into account. Hence we apply loss weights, **alpha and beta**, to content and style losses such that total loss reflects equal balance.<br>
+<img src="./images/style_transfer/16. alpha_beta.png"></img><br>
 
-
+### Effect of Loss Weights
+Below is an example of effect of ratio (alpha/beta) upon images -<br>
+<img src="./images/style_transfer/17. effect_of_ratio.png"></img><br>
 
 
 
