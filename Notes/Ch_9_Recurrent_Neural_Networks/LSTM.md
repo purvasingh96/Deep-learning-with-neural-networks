@@ -28,5 +28,15 @@ Assume the following -
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | **LSTM places LTM, STM and Event as follows -**<br> 1. Forget Gate = LTM<br>  2. Learn Gate = STM + Event<br> 3. Remember Gate = LTM + STM + Event<br> 4. Use Gate = LTM + STM + Event<br> 5. In the end, LTM and STM are updated.<br> | <img src="./images/Animated GIF-downsized_large.gif"></img> |
 
+## Learn Gate
+Learn gate takes into account **short-term memory and event** and then ignores a part of it and retains only a part of information.<br>
+<img src="./images/11. learn_gate.png" height="200px" width="500px"></img>
+
+### Mathematically Explained
+STM and Event are combined together through **activation function** (tanh), which we further multiply it by a **ignore factor** as follows -<br>
+
+<img src="./images/12.lean_gate_equation.png"></img>
+
+
 
 
