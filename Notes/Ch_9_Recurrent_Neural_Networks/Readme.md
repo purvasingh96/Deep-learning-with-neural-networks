@@ -24,4 +24,5 @@ our results.<br>
 * RNNs have **short-term memory.**<br><br>
 <img src="./images/04. Drawbacks_of_RNN.png" width="500px" height="250px"></img>
 
+Next -  [LSTM](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_9_Recurrent_Neural_Networks/LSTM.md)
 
