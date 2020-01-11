@@ -42,6 +42,15 @@ Forget gate takes into account the LTM and decides which part of it to keep and 
 <img src="./images/13. forget_gate.png" height="200px" width="500px"></img>
 
 ## Remember Gate
-Remember gate takes LTM coming from Forget gate and STM coming from Learn gate and combines them together. Mathematically, remember gate adds LTM and STM.<br>
+Remember gate takes LTM coming from Forget gate and STM coming from Learn gate and combines them together. Mathematically, remember gate adds LTM and STM.<br><br>
 <img src="./images/14. remember_gate.png" height="200px" width="400px"></img> <img src="./images/15. remember_gate_equation.png" height="200px" width="450px"></img>
+
+## Use Gate
+Use gate takes what is useful from LTM and what's useful from STM and generates a new LTM.<br><br>
+<img src="./images/16. use_gate.png" height="200px" width="400px"></img> <img src="./images/17. use_gate_equation.png" height="200px" width="450px"></img>
+
+
+
+
+
 
