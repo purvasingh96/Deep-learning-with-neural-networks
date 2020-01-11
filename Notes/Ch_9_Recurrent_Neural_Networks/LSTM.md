@@ -37,6 +37,9 @@ STM and Event are combined together through **activation function** (tanh), whic
 
 <img src="./images/12.lean_gate_equation.png"></img>
 
+## Forget Gate
+Forget gate takes into account the LTM and decides which part of it to keep and which part of LTM is useless and forgets it. LTM gets multiplied by a **forget factor** inroder to forget useless parts of LTM. <br>
+<img src="./images/13. forget_gate.png"></img>
 
 
 
