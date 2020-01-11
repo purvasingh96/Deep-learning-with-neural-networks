@@ -35,11 +35,13 @@ Learn gate takes into account **short-term memory and event** and then ignores a
 ### Mathematically Explained
 STM and Event are combined together through **activation function** (tanh), which we further multiply it by a **ignore factor** as follows -<br>
 
-<img src="./images/12.lean_gate_equation.png"></img>
+<img src="./images/12.lean_gate_equation.png" height="200px" width="500px"></img>
 
 ## Forget Gate
 Forget gate takes into account the LTM and decides which part of it to keep and which part of LTM is useless and forgets it. LTM gets multiplied by a **forget factor** inroder to forget useless parts of LTM. <br>
-<img src="./images/13. forget_gate.png"></img>
+<img src="./images/13. forget_gate.png" height="200px" width="500px"></img>
 
-
+## Remember Gate
+Remember gate takes LTM coming from Forget gate and STM coming from Learn gate and combines them together. Mathematically, remember gate adds LTM and STM.<br>
+<img src="./images/14. remember_gate.png" height="200px" width="400px"></img> <img src="./images/15. remember_gate_equation.png" height="200px" width="450px"></img>
 
