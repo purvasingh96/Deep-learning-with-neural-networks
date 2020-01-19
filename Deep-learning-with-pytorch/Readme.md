@@ -50,3 +50,7 @@ Or
 ### Verification 
 To ensure that PyTorch was installed correctly, we can verify the installation by running [sample PyTorch code.](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/01.verify_pytorch_installation.ipynb) 
 
+
+### Few Important Links
+1. [Basics of Numpy](https://jakevdp.github.io/PythonDataScienceHandbook/02.02-the-basics-of-numpy-arrays.html)
+2. [PyTorch nn.Module Syntax](https://pytorch.org/docs/stable/nn.html)
