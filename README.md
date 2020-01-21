@@ -34,6 +34,9 @@ This repository contains -<br>
     - Data Augmentation - [Code](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/2.%20Convolution%20Neural%20Networks/data_augmentation.ipynb)
     - Style-Transfer Learning - [Code](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/2.%20Convolution%20Neural%20Networks/style-transfer.ipynb)
   - Chapter 10: Recurrent Neural Network - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_9_Recurrent_Neural_Networks/Readme.md)
+    - Time-series - [Code](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/3.%20Recurrent%20Neural%20Networks/time-series-using-rnn.ipynb)
+    - Text generation - [Code](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/3.%20Recurrent%20Neural%20Networks/Char_RNN.ipynb)
+    - Sentiment analysis - [Code](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/3.%20Recurrent%20Neural%20Networks/Sentiment_analysis_via_RNN.ipynb)
   
 - **[References](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/References.md)**
 
