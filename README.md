@@ -19,15 +19,20 @@ This repository contains -<br>
   
 - **Part II: Modern Practical Deep Networks**
   - Chapter 6: Deep Feedforward Networks - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_5_Deep_Forward_Networks/ReadMe.md)<br>
-    - Single Layer Neural Network - [PyTorch Implementation](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/1.%20Intro%20to%20PyTorch/02.single_layer_neural_network.ipynb)    
-    - Multi-Layer Neural Network - [PyTorch Implementation](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/1.%20Intro%20to%20PyTorch/03.mutilayer_neural_network.ipynb)    
-    - Softmax Function - [PyTorch Implementation](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/1.%20Intro%20to%20PyTorch/04.implementing_softmax.ipynb)    
-    - ReLU Function - [PyTorch Implementation](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/1.%20Intro%20to%20PyTorch/05.ReLU_using_pytorch.ipynb)    
-    - Training Neural Network - [PyTorch Implementation](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/1.%20Intro%20to%20PyTorch/06.training_neural_network_via_pytorch.ipynb)<br>    
+    - Single Layer Neural Network - [Code](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/1.%20Intro%20to%20PyTorch/02.single_layer_neural_network.ipynb)    
+    - Multi-Layer Neural Network - [Code](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/1.%20Intro%20to%20PyTorch/03.mutilayer_neural_network.ipynb)    
+    - Softmax Function - [Code](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/1.%20Intro%20to%20PyTorch/04.implementing_softmax.ipynb)    
+    - ReLU Function - [Code](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/1.%20Intro%20to%20PyTorch/05.ReLU_using_pytorch.ipynb)    
+    - Training Neural Network - [Code](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/1.%20Intro%20to%20PyTorch/06.training_neural_network_via_pytorch.ipynb)<br>    
   - Chapter 7: Regularization for Deep Learning - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_6_Regularization_for_Deep_Learning/Readme.md)
-    - Regularization - [PyTorch Implementation](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/1.%20Intro%20to%20PyTorch/08.%20Regularization_using_pytorch.ipynb)
+    - Regularization - [Code](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/1.%20Intro%20to%20PyTorch/08.%20Regularization_using_pytorch.ipynb)
   - Chapter 8: Optimization for Training Deep Models - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_7_Optimization_for_training_deep_models/Readme.md)
-  - Chapter 9: Convolution Neural Network - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_8_Convolutional_Neural_Networks/Readme.md)  
+  - Chapter 9: Convolution Neural Network - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_8_Convolutional_Neural_Networks/Readme.md)
+    - Loading Image Data - [Code](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/1.%20Intro%20to%20PyTorch/09.%20loading_image_data_via_pytorch.ipynb)
+    - Validating Image Data - [Code](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/2.%20Convolution%20Neural%20Networks/01.%20Load_train_test_and_validate_your_model.ipynb)
+    - CFIAR Image Classifier - [Code](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/2.%20Convolution%20Neural%20Networks/CFIAR_image_classifier.ipynb)
+    - Data Augmentation - [Code](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/2.%20Convolution%20Neural%20Networks/data_augmentation.ipynb)
+    - Style-Transfer Learning - [Code](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Deep-learning-with-pytorch/2.%20Convolution%20Neural%20Networks/style-transfer.ipynb)
   - Chapter 10: Recurrent Neural Network - [Notes](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_9_Recurrent_Neural_Networks/Readme.md)
   
 - **[References](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/References.md)**
