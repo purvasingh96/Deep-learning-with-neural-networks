@@ -2,7 +2,18 @@
 
 --------------------------------------------------------------------------------
 
-This repository provides tutorial code for deep learning researchers to learn [PyTorch](https://github.com/pytorch/pytorch). My reference for this repository's content is from [Udacity's Bertelsmann Scholarship for AI track](https://www.udacity.com/bertelsmann-tech-scholarships). Before starting this tutorial, it is recommended to finish [Official Pytorch Tutorial](http://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html).
+# Deep Learning with PyTorch
+
+This repository provides tutorial code for deep learning researchers to learn [PyTorch](https://github.com/pytorch/pytorch). My reference for this repository's content is from [Udacity's Bertelsmann Scholarship for AI track](https://www.udacity.com/bertelsmann-tech-scholarships). Before starting this tutorial, it is recommended to finish [Official Pytorch Tutorial](http://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)
+
+* **Part 1:** Introduction to PyTorch and using tensors
+* **Part 2:** Building fully-connected neural networks with PyTorch
+* **Part 3:** How to train a fully-connected network with backpropagation on MNIST
+* **Part 4:** Exercise - train a neural network on Fashion-MNIST
+* **Part 5:** Using a trained network for making predictions and validating networks
+* **Part 6:** How to save and load trained models
+* **Part 7:** Load image data with torchvision, also data augmentation
+* **Part 8:** Use transfer learning to train a state-of-the-art image classifier for dogs and cats
 
 
 <br/>
