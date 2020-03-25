@@ -141,6 +141,8 @@ Choice of **cost function** is tightly coupled with **cost units**, which determ
 * Going with **linear approach** which predicts **unnormalized log probabilities**, where<br>
 <img src="./images/32.linear_approach_for_softmax.png"></img> and<br> <img src="./images/33.conditions.png"></img><br>we want to **maximize** <img src="./images/34.maximization_goal.png"></img>, therefore:<br>
 <img src="./images/31.softmax_fucntion.png"></img>
+* An example of a classification problem that can be solved by Softmax function is shown below -<br>
+<img src="./images/46. softmax_classifictaion_problem.png">
 * **Zi** has direct contribution to **cost-function.**
 * **Zi** cannot saturate.
 * **Squared error** is a **poor loss function** for softmax units.
