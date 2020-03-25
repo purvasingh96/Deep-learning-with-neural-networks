@@ -152,7 +152,12 @@ Choice of **cost function** is tightly coupled with **cost units**, which determ
 * Saturation conditions<br>
     * <img src="./images/35.saturation_condition_01.png"></img>, softmax **saturates to 1.**
     * **zi is not maximal** and the maximum is much greater. 
-    
+## One Hot Encoding
+One hot encoding is used to represent scenarios in which we have more than one class as below -<br>
+<img src="47. one_hot_encoding.png"></img>
+
+
+
 ## Hidden Units
 * **ReLU** units are an excellent default choice of hidden unit.
 * Some of the hidden units **might not be differentiable**, e.g. **ReLU** is not differentiable at z=0.
