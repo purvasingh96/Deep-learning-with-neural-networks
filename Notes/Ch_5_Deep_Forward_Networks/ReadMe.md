@@ -32,6 +32,8 @@
 * **MLP is different from classifier** as follows -
   * For **Classifier**, y=f*(x), maps input **x** to category **y**.
   * For **MLP**, y=f(x;θ) learns parameter θ that results in **best function approximation**.
+* Sample perceptron is shown below - <br>
+<img src="./images/44. basic_perceptron.png"></img>
   
 * **They are called feed-forward because of the following information flow-**<br>
   `information ==> x ==> intermediate computations defining f ==> final o/p y   `
