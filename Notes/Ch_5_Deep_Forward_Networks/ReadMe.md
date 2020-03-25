@@ -93,10 +93,14 @@ The best scenario is the one where **total probability is maximum**; hence senar
 Therefore our new goal is to reach the probability of scenario-2, i.e. **maximize probability in scenario-1**.<br>
 <img src="./images/49. max_likelihood-2.png"></img><br>
 
-## Cost Functions
+## Cost Functions / Cross-Entropy
 * Cost functions for neural networks is **approximately same as linear functions.** 
-* Cost function used is **cross-entropy between training data and model's prediction.**<br>
+* Cost function used is **cross-entropy between training data and model's prediction.** (summation of negative logarithm of all probabilities)<br>
+<img src="./images/49. cross_entropy.png"></img><br>
+
+To put cross-entropy in formula - 
 <img src="./images/17.cross_entropy.png"></img><br>
+
 * Advantage of using maximum-likelihood for cost function is that it removes burden for designing **cost functions for each model.**
 * **Gradient** of network should be **large and predictable.**
 * **Saturatable functions** make **activation function small** which produces the model's output (exponent functions that saturate when their argument is negative). Solution is to use **negative logarithmic functions.**
