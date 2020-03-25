@@ -85,6 +85,14 @@ Our model provides a **functiony=f(x;θ)**, and **learning algorithm** will adap
 # Gradient Based Learning
 To apply gradient-based learning we must choose a **cost function**, and we must choose how to represent **output of the model**.
 
+## Maximum Likelihood
+We are given a classification problem where we have to classify red and blue dots. Below are 2 cases where a boundry line tries to classify red and blue dots.  We are also given the probability of dot being blue or red. Now, when we calculate the total probability we get - <br>
+<img src="./images/48. max_likelihood.png"></img><br>
+
+The best scenario is the one where **total probability is maximum**; hence senario-2 is the best.<br>
+Therefore our new goal is to reach the probability of scenario-2, i.e. **maximize probability in scenario-1**.<br>
+<img src="./images/49. max_likelihood-2.png"></img><br>
+
 ## Cost Functions
 * Cost functions for neural networks is **approximately same as linear functions.** 
 * Cost function used is **cross-entropy between training data and model's prediction.**<br>
@@ -107,13 +115,6 @@ To apply gradient-based learning we must choose a **cost function**, and we must
 
 ## Output Units
 Choice of **cost function** is tightly coupled with **cost units**, which determines form of **cross-entropy** functions.
-### Maximum Likelihood
-We are given a classification problem where we have to classify red and blue dots. Below are 2 cases where a boundry line tries to classify red and blue dots.  We are also given the probability of dot being blue or red. Now, when we calculate the total probability we get - <br>
-<img src="./images/48. max_likelihood.png"></img><br>
-
-The best scenario is the one where **total probability is maximum**; hence senario-2 is the best.<br>
-Therefore our new goal is to reach the probability of scenario-2, i.e. **maximize probability in scenario-1**.<br>
-<img src="./images/49. max_likelihood-2.png"></img><br>
 
 ### Linear Units for Gaussian Output Distributions
 * Linear units are **affine transformations** with **no nonlinearity.**
