@@ -154,7 +154,7 @@ Choice of **cost function** is tightly coupled with **cost units**, which determ
     * **zi is not maximal** and the maximum is much greater. 
 ## One Hot Encoding
 One hot encoding is used to represent scenarios in which we have more than one class as below -<br>
-<img src="47. one_hot_encoding.png"></img>
+<img src="./images/47. one_hot_encoding.png"></img>
 
 
 
