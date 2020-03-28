@@ -97,7 +97,7 @@ To apply gradient-based learning we must choose a **cost function**, and we must
 
 ## Mean Squared Error
 Our neural network needs to make predictions as close as the real value. To measure this, we use a metric of how wrong the predictions are, **the error**. A common metric is the sum of the **squared errors (SSE):**<br>
-<img src="./images/50. SSE.png"></img>
+<img src="./images/58. SSE.png"></img>
 
 ## Maximum Likelihood
 We are given a classification problem where we have to classify red and blue dots. Below are 2 cases where a boundry line tries to classify red and blue dots.  We are also given the probability of dot being blue or red. Now, when we calculate the total probability we get - <br>
