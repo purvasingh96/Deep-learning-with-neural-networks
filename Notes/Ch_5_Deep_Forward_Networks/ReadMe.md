@@ -108,6 +108,9 @@ This delta weight is used to modify the current weights-<br><br>
 ### Maths behind SSE
 <img src="./images/61. SSE_derivation_1.png"></img>
 
+### Python code for implementing SSE
+Refer - [gradient_descent.py](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_5_Deep_Forward_Networks/gradient_descent.py) for implementation of graident descent in python.
+
 ## Maximum Likelihood
 We are given a classification problem where we have to classify red and blue dots. Below are 2 cases where a boundry line tries to classify red and blue dots.  We are also given the probability of dot being blue or red. Now, when we calculate the total probability we get - <br>
 <img src="./images/48. max_likelihood.png"></img><br>
