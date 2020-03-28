@@ -102,6 +102,12 @@ Our neural network needs to make predictions as close as the real value. To meas
 The equation above resembles that of a parabola and since SSE is depended on weights, our goal is to **find weights that minimize the error** (i.e. the vertex of the parabola) -<br><br> 
 <img src="./images/59. grad_desc.png" height="50%" width="50%"></img><br><br>
 
+This delta weight is used to modify the current weights-<br><br>
+<img src="./images/60. delta_weights.png" height="50%" width="50%"></img><br><br>
+
+### Maths behind SSE
+<img src="./images/61. SSE_derivation_1.png"></img>
+
 ## Maximum Likelihood
 We are given a classification problem where we have to classify red and blue dots. Below are 2 cases where a boundry line tries to classify red and blue dots.  We are also given the probability of dot being blue or red. Now, when we calculate the total probability we get - <br>
 <img src="./images/48. max_likelihood.png"></img><br>
