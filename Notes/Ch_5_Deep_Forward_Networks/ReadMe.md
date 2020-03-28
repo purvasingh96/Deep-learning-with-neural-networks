@@ -83,7 +83,21 @@ Our model provides a **functiony=f(x;θ)**, and **learning algorithm** will adap
 <img src="./images/16.non_linear_model.png"></img>
 
 # Gradient Based Learning
+**Concept :** To understand gradient descent, lets consider a situation where we are at the top of mount Errorest and we need to reach at the bottom of mount Errorest. <br><br>
+<img src="./images/55. mount_err_5.png" width="50%" height="50%"></img><br>
+One solution could be to look at all directions and chose the direction that leads to the most descent.<br>
+<img src="./images/51. mount_err_1.png" width="40%"></img>
+<img src="./images/52. mount_err_2.png" width="40%"></img><br><br>
+Then, we repeat the steps again for next round -<br><br>
+<img src="./images/53. mount_err_3.png" width="40%" height="40%"></img><br><br>
+As the final step, the man reaches the bottom of mount Errorest. This is known as **Gradient Descent.**<br><br>
+<img src="./images/54. mount_err_4.png" width="50%" height="50%"></img><br><br>
+
 To apply gradient-based learning we must choose a **cost function**, and we must choose how to represent **output of the model**.
+
+## Mean Squared Error
+Our neural network needs to make predictions as close as the real value. To measure this, we use a metric of how wrong the predictions are, **the error**. A common metric is the sum of the **squared errors (SSE):**<br>
+<img src="./images/50. SSE.png"></img>
 
 ## Maximum Likelihood
 We are given a classification problem where we have to classify red and blue dots. Below are 2 cases where a boundry line tries to classify red and blue dots.  We are also given the probability of dot being blue or red. Now, when we calculate the total probability we get - <br>
