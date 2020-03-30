@@ -44,10 +44,14 @@ Table of Contents
  * **Bias** has a **negative first-order derivative** in response to model complexity while **variance** has a **positive slope.**
  
  # Bias Variance Trade-Off
+ ## Overview
  Consider a situation below where we started off by training data upto 10 epochs. Here we encounter case of underfitting since the model is not well defined. Going further into training epochs, we see we find the right model that fits perfectly. Upon training even more, the model starts to overfit.<br><br>
-  <img src="./images/graph_over_under_fit.png"></img>
+  <img src="./images/graph_over_under_fit.png" width=70% height=70%></img>
  * An eﬀective regularizer is one that makes a proﬁtable trade, **reducing variance** signiﬁcantly while **not overly increasing bias.**<br>
  <img src="./images/01.bias_variance_trade_off.png"></img>
+ 
+ ## Model Complexity Graph
+ <img src="./images/early_stopping.png" width=50% height=50%></img><br><br>
 
 # Strategies to make Deep Regularization Model
 # Parameter Norm Penalty
