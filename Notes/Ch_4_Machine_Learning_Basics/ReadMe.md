@@ -70,7 +70,7 @@ Consider the following scenario to understand overfitting and underfitting -<br>
 <img src="./images/over_and_under_fittin.png" width="50%" height="50%"></img><br><br>
 
 In terms of neural networks, overfitting and underfitting can be classified as follows - <br><br>
-<img src="./images/nn_over_and_under_fitting.png" width="50%" height="50%"></img><br><br>
+<img src="./images/nn_over_and_under_fitting.png" width="50%" height="70%"></img><br><br>
 
 * **Generalization -** Ability to perform on previously unobserved inputs.
 * **Generalization/Test-Error** - Expected value of error on new input.
