@@ -44,10 +44,10 @@ A computer program is said to learn from **experience E** with respect to some c
 
 ## Training and Testing Data
 Consider the below scenario where on the left we have a simple solution to classify 2 categories of points. The second solution is a bit complex as compared to first one. Now, which one is a better solution?<br><br>
-<img src="./images/training_and_testing_data.png"></img><br><br>
+<img src="./images/training_and_testing_data.png" width="50%" height="50%"></img><br><br>
 We classify our data into 2 types - training and testing data.<br>
-We calculate and predict the line of classification using training data (without looking at testing data.) Now we see how well our prediction has performed on testing data. The dots with white inside are testing data.<br>
-<img src="./images/why_testing.png"></img><br><br>
+We calculate and predict the line of classification using training data (without looking at testing data.) Now we see how well our prediction has performed on testing data. The dots with white inside are testing data.<br><br>
+<img src="./images/why_testing.png" width="50%" height="50%"></img><br><br>
 Looking at the scenario above, it is clear that the first solution is a better one since it classified more data points correctly.
 
 
@@ -64,6 +64,14 @@ Looking at the scenario above, it is clear that the first solution is a better o
 <img src="images/05. Optimum_weight.png" width="300" height="60" ><br>
 
 # Capacity, Overfitting and Underfitting
+Consider the following scenario to understand overfitting and underfitting -<br><br>
+*Scenario 1:* Trying to kill Godzilla using fly-trap => Here we are over-simplifying the problem. This is called **underfitting**<br>
+*Scenario 2:* Trying to kill fly using Bazooka. => Here we are over-complicating the solution which will lead to bad results. This is known as **overfitting**<br><br> 
+<img src="./images/over_and_under_fittin.png" width="50%" height="50%"></img><br><br>
+
+In terms of neural networks, overfitting and underfitting can be classified as follows - <br><br>
+<img src="./images/nn_over_and_under_fitting.png" width="50%" height="50%"></img><br><br>
+
 * **Generalization -** Ability to perform on previously unobserved inputs.
 * **Generalization/Test-Error** - Expected value of error on new input.
 * To improve model's performance, reduce **test-error.** Test error can be defined as follows -<br><img src="images/07. test_error.png" width="200" height="60" ><br>
