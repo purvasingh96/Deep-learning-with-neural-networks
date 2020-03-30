@@ -61,11 +61,7 @@ Consider a situation below where the goal is to split 2 points and find out whic
 <img src="./images/activation_function.png" width=65% height=65%></img><br><br>
 Here, in case of solution-2, the derivative of sigmoid function will be too steep and will lead to overfitting. To overcome this problem, we should penalize large weights. This can be done by taking old error term and adding a term which is big when weights are big. This can be done in 2 ways -<br><br>
 <img src="./images/l1_l2_regularization.png" width=65% height=65%></img><br><br>
-## L1 v/s L2 Regularization
-<img src="./images/l1_vs_l2.png" width=65% height=65%></img><br><br>
-> [L1 and L2 Regularization Methods](https://towardsdatascience.com/l1-and-l2-regularization-methods-ce25e7fc831c)
->The key difference between these techniques is that L1 shrinks the less important feature’s coefficient to zero thus, removing some feature altogether. So, this works well for feature selection in case we have a huge number of features.
->
+
 ## Parameter Norm Penalty
 * Limits the model's capacity by **adding norm penalty Ω(θ)** parameter to objective function **J**. <br>
  <img src="./images/02.norm_penalities.png"></img>
@@ -131,6 +127,10 @@ Here, in case of solution-2, the derivative of sigmoid function will be too stee
    * <img src="./images/20.case1_1.png"></img><img src="./images/22.case_2_2.png"></img>: Regularization **shifts wi to direction by distance equal to** <img src="./images/24.case_2_2.png"></img>
    
 # Comparing L1 and L2 Norm Parameterization
+<img src="./images/l1_vs_l2.png" width=65% height=65%></img><br><br>
+> [L1 and L2 Regularization Methods](https://towardsdatascience.com/l1-and-l2-regularization-methods-ce25e7fc831c)
+>The key difference between these techniques is that L1 shrinks the less important feature’s coefficient to zero thus, removing some feature altogether. So, this works well for feature selection in case we have a huge number of features.
+>
 * L1 norm is commonly used in ML if **difference between zero and non-zero elements is very important.**
 
 * **Sparsity** refers to the fact that some parameters have an **optimal value of zero.** In this context, L1 parameterization is **more sparse than L2** parameterization and can cause parameters to become 0 **for large values of α.**
