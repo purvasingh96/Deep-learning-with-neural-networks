@@ -41,6 +41,16 @@ A computer program is said to learn from **experience E** with respect to some c
 | **Perfomance Pressure, P** | 1. Measure *accuracy, error-rate* of model.<br> 2. Evaluate P, using *test-set* (completely separate from *train-set*).<br>                                                                                                                                                                                                                                                                                                                                   |
 | **Experience, E**          | 1. Based on E, ML algorithms are classified as *unsupervised* and *supervised* learning algos.                                                                                                                                                                                                                                                                                                                                                                |
 
+
+## Training and Testing Data
+Consider the below scenario where on the left we have a simple solution to classify 2 categories of points. The second solution is a bit complex as compared to first one. Now, which one is a better solution?<br><br>
+<img src="./images/training_and_testing_data.png"></img><br><br>
+We classify our data into 2 types - training and testing data.<br>
+We calculate and predict the line of classification using training data (without looking at testing data.) Now we see how well our prediction has performed on testing data. The dots with white inside are testing data.<br>
+<img src="./images/why_testing.png"></img><br><br>
+Looking at the scenario above, it is clear that the first solution is a better one since it classified more data points correctly.
+
+
 ## Linear Regression
 * **Goal :** Build a system that takes vector **x є R**, and predict value of scalar **y є R** as output. Output can be defined as follows, where **b** is the intercept term -<br>
 <img src="images/06. linear_regression.png" width="170" height="50" ><br>
