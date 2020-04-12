@@ -17,7 +17,7 @@ The approach for using transfer learning will be different. There are four main 
 
 ## Case 1: Small Data Set, Similar Data
 If the new data set is small and similar to the original training data:<br>
-<img src="/images/transfer_learning_01.png"></img>
+<img src="./images/transfer_learning_01.png"></img>
 
 1. Slice off the end of the neural network
 2. Add a new fully connected layer that matches the number of classes in the new data set
@@ -35,7 +35,7 @@ If the new data set is small and different from the original training data:
 
 ## Case 3:  Large Data Set, Similar Data
 If the new data set is large and similar to the original training data:
-<img src="./images/transfer_learning_02.png"></img><br>
+<img src="./images/transfer_learning_03.png"></img><br>
 1. Remove the last fully connected layer and replace with a layer matching the number of classes in the new data set
 2. Randomly initialize the weights in the new fully connected layer
 3. Initialize the rest of the weights using the pre-trained weights
