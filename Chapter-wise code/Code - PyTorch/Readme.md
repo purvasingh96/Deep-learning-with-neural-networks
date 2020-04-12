@@ -16,7 +16,9 @@ This repository provides tutorial code for deep learning researchers to learn [P
 * **Part 8:** Use transfer learning to train a state-of-the-art image classifier for dogs and cats
 
 
-<br/>
+<br>
+<img src="./images/activating_gpu.png"></img><br>
+<img src="./images/activating_gpu_2.png"></img><br>
 
 ## Get Started Locally
 
