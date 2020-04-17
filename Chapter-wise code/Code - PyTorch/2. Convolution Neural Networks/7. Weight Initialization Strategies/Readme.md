@@ -2,6 +2,8 @@
 
 This project talks about how you can initialize weights for your neural network for better accuracy. The below table summarizes results of using various weights and their compares them according to training and validation loss.
 
+PyTorch implementation : [weight_initializaion_strategies](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Chapter-wise%20code/Code%20-%20PyTorch/2.%20Convolution%20Neural%20Networks/7.%20Weight%20Initialization%20Strategies/Weight_initialization.ipynb)
+
 ## Results and Conclusion
 | Weight Initialization Strategy               | Comments                                                                                                                                    | Results                                               |
 |----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
