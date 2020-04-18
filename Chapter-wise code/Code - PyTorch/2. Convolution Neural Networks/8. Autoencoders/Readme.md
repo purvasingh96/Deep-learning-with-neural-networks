@@ -10,8 +10,8 @@ Key component of an autoencoder is its ability to compress such that image data 
 
 ## Architecture
 
-Below is an architecture of autoencoder and its 2 components  -  **encoder and decoder**<br>
-<img src="./images/autoencoder_architecture.png"></img>
+Below is an architecture of autoencoder and its 2 components  -  **encoder and decoder**<br><br>
+<img src="./images/autoencoder_architecture.png"></img><br><br.
 PyTorch implementation of a simple auto-encoder can be found here -  
 
 ## Undercomplete Autoencoders
