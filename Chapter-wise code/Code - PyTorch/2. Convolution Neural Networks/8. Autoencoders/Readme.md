@@ -57,6 +57,14 @@ where x̃ is a copy of x that has been corrupted by some form of noise. Denoisin
 autoencoders must therefore undo this corruption rather than simply copying their
 input
 
+## Representational Power, Layer Size and Depth
+Experimentally, **deep autoencoders yield much better compression than corre-
+sponding shallow or linear autoencoders.**<br>
+A common strategy for training a deep autoencoder is to greedily pretrain
+the deep architecture by training a stack of shallow autoencoders, so we often
+encounter shallow autoencoders, even when the ultimate goal is to train a deep
+autoencoder.
+
 
 
 
