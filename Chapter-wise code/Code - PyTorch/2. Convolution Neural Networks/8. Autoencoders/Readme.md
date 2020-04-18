@@ -41,6 +41,22 @@ These other properties include-
 
 
 ### Sparse Autoencoders
+A sparse autoencoder is simply an autoencoder whose training criterion involves a
+sparsity penalty Ω(h) on the code layer h, in addition to the reconstruction error:<br>
+<img src="./images/sparse_encoders.png"></img>
+
+### Denoising Autoencoders
+Rather than adding a penalty Ω to the cost function, we can obtain an autoencoder
+that learns something useful by changing the reconstruction error term of the cost
+function.<br><br>
+Traditionally, autoencoders minimize loss function which serves as a penalty term for x not being identical to x'<br>
+<img src="./images/learning_autoencoder.png"></img><br><br>
+A **denoising autoencoder or DAE** instead minimizes - <br><br>
+<img src="./images/DAE.png"></img><br><br>
+where x̃ is a copy of x that has been corrupted by some form of noise. Denoising
+autoencoders must therefore undo this corruption rather than simply copying their
+input
+
 
 
 
