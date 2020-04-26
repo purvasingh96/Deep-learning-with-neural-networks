@@ -29,3 +29,8 @@ A **Neural Algorithm of Artistic Style** that can separate and recombine the ima
 
 You can read the **summary** of the above paper [here](https://github.com/aleju/papers/blob/master/neural-nets/A_Neural_Algorithm_for_Artistic_Style.md).
 
+| Content                                | Style                                       | Target                                        |
+|----------------------------------------|---------------------------------------------|-----------------------------------------------|
+| <img src="./images/octopus.jpg" width=50% height=40%></img> | <img src="./images/hockney.jpg"></img>      | <img src="./images/target_octopus.png"></img> |
+| <img src="./images/content.png" width=50% height=50%></img> | <img src="./images/style_purva.png"></img> | <img src="./images/target.png"></img>         |
+
