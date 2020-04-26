@@ -2,7 +2,7 @@
 The folder contains the projects of PyTorch Scholarship Challenge and Deep Learning Nanodegree from Udacity.
 
 ## Project 1: Flower Image Classification
-The [flower_image_classification.ipynb]https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Chapter-wise%20code/Code%20-%20PyTorch/2.%20Convolution%20Neural%20Networks/4.%20Transfer%20Learning/Transfer_Learning_predict_flowers.ipynb) contains the project Flower image classifier.
+The [flower_image_classification.ipynb](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Chapter-wise%20code/Code%20-%20PyTorch/2.%20Convolution%20Neural%20Networks/4.%20Transfer%20Learning/Transfer_Learning_predict_flowers.ipynb) contains the project Flower image classifier.
 The 102 Category Flower [Dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html) from Visual Geometry Group, University of Oxford, is used.
 
 The following **steps** are described:
