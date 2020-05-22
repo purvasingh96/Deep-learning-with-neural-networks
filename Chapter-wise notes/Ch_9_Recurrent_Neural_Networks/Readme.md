@@ -38,7 +38,11 @@ Problem with sigmoid functions is that the derivative at the point way towards r
 
 <img src="./images/vanish_grad_1.png" width="50%" height="50%"></img>
 
+If we backpropagate more than ~10 timesteps, the gradient will become too small. This phenomena is known as the vanishing gradient problem where the contribution of information decays geometrically over time. Therefore temporal dependencies that span many time steps will effectively be discarded by the network. Long Short-Term Memory (LSTM) cells were designed to specifically solve this problem.<br><br>
 
+In RNNs we can also have the opposite problem, called the exploding gradient problem, in which the value of the gradient grows uncontrollably. A simple solution for the exploding gradient problem is Gradient Clipping.<br>
+
+<img src="./images/05. gradient_clipping.png"></img><br>
 
 
 
