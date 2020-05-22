@@ -2,7 +2,12 @@
 
 ## Basics of LSTM
 
-Basic RNN was unable to retain long term memory to make prediction regarding the current picture is that od a wolf or dog. This is where LSTM comes into picture. In an LSTM, we would expect the following behaviour -
+Basic RNN was unable to retain long term memory to make prediction regarding the current picture is that od a wolf or dog. This is where LSTM comes into picture. The LSTM cell allows a recurrent system to learn over many time steps without the fear of losing information due to the vanishing gradient problem. It is fully differentiable, therefore gives us the option of easily using backpropagation when updating the weights. Below is the a sample mathematical model of an LSTM cell - <br>
+
+<img src="./images/01.lstm_cell.png"></img><br>
+
+
+In an LSTM, we would expect the following behaviour -
 
 
 | Expected Behaviour of LSTM                                                                   | Reference Diagram                                                       |
