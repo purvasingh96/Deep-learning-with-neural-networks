@@ -45,5 +45,5 @@ In RNNs we can also have the opposite problem, called the exploding gradient pro
 
 
 
-Next -  [LSTM](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Notes/Ch_9_Recurrent_Neural_Networks/LSTM.md)
+Next -  [LSTM](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Chapter-wise%20notes/Ch_9_Recurrent_Neural_Networks/LSTM.md)
 
