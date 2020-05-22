@@ -14,11 +14,10 @@ the current image is that of a wolf.<br><br>
 In RNNs, the current state depends on the input as well as the previous states, with the use of an activation function. The current output is a simple linear combination of the current state elements with the corresponding weight matrix.<br>
 <img src="./images/01. rnn_overview.png"></img><br>
 We can represent the recurrent network with the use of a folded model or an unfolded model:<br>
-<img src="./images/02. folded_unfolded_rnns.png"></img><br>
+<img src="./images/02.folded_unfolded_rnns.png"></img><br>
 In the case of a single hidden (state) layer, we will have three weight matrices to consider. Here we use the following notations:<br>
 <img src="./images/04. unfolded_terminologies.png"></img><br>
-When training RNNs using **Back Propagation Through Time (BPTT)**, we can choose to use mini-batches, where we update the weights in batches periodically (as opposed to once every inputs sample). We calculate the gradient for each step but do not update the weights right away. Instead, we update the weights once every fixed number of steps . This helps reduce the complexity of the training process and helps remove noise from the weight updates. <br>
-<img src="./images/04. unfolded_terminologies.png"></img><br>
+When training RNNs using **Back Propagation Through Time (BPTT)**, we can choose to use mini-batches, where we update the weights in batches periodically (as opposed to once every inputs sample). We calculate the gradient for each step but do not update the weights right away. Instead, we update the weights once every fixed number of steps . This helps reduce the complexity of the training process and helps remove noise from the weight updates.
 
 ## How do RNNs work?
 
