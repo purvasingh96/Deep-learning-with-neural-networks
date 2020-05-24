@@ -2,14 +2,28 @@
 The folder contains the projects of PyTorch Scholarship Challenge and Deep Learning Nanodegree from Udacity.
 
 
-## Downloading data-sets
+## Downloading data-sets for Colab notebooks
+### Change dir and download zip file
 In order to download data-sets, use the following code -
 ```python
+import os
+from pathlib import Path
+os.chdir(Path('./sample_data'))
+print(os.getcwd())
 !wget -p <path_to_download_folder> -N <dataset_download_link>
 ```
 For example - 
-```pythin
+```python
 !wget -p  Path('./sample_data') -N  https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip
+```
+### Unzipping the zip file
+```python
+from zipfile import ZipFile
+import os
+print(os.getcwd())
+zf = ZipFile('text8.zip', 'r')
+zf.extractall('./')
+zf.close()
 ```
 
 
