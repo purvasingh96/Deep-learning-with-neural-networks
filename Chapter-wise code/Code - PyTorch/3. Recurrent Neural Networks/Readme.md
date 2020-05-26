@@ -14,3 +14,8 @@ Labeling Tasks](https://github.com/purvasingh96/Deep-learning-with-neural-networ
 7. Around 100 recurrent units per LSTM-network appear to be a good rule of thumb.
 8. Optimizer :  SGD has troubles to navigate ravines and at saddle points and is sensitive to learning rate. To eliminate
 the short comings of SGD, other gradient-based optimization algorithms have been proposed - Adagrad, Adadelta, RMSProp, Adam and Nadam (an Adam variant that incorporates Nesterov momentum)
+9. Gradient normalization works better than graident clipping
+10. Use CRF instead of softmax classifier for the last layer.
+11. Variational dropout performs significantly better than naive and no dropout.
+12. 2 stacked LSTM layers gives optimal performance
+13. Mini-batch size of 1-32 works better.
