@@ -55,6 +55,11 @@ In the previous points, our model needs to generate *Attention Weight Vector* in
 
 <br><br><img src="./images/decoder_depth.png"></img><br><br>
 
+### Concat Attention
+As the name suggests, we concat the two hidden states to generate the *Context Vector* as below 
+
+<br><br><img src="./images/Selection_024.png" width=50%></img><br><br>
+
 
 ## Applications of Attention
 
