@@ -27,7 +27,14 @@ Lets have a closer look at our attention encoder and we refer to the same exampl
 
 ### Attention Decoder
 
-1. After we have processed the entire sequence, we are ready to feed in the hidden state to the attention decoder.
+1. After we have processed the entire sequence, we are ready to feed in the hidden state to the attention decoder. At first, attention decoder will allocate scores to the hidden states generated from the input. After this, decoder feeds the scores to a *softmax function* whic makes sure that all scores are *positive, between 0 to 1 and all of them adds up to 1*.<br><br>
+<img src="./images/attention_decoder.png" width=50% ></img><br><br>
+
+2. After assigning softmax scores, decoder creates a *Context vector* by multiplying hidden states with their respective softmax scores. 
+3. After creating a Context vector, decoder generates a *new hidden state and an output (translated word)*.<br><br>
+<img src="./images/attention_decoding_step_1.png" width=50% ></img><br><br>
+4. The same process is repeated till the end of sequence is reached.<br><br>
+<img src="./images/attention_decoder_step_2.png" width=50% ></img><br><br>
 
 
 
