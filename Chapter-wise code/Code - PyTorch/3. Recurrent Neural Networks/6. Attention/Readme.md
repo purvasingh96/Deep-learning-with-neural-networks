@@ -36,6 +36,24 @@ Lets have a closer look at our attention encoder and we refer to the same exampl
 4. The same process is repeated till the end of sequence is reached.<br><br>
 <img src="./images/attention_decoder_step_2.png" width=50% ></img><br><br>
 
+## Types of Attention
+
+### Multiplicative Attention
+In the previous points, our model needs to generate *Attention Weight Vector* in order to emphasise relevant parts of input sequence. An *attention weight vector* takes into account, hidden state of decoder and set of hidden state of encoder. So, when we pass hidden states of encoder to decoder - 
+<br><br><img src="./images/general_multiplicative_attention.png" width=55% ></img><br><br>
+
+1. Decoder generates its own hidden state.
+2. Performs attention. 
+  a. Generate scores for encoder's hidden states.
+  b. Apply softmax.
+  c. Sum steps a, b to produce *Context Vector*
+3. Concat *Context Vector* with *hidden state of decoder.*
+4. Pass the concatinated product to fully connected layer (multiplying by *Wa*)
+5. Pass through activation function (*tanh*)
+6. Generate a new word.
+7. Repeat till end of sequence is reached.
+
+<br><br><img src="./images/decoder_depth.png"></img><br><br>
 
 
 ## Applications of Attention
