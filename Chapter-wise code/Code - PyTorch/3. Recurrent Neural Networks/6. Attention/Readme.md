@@ -12,6 +12,23 @@ In order to better understand RNNs, let us take a look at an example of a machin
 The drawback of RNN or any sequence model is that it is confined to sending a single vector, no matter how long or short the input sequence is. Chosing the size for this vector makes the model have problems with long input sequences. In this case, one may suggest to use large sizes of hidden layers, but in this case, your model will overfit for short sequences. This is the problem that **Attention** solves.
 
 
+## Attention Overview 
+The first part of encoder is similar to sequence-to-sequence model, i.e. generating hidden layers one word at a time. The difference comes when we create context. Here instead of passing just one final hidden state as context to decoder, the encoder passes all of the hidden states to decoder. <br>
+This gives us the flexibility of context size, i.e. longer sequences can have longer context vectors. One point to note here is that every hidden layer captures the most escence of its corresponding word. For e.g. hidden layer #1 will have more information about the word *comment* as compared to other words.<br><br>
+<img src="./images/attention_overview_encoder.png"></img>
+
+### Attention Encoder : Unrolled View
+
+Lets have a closer look at our attention encoder and we refer to the same example of language translation from French to English. <br>
+1. First, we pass the french sentence to an embedding look-up table, that stores the vectorized form of words in a table.
+2. After we have the embedding layer, when we feed the first word into the first time-step of RNN produces the first hidden state of RNN. This is known as *Unrolled View of RNN*, where we can see RNN at each timestep.
+
+### Attention Decoder
+
+1. After we have processed the entire sequence, we are ready to feed in the hidden state to the attention decoder.
+
+
+
 ## Applications of Attention
 
 1. Machine translation
