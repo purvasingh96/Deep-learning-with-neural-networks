@@ -30,7 +30,7 @@ Final screenshot before running the notebook instance should look something like
 *Note:* Your notebook name may be different than the one displayed and the IAM role that appears will be different.<br><br>
 
 Now scroll down and click on Create notebook instance.<br><br>
-<img src="./images/7. running notebook dashboard.png"></img><br><br>
+<img src="./images/7. running notebook.png"></img><br><br>
 
 Once your notebook instance has started and is accessible, click on open to get to the Jupyter notebook main page.<br><br>
 
