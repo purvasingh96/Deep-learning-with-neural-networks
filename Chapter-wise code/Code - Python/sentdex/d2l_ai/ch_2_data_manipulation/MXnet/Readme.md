@@ -1,1 +1,0 @@
-# Data Manipulation Using MXnet
