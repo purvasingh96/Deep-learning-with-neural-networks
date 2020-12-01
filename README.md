@@ -8,7 +8,7 @@ This repository contains -<br>
 
 The images in this repository are taken from Udacity's Deep Learning Nanodegree program.
 ## Contributor
-- [Purva Singh](https://github.com/purvasingh96)
+- [Purva Singh](https://purvasingh96.github.io)
 
 ## Contributing
 
