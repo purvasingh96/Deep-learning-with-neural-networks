@@ -1,0 +1,25 @@
+# Natural-Language-Specialization
+This folder contains a curated list of multiple use-cases related to Natural Langauge Processing. Below are the use-cases that I have worked on:
+
+1. [Naive Bayes Spam Classifier]
+2. [POS Tagging]
+    * [HMMs for POS Tagging]
+3. [Feature Extraction and Embeddings]
+4. [Topic Modelling]
+    * [Latent Dirichlet Allocation]
+5. [Sentiment Analysis]
+    * [BERT for sentiment analysis of Twits (StockTwits)]
+    * [EDA and sentiment analysis of COVID-19 tweets]
+    * [EDA and sentiment analysis of Joe Biden's tweets] 
+6. [Machine Translation]
+    * [English to French]
+7. [Speech Recognition]
+8. [Natural Language Generation]
+    * [Text generation via RNNs and (Bi)LSTMs]
+9. [Question Answering Models]
+    * [BERT for answering queries related to stocks]
+10. [Text Classification]
+    * [Github bug prediction using BERT]
+    * [Predicting DJIA movement using BERT]
+    * [SMS spam classifier]
+
