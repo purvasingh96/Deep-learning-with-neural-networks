@@ -10,10 +10,12 @@ The images in this repository are taken from Udacity's Deep Learning Nanodegree 
 
 # Repository Content: Projects and Theorey List
 
-Over the course of time, I have enrolled in multiple MOOCs and read multiple books related to Deep Learning. I try to document all the important notes in one place so that it is easy for me to revise :). Below are the list of projects/theorey that I have worked on/documented. Please see the **Project List** for the code and refer the **Theorey List** for the detailed explaination of various concepts.:
+Over the course of time, I have enrolled in multiple MOOCs and read multiple books related to Deep Learning. I try to document all the important notes in one place so that it is easy for me to revise 😊. <br>
+
+Below are the list of projects/theorey that I have worked on/documented. Please see the **Project List** for the code and refer the **Theorey List** for the detailed explaination of various concepts.:
 ## Project List
 
-1. [Recap of Numpy and Matrices](./Chapter-wise code/Code%20-%20PyTorch/0.%20Recap%20Numpy%20and%20Matrices)
+1. [Recap of Numpy and Matrices](./Chapter-wise%20code/Code%20-%20PyTorch/0.%20Recap%20Numpy%20and%20Matrices)
     * [Quiz on Numpy](./Chapter-wise%20code/Code%20-%20PyTorch/0.%20Recap%20Numpy%20and%20Matrices/NumPy_Quiz.py)
     * [Scalars, Vectors, Matrices, Tensors](./Chapter-wise%20code/Code%20-%20PyTorch/0.%20Recap%20Numpy%20and%20Matrices/Scalars,_Vectors,_Matricies_and_Tensors.ipynb)
     
