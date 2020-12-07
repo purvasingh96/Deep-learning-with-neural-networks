@@ -1,25 +1,25 @@
 # Natural-Language-Specialization
 This folder contains a curated list of multiple use-cases related to Natural Langauge Processing. Below are the use-cases that I have worked on:
 
-1. [Naive Bayes Spam Classifier]
-2. [POS Tagging]
-    * [HMMs for POS Tagging]
-3. [Feature Extraction and Embeddings]
-4. [Topic Modelling]
-    * [Latent Dirichlet Allocation]
-5. [Sentiment Analysis]
-    * [BERT for sentiment analysis of Twits (StockTwits)]
-    * [EDA and sentiment analysis of COVID-19 tweets]
-    * [EDA and sentiment analysis of Joe Biden's tweets] 
-6. [Machine Translation]
-    * [English to French]
-7. [Speech Recognition]
-8. [Natural Language Generation]
-    * [Text generation via RNNs and (Bi)LSTMs]
-9. [Question Answering Models]
-    * [BERT for answering queries related to stocks]
-10. [Text Classification]
-    * [Github bug prediction using BERT]
-    * [Predicting DJIA movement using BERT]
-    * [SMS spam classifier]
+1. [Naive Bayes Spam Classifier](./1.%20Naive%20Bayes%20Spam%20Classifier/spam_classifier/Bayesian_Inference.ipynb)
+2. [POS Tagging](./2.%20Parts%20of%20Speech%20Tagging/Readme.md)
+    * [HMMs for POS Tagging](./2.%20Parts%20of%20Speech%20Tagging/HMM%20Tagger.ipynb)
+3. [Feature Extraction and Embeddings](./3.%20Feature%20Extraction%20&%20Embeddings/Readme.md)
+4. [Topic Modelling](./4.%20Topic%20Modelling/Readme.md)
+    * [Latent Dirichlet Allocation](./4.%20Topic%20Modelling/Latent_dirichlet_allocation.ipynb)
+5. [Sentiment Analysis](./5.%20Sentiment%20Analysis)
+    * [BERT for sentiment analysis of Twits (StockTwits)](./5.%20Sentiment%20Analysis/bert-for-sentiment-analysis-of-stock-twits.ipynb)
+    * [EDA and sentiment analysis of COVID-19 tweets](./5.%20Sentiment%20Analysis/covid19-tweets-eda-and-sentiment-analysis.ipynb)
+    * [EDA and sentiment analysis of Joe Biden's tweets](./5.%20Sentiment%20Analysis/eda-and-sentiment-analysis-of-joe-biden-tweets.ipynb)
+6. [Machine Translation](./6.%20Machine%20Translation/Readme.md)
+    * [English to French](./6.%20Machine%20Translation/machine_translation.ipynb)
+7. [Speech Recognition](./7.%20Speech%20Recognition/vui_notebook.ipynb)
+8. [Natural Language Generation](./8.%20Natural%20Language%20Generation)
+    * [Text generation via RNNs and (Bi)LSTMs](./8.%20Natural%20Language%20Generation/text-generation-via-rnn-and-lstms-pytorch.ipynb)
+9. [Question Answering Models](./9.%20Question%20Answering)
+    * [BERT for answering queries related to stocks](./9.%20Question%20Answering/bert-for-answering-queries-related-to-stocks.ipynb)
+10. [Text Classification](./10.%20Text%20Classification)
+    * [Github bug prediction using BERT](./10.%20Text%20Classification/github-bug-prediction-via-bert.ipynb)
+    * [Predicting DJIA movement using BERT](./10.%20Text%20Classification/predicting-DJIA-movement-with-BERT.ipynb)
+    * [SMS spam classifier](./10.%20Text%20Classification/sms-spam-classifier.ipynb)
 

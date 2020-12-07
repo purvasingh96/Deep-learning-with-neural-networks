@@ -54,7 +54,7 @@ zf.close()
  
 3. [Convolutional Neural Networks](./Code%20-%20PyTorch/2.%20Convolution%20Neural%20Networks)
     * [Basics: Load, Train, Test and Validate your Model](./Code%20-%20PyTorch/2.%20Convolution%20Neural%20Networks/1.%20Basics/Load_train_test_and_validate_your_model.ipynb)
-    * [CIFAR Image Classification](Code - PyTorch/2. Convolution Neural Networks/2. Image Classification/CIFAR_image_classifier.ipynb)
+    * [CIFAR Image Classification](./Code%20-%20PyTorch/2.%20Convolution%20Neural%20Networks/2.%20Image%20Classification/CIFAR_image_classifier.ipynb)
     * [Object Detection](./Code%20-%20PyTorch/2.%20Convolution%20Neural%20Networks/3.%20Object%20Detection)
         * [Frontal Face Recognition](./Code%20-%20PyTorch/2.%20Convolution%20Neural%20Networks/3.%20Object%20Detection/frontal_face_recognition.ipynb)
         * [Object Detection](./Code%20-%20PyTorch/2.%20Convolution%20Neural%20Networks/3.%20Object%20Detection/Object_Detection.ipynb)
