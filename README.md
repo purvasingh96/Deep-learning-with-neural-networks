@@ -78,7 +78,9 @@ Below are the list of projects/theorey that I have worked on/documented. Please 
     * [Deploy Your Own Sentiment Analysis Model](./Chapter-wise%20code/Code%20-%20PyTorch/5.%20Deploy%20Models%20to%20PROD%20via%20Amazon%20Sagemaker/2.%20Deploy%20your%20own%20sentiment%20analysis%20model/SageMaker%20Project.ipynb)
     
  7. [Natural Language Processing](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing)
-    * [Naive Bayes Spam Classifier](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/1.%20Naive%20Bayes%20Spam%20Classifier/spam_classifier/Bayesian_Inference.ipynb)
+    * [Naive Bayes Classifier](Chapter-wise code/Code - PyTorch/6. Natural-Language-Processing/1. Naive Bayes Classifier/spam_classifier/Bayesian_Inference.ipynb)
+        * [Spam Classifier](Chapter-wise code/Code - PyTorch/6. Natural-Language-Processing/1. Naive Bayes Classifier/spam_classifier/Bayesian_Inference.ipynb)
+        * [Sentiment Analysis](Chapter-wise code/Code - PyTorch/6. Natural-Language-Processing/1. Naive Bayes Classifier/sentiment_analysis/Sentiment%20Analysis.ipynb)
     * [POS Tagging](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/2.%20Parts%20of%20Speech%20Tagging/Readme.md)
         * [HMMs for POS Tagging](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/2.%20Parts%20of%20Speech%20Tagging/HMM%20Tagger.ipynb)
     * [Feature Extraction and Embeddings](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/3.%20Feature%20Extraction%20&%20Embeddings/Readme.md)

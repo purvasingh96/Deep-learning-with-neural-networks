@@ -94,7 +94,7 @@ zf.close()
     * [Deploy Your Own Sentiment Analysis Model](./Code%20-%20PyTorch/5.%20Deploy%20Models%20to%20PROD%20via%20Amazon%20Sagemaker/2.%20Deploy%20your%20own%20sentiment%20analysis%20model/SageMaker%20Project.ipynb)
     
  7. [Natural Language Processing](./Code%20-%20PyTorch/6.%20Natural-Language-Processing)
-    * [Naive Bayes Spam Classifier](./Code%20-%20PyTorch/6.%20Natural-Language-Processing/1.%20Naive%20Bayes%20Spam%20Classifier/spam_classifier/Bayesian_Inference.ipynb)
+    * [Naive Bayes Spam Classifier](Code - PyTorch/6. Natural-Language-Processing/1. Naive Bayes Classifier/spam_classifier/Bayesian_Inference.ipynb)
     * [POS Tagging](./Code%20-%20PyTorch/6.%20Natural-Language-Processing/2.%20Parts%20of%20Speech%20Tagging/Readme.md)
         * [HMMs for POS Tagging](./Code%20-%20PyTorch/6.%20Natural-Language-Processing/2.%20Parts%20of%20Speech%20Tagging/HMM%20Tagger.ipynb)
     * [Feature Extraction and Embeddings](./Code%20-%20PyTorch/6.%20Natural-Language-Processing/3.%20Feature%20Extraction%20&%20Embeddings/Readme.md)

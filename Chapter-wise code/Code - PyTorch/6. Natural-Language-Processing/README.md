@@ -1,7 +1,9 @@
 # Natural-Language-Specialization
 This folder contains a curated list of multiple use-cases related to Natural Langauge Processing. Below are the use-cases that I have worked on:
 
-1. [Naive Bayes Spam Classifier](./1.%20Naive%20Bayes%20Spam%20Classifier/spam_classifier/Bayesian_Inference.ipynb)
+1. [Naive Bayes Classifier](./1.%20Naive%20Bayes%20Classifier/Readme.md)
+    * [Spam Classifier](./1.%20Naive%20Bayes%20Classifier/spam_classifier/Bayesian_Inference.ipynb)
+    * [Sentiment Analysis](./1.%20Naive%20Bayes%20Classifier/sentiment_analysis/Sentiment%20Analysis.ipynb)
 2. [POS Tagging](./2.%20Parts%20of%20Speech%20Tagging/Readme.md)
     * [HMMs for POS Tagging](./2.%20Parts%20of%20Speech%20Tagging/HMM%20Tagger.ipynb)
 3. [Feature Extraction and Embeddings](./3.%20Feature%20Extraction%20&%20Embeddings/Readme.md)
