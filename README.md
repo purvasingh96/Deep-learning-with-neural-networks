@@ -95,7 +95,7 @@ Below are the list of projects/theorey that I have worked on/documented. Please 
         * [NMT via Encoder-Decoder Architecture)](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/6.%20Machine%20Translation/NMT-Advanced%20(Tensorflow%20Implementation)/machine_translation.ipynb)
     * [Speech Recognition](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/7.%20Speech%20Recognition/vui_notebook.ipynb)
     * [Autocorrect Tool via Minimum Edit Distance](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/11.%20Autocorrect%20Tool/Auto_correct_tool.ipynb)
-    *[Natural Language Generation](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/8.%20Natural%20Language%20Generation)
+    * [Natural Language Generation](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/8.%20Natural%20Language%20Generation)
         * [Text generation via RNNs and (Bi)LSTMs](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/8.%20Natural%20Language%20Generation/text-generation-via-rnn-and-lstms-pytorch.ipynb)
     * [Question Answering Models](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/9.%20Question%20Answering)
         * [BERT for answering queries related to stocks](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/9.%20Question%20Answering/bert-for-answering-queries-related-to-stocks.ipynb)
