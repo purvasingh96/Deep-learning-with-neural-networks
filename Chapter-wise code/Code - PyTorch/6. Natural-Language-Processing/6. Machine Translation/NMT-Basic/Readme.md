@@ -15,7 +15,7 @@ Here, we have 3 given parameters:
   <img src="./images/en_fr_train.png"></img>
 
 Now, we have to create an English embedding matrix and French embedding matrix:<br>
-  <img src="./images/en_fr_embeddings.png.png"></img><br>
+  <img src="./images/en_fr_embeddings.png"></img><br>
 ```python
 # loop through all english, french word pairs in the english french dictionary
     for en_word, fr_word in en_fr.items():
