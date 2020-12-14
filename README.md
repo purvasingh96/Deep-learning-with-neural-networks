@@ -94,17 +94,15 @@ Below are the list of projects/theorey that I have worked on/documented. Please 
         * [NMT via Basic Linear Algebra](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/6.%20Machine%20Translation/NMT-Basic/Readme.md)
         * [NMT via Encoder-Decoder Architecture)](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/6.%20Machine%20Translation/NMT-Advanced%20(Tensorflow%20Implementation)/machine_translation.ipynb)
     * [Speech Recognition](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/7.%20Speech%20Recognition/vui_notebook.ipynb)
-
-8.  [Natural Language Generation](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/8.%20Natural%20Language%20Generation)
-    * [Text generation via RNNs and (Bi)LSTMs](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/8.%20Natural%20Language%20Generation/text-generation-via-rnn-and-lstms-pytorch.ipynb)
-
-9. [Question Answering Models](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/9.%20Question%20Answering)
-    * [BERT for answering queries related to stocks](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/9.%20Question%20Answering/bert-for-answering-queries-related-to-stocks.ipynb)
-
-10. [Text Classification](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/10.%20Text%20Classification/)
-    * [Github bug prediction using BERT](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/10.%20Text%20Classification/github-bug-prediction-via-bert.ipynb)
-    * [Predicting DJIA movement using BERT](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/10.%20Text%20Classification/predicting-DJIA-movement-with-BERT.ipynb)
-    * [SMS spam classifier](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/10.%20Text%20Classification/sms-spam-classifier.ipynb) 
+    * [Autocorrect Tool via Minimum Edit Distance](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/11.%20Autocorrect%20Tool/Auto_correct_tool.ipynb)
+    *[Natural Language Generation](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/8.%20Natural%20Language%20Generation)
+        * [Text generation via RNNs and (Bi)LSTMs](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/8.%20Natural%20Language%20Generation/text-generation-via-rnn-and-lstms-pytorch.ipynb)
+    * [Question Answering Models](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/9.%20Question%20Answering)
+        * [BERT for answering queries related to stocks](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/9.%20Question%20Answering/bert-for-answering-queries-related-to-stocks.ipynb)
+    * [Text Classification](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/10.%20Text%20Classification/)
+        * [Github bug prediction using BERT](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/10.%20Text%20Classification/github-bug-prediction-via-bert.ipynb)
+        * [Predicting DJIA movement using BERT](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/10.%20Text%20Classification/predicting-DJIA-movement-with-BERT.ipynb)
+        * [SMS spam classifier](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/10.%20Text%20Classification/sms-spam-classifier.ipynb) 
         
 ## Theorey List
 This list basically contains summarized notes for each chapter from the book, 'Deep Learning' by 'Goodfellow, Benigo and Courville':

@@ -25,4 +25,6 @@ This folder contains a curated list of multiple use-cases related to Natural Lan
     * [Github bug prediction using BERT](./10.%20Text%20Classification/github-bug-prediction-via-bert.ipynb)
     * [Predicting DJIA movement using BERT](./10.%20Text%20Classification/predicting-DJIA-movement-with-BERT.ipynb)
     * [SMS spam classifier](./10.%20Text%20Classification/sms-spam-classifier.ipynb)
+11. [Autocorrect Tool](./11.%20Autocorrect%20Tool/Readme.md)
+    * [Autocorrection via Minimum Edit Distance](./11.%20Autocorrect%20Tool/Auto_correct_tool.ipynb)
 
