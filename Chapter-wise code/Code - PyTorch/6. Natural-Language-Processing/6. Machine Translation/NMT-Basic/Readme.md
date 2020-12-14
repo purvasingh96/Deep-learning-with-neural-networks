@@ -1,8 +1,6 @@
 # Machine Translation using Basic Linear Algebra
 
-## Algorithm
-
-### Generate French and English Word Embedding
+## 1. Generate French and English Word Embedding
 
 Here, we have 3 given parameters:
 1. `en_embeddings`: English words and their corresponding embeddings.<br>
@@ -41,3 +39,19 @@ Now, we have to create an English embedding matrix and French embedding matrix:<
     # stack the vectors of Y_l into a matrix Y
     Y = np.vstack(Y_l)
 ```
+
+## 2. Linear Transformation of Word Embeddings
+Given dictionaries of English and French word embeddings we will create a transformation matrix `R`. In other words, given an english word embedding, `e`, we need to multiply `e` with `R`, i.e., (`eR`) to generate a new word embedding `f`.
+
+### Describing Translation Problem as the Minimization Problem
+We can describe our translation problem as finding a matrix `R` that minimizes the following equation:<br> 
+<img src="./images/translation_problem.png"></img><br>
+For this, we calculate the loss by modifying the original *Forbenius norm* :<br>
+Original Forbenius Norm: <img src="./images/original_forbenius_norm.png"></img><br>
+Modified Forbenius Norm: <img src="./images/modified_forbenius_norm.png"></img><br>
+Finally, our loss funtion will look something like this:<br>
+<img src="./images/final_loss_function.png"></img><br>
+
+
+
+
