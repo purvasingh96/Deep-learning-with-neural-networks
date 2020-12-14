@@ -91,7 +91,8 @@ Below are the list of projects/theorey that I have worked on/documented. Please 
         * [EDA and sentiment analysis of COVID-19 tweets](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/5.%20Sentiment%20Analysis/covid19-tweets-eda-and-sentiment-analysis.ipynb)
         * [EDA and sentiment analysis of Joe Biden's tweets](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/5.%20Sentiment%20Analysis/eda-and-sentiment-analysis-of-joe-biden-tweets.ipynb)
     * [Machine Translation](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/6.%20Machine%20Translation/Readme.md)
-        * [English to French](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/6.%20Machine%20Translation/machine_translation.ipynb)
+        * [NMT via Basic Linear Algebra](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/6.%20Machine%20Translation/NMT-Basic/Readme.md)
+        * [NMT via Encoder-Decoder Architecture)](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/6.%20Machine%20Translation/NMT-Advanced%20(Tensorflow%20Implementation)/machine_translation.ipynb)
     * [Speech Recognition](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/7.%20Speech%20Recognition/vui_notebook.ipynb)
 
 8.  [Natural Language Generation](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/8.%20Natural%20Language%20Generation)
