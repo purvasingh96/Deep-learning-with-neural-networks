@@ -51,7 +51,7 @@ Finally, we calculate the accuracy of our translation model using the following 
 Using the formula above, our model achieved an accuracy of `55.7%` on unseen data. This transaltion was achieved by using some basic linear algebra and learning a mapping of words from one language to another!
 
 # Code
-You can find the entire code (Python) for Machine Translation (English-to-French) over here.
+You can find the entire code (Python) for Machine Translation (English-to-French) over [here](https://github.com/purvasingh96/Deep-learning-with-neural-networks/blob/master/Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/6.%20Machine%20Translation/NMT-Basic/Machine_translation_using_linear_algebra.ipynb).
 
 
 
