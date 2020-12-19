@@ -5,6 +5,7 @@ This folder contains a curated list of multiple use-cases related to Natural Lan
     * [Spam Classifier](./1.%20Naive%20Bayes%20Classifier/spam_classifier/Bayesian_Inference.ipynb)
     * [Sentiment Analysis](./1.%20Naive%20Bayes%20Classifier/sentiment_analysis/Sentiment%20Analysis.ipynb)
 2. [POS Tagging](./2.%20Parts%20of%20Speech%20Tagging/Readme.md)
+    * [POS Tagging via HMM and Viterbi Algorithm](./2.%20Parts%20of%20Speech%20Tagging/POS%20Tagging%20with%20HMM%20and%20Viterbi.ipynb)
     * [HMMs for POS Tagging](./2.%20Parts%20of%20Speech%20Tagging/HMM%20Tagger.ipynb)
 3. [Feature Extraction and Embeddings](./3.%20Feature%20Extraction%20&%20Embeddings/Readme.md)
 4. [Topic Modelling](./4.%20Topic%20Modelling/Readme.md)

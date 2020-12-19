@@ -82,6 +82,7 @@ Below are the list of projects/theorey that I have worked on/documented. Please 
         * [Spam Classifier](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/1.%20Naive%20Bayes%20Classifier/spam_classifier/Bayesian_Inference.ipynb)
         * [Sentiment Analysis](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/1.%20Naive%20Bayes%20Classifier/sentiment_analysis/Sentiment%20Analysis.ipynb)
     * [POS Tagging](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/2.%20Parts%20of%20Speech%20Tagging/Readme.md)
+        * [POS Tagging via HMM and Viterbi Algorithm](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/2.%20Parts%20of%20Speech%20Tagging/POS%20Tagging%20with%20HMM%20and%20Viterbi.ipynb)
         * [HMMs for POS Tagging](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/2.%20Parts%20of%20Speech%20Tagging/HMM%20Tagger.ipynb)
     * [Feature Extraction and Embeddings](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/3.%20Feature%20Extraction%20&%20Embeddings/Readme.md)
     * [Topic Modelling](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/4.%20Topic%20Modelling/Readme.md)
