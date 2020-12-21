@@ -28,4 +28,6 @@ This folder contains a curated list of multiple use-cases related to Natural Lan
     * [SMS spam classifier](./10.%20Text%20Classification/sms-spam-classifier.ipynb)
 11. [Autocorrect Tool](./11.%20Autocorrect%20Tool/Readme.md)
     * [Autocorrection via Minimum Edit Distance](./11.%20Autocorrect%20Tool/Auto_correct_tool.ipynb)
+12. [Autocomplete tool](./12.%20Autocomplete%20Tool/Readme.md)
+    * [Autocomplete tool using n-gram language model](./12.%20Autocomplete%20Tool/Auto%20complete%20tool.ipynb)
 
