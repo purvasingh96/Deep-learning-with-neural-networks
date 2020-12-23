@@ -85,6 +85,7 @@ Below are the list of projects/theorey that I have worked on/documented. Please 
         * [POS Tagging via HMM and Viterbi Algorithm](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/2.%20Parts%20of%20Speech%20Tagging/POS%20Tagging%20with%20HMM%20and%20Viterbi.ipynb)
         * [HMMs for POS Tagging](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/2.%20Parts%20of%20Speech%20Tagging/HMM%20Tagger.ipynb)
     * [Feature Extraction and Embeddings](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/3.%20Feature%20Extraction%20&%20Embeddings/Readme.md)
+        * [Word Embeddings](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/3.%20Feature%20Extraction%20&%20Embeddings/Word_embeddings.ipynb)
     * [Topic Modelling](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/4.%20Topic%20Modelling/Readme.md)
     * [Latent Dirichlet Allocation](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/4.%20Topic%20Modelling/Latent_dirichlet_allocation.ipynb)
     * [Sentiment Analysis](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/5.%20Sentiment%20Analysis)

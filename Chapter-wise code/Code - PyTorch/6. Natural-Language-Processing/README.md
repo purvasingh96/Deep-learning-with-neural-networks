@@ -8,6 +8,7 @@ This folder contains a curated list of multiple use-cases related to Natural Lan
     * [POS Tagging via HMM and Viterbi Algorithm](./2.%20Parts%20of%20Speech%20Tagging/POS%20Tagging%20with%20HMM%20and%20Viterbi.ipynb)
     * [HMMs for POS Tagging](./2.%20Parts%20of%20Speech%20Tagging/HMM%20Tagger.ipynb)
 3. [Feature Extraction and Embeddings](./3.%20Feature%20Extraction%20&%20Embeddings/Readme.md)
+    * [Word Embeddings](./3.%20Feature%20Extraction%20&%20Embeddings/Word_embeddings.ipynb)
 4. [Topic Modelling](./4.%20Topic%20Modelling/Readme.md)
     * [Latent Dirichlet Allocation](./4.%20Topic%20Modelling/Latent_dirichlet_allocation.ipynb)
 5. [Sentiment Analysis](./5.%20Sentiment%20Analysis)
