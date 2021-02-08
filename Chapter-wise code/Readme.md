@@ -122,4 +122,6 @@ zf.close()
         * [Github bug prediction using BERT](./Code%20-%20PyTorch/6.%20Natural-Language-Processing/10.%20Text%20Classification/github-bug-prediction-via-bert.ipynb)
         * [Predicting DJIA movement using BERT](./Code%20-%20PyTorch/6.%20Natural-Language-Processing/10.%20Text%20Classification/predicting-DJIA-movement-with-BERT.ipynb)
         * [SMS spam classifier](./Code%20-%20PyTorch/6.%20Natural-Language-Processing/10.%20Text%20Classification/sms-spam-classifier.ipynb) 
+    * [Siamese Networks](./Code%20-%20PyTorch/6.%20Natural-Language-Processing/13.%20Siamese%20Networks)
+        * [Question Duplication](./Code%20-%20PyTorch/6.%20Natural-Language-Processing/13.%20Siamese%20Networks/Question%20Duplication/code/question_duplication_detection.ipynb)
         

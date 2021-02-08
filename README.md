@@ -106,7 +106,7 @@ Below are the list of projects/theorey that I have worked on/documented. Please 
         * [Github bug prediction using BERT](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/10.%20Text%20Classification/github-bug-prediction-via-bert.ipynb)
         * [Predicting DJIA movement using BERT](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/10.%20Text%20Classification/predicting-DJIA-movement-with-BERT.ipynb)
         * [SMS spam classifier](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/10.%20Text%20Classification/sms-spam-classifier.ipynb) 
-    * [Siamese Networks](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/10.%20Text%20Classification/)
+    * [Siamese Networks](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/13.%20Siamese%20Networks)
         * [Question Duplication](./Chapter-wise%20code/Code%20-%20PyTorch/6.%20Natural-Language-Processing/13.%20Siamese%20Networks/Question%20Duplication/Readme.md)
 
 ## Theorey List
