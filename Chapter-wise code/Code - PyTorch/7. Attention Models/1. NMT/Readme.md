@@ -6,12 +6,12 @@ In NMT, we use an encoder and a decoder to translate from one language to anothe
 <br><br>
 It takes in a hidden states and a string of words, such as a single sentence. The encoder takes the inputs one step at a time, collects information for that piece of inputs, then moves it forward. The orange rectangle represents the encoders final hidden states, which tries to capture all the information collected from each input step, before feeding it to the decoder. This final hidden state provides the initial states for the decoder to begin predicting the sequence.
 
-<img src="./images/1. basic seq-to-seq model.png"><img> <br><br>
+<img src="./images/1. basic seq-to-seq model.png" width="50%"><img> <br><br>
 
 ### Limitation of a basic Seq-to-Seq Model
 
 One major limitation of a basic seq-to-seq model is *information bottle-neck* represented by the figure below:
-<img src="./images/2.NMT basic model.png"><img> <br><br>
+<img src="./images/2.NMT basic model.png" width="60%"><img> <br><br>
 
 In case of long sequences of sentences, when the end-user stacks up multiple layers of words, words that are entered at a later stage are given more importance than the words that were entered first.<br><br>
  Because the encoder hidden states is of a fixed size, and longer inputs become *bottlenecked* on their way to the decoder.
@@ -20,12 +20,12 @@ Hence, inputs that contain short sentences will work for NMT but long sentences 
 
 ## Word Alignment
 
-Word Alignment is the task of finding the correspondence between source and target words in a pair of sentences that are translations of each other.
-<img src="./images/3. word alignment.png"><img> <br><br>
+Word Alignment is the task of finding the correspondence between source and target words in a pair of sentences that are translations of each other.<br>
+<img src="./images/3. word alignment.png" width="50%"><img> <br><br>
 When performing word alignment, your model needs to be able to identify relationships among the words in order to make accurate predictions in case the words are out of order or not exact translations.
 
-In a model that has a vector for each input, there needs to be a way to focus more attention in the right places. Many languages don't translate exactly into another language. To be able to align the words correctly, you need to add a layer to help the decoder understand which inputs are more important for each prediction.
-<img src="./images/4. alignment and attention.png"><img> <br><br>
+In a model that has a vector for each input, there needs to be a way to focus more attention in the right places. Many languages don't translate exactly into another language. To be able to align the words correctly, you need to add a layer to help the decoder understand which inputs are more important for each prediction.<br>
+<img src="./images/4. alignment and attention.png" width="70%"><img> <br><br>
 
 ### Attention and Alignment
 Below is a step-by-step algorithm for NMT:
