@@ -124,4 +124,6 @@ zf.close()
         * [SMS spam classifier](./Code%20-%20PyTorch/6.%20Natural-Language-Processing/10.%20Text%20Classification/sms-spam-classifier.ipynb) 
     * [Siamese Networks](./Code%20-%20PyTorch/6.%20Natural-Language-Processing/13.%20Siamese%20Networks)
         * [Question Duplication](./Code%20-%20PyTorch/6.%20Natural-Language-Processing/13.%20Siamese%20Networks/Question%20Duplication/code/question_duplication_detection.ipynb)
-        
+   
+ 8. [Attention Models](./Code%20-%20PyTorch/7.%20Attention%20Models/Readme.md)
+    * [Neural Machine Translation](./Code%20-%20PyTorch/7.%20Attention%20Models/1.%20NMT/Readme.md)    
