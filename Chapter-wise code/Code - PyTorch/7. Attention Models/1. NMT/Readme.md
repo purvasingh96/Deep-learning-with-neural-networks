@@ -70,7 +70,7 @@ The value score (V) is assigned based on the closeness of the match.<br>
 Attention = Softmax(QK^T)V
 ``` 
 <br><br>
-<img src="./images/7. attention visual - 1.png" width="50%"></img> <img src="./images/8. NMT with attention" width="50%"></img> <br><br>
+<img src="./images/7. attention visual - 1.png" width="40%"></img> <img src="./images/8. NMT with attention.png" width="40%"></img> <br><br>
 
 ### Flexible Attention
 
