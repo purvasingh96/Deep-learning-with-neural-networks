@@ -81,8 +81,9 @@ In a situation (as shown below) where the grammar of foreign language requires a
 The first four tokens, the agreements on the, are pretty straightforward, but then the grammatical structure between French and English changes. Now instead of looking at the corresponding fifth token to translate the French word zone, the attention knows to look further down at the eighth token, which corresponds to the English word area, glorious and necessary.  
 
 
+## Next Up
 
-
+Next, we will learn about the set-up required to build a NMT model and what kind of dataset is used to build a NMT model. The readme file for the same is here.
 
 
 
