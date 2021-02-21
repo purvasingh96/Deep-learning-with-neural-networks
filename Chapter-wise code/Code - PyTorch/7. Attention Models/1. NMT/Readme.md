@@ -70,7 +70,7 @@ The value score (V) is assigned based on the closeness of the match.<br>
 Attention = Softmax(QK^T)V
 ``` 
 <br><br>
-<img src="./images/7. attention visual - 1.png" width="40%"></img> <img src="./images/8. NMT with attention.png" width="40%"></img> <br><br>
+<img src="./images/7. attention visual - 1.png" width="40%"></img> <img src="./images/8. NMT with attention.png" width="60%"></img> <br><br>
 
 ### Flexible Attention
 
@@ -78,7 +78,7 @@ In a situation (as shown below) where the grammar of foreign language requires a
 
 <img src="./images/9. flexible attention.png" width="50%"></img><br><br>
 
-The first four tokens, the agreements on the, are pretty straightforward, but then the grammatical structure between French and English changes. 
+The first four tokens, the agreements on the, are pretty straightforward, but then the grammatical structure between French and English changes. Now instead of looking at the corresponding fifth token to translate the French word zone, the attention knows to look further down at the eighth token, which corresponds to the English word area, glorious and necessary.  
 
 
 
