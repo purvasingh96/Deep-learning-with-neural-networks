@@ -15,6 +15,6 @@ We are going to have a great many of these inputs. One thing to note here is tha
 3. *Padding*: Pad the tokenized sequence to make the inputs of equal length.<br><br>
 <img src="./images/11. NMT setup-english.png" width="50%"></img><br><br>
 4. Repeat steps 1-3 for the German sentences as well.<br><br>
-<img src="./images/11. NMT setup - german.png" width="50%"></img><br><br>
+<img src="./images/12. NMT setup - german.png" width="50%"></img><br><br>
 5. Keep track of index mappings with word2index and index2word mappings.
 5. Use start-of-sentence `<SOS>` and end-of-sentence `<EOS>` tokens to represent the same.
