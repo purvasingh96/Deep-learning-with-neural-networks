@@ -83,7 +83,7 @@ The first four tokens, the agreements on the, are pretty straightforward, but th
 
 ## Next Up
 
-Next, we will learn about the set-up required to build a NMT model and what kind of dataset is used to build a NMT model. The readme file for the same is here.
+Next, we will learn about the set-up required to build a NMT model and what kind of dataset is used to build a NMT model. The readme file for the same is [here](./NMT%20SetUp.md).
 
 
 

@@ -18,3 +18,13 @@ We are going to have a great many of these inputs. One thing to note here is tha
 <img src="./images/12. NMT setup - german.png" width="50%"></img><br><br>
 5. Keep track of index mappings with word2index and index2word mappings.
 5. Use start-of-sentence `<SOS>` and end-of-sentence `<EOS>` tokens to represent the same.
+
+## Training NMT
+
+### Teacher Forcing
+
+Let us assume we want to train an image captioning model, and the ground truth caption for an  image is “Two people reading a book”. Our model makes a mistake in predicting the 2nd word and we have “Two” and “birds” for the 1st and 2nd prediction respectively.
+1. *Without Teacher Forcing*, we would feed “birds” back to our RNN to predict the 3rd word. Let’s say the 3rd prediction is “flying”. Even though it makes sense for our model to predict “flying” given the input is “birds”, it is different from the ground truth.
+<br><img src="./images/13. No teacher forcing.png"></img><br>
+2. *With Teacher Forcing*, we would feed “people” to our RNN for the 3rd prediction, after computing and recording the loss for the 2nd prediction.
+<br><img src="./images/14. with teacher forcing.png"></img><br>
