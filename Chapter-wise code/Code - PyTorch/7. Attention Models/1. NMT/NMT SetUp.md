@@ -19,8 +19,6 @@ We are going to have a great many of these inputs. One thing to note here is tha
 5. Keep track of index mappings with word2index and index2word mappings.
 5. Use start-of-sentence `<SOS>` and end-of-sentence `<EOS>` tokens to represent the same.
 
-## Training NMT
-
 ### Teacher Forcing
 
 Let us assume we want to train an image captioning model, and the ground truth caption for an  image is “Two people reading a book”. Our model makes a mistake in predicting the 2nd word and we have “Two” and “birds” for the 1st and 2nd prediction respectively.
@@ -28,3 +26,8 @@ Let us assume we want to train an image captioning model, and the ground truth c
 <br><img src="./images/13. No teacher forcing.png"></img><br>
 2. *With Teacher Forcing*, we would feed “people” to our RNN for the 3rd prediction, after computing and recording the loss for the 2nd prediction.
 <br><img src="./images/14. with teacher forcing.png"></img><br>
+
+## Training NMT
+
+1. The initial `select` makes two copies. Each of the input tokens represented by zero (English words) and the target tokens (German words) represented by one.
+ <img src="./images/15. step - 1.png" width="50%"></img><br><br>
