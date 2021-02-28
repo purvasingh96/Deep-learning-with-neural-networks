@@ -68,6 +68,9 @@ Let us assume we want to train an image captioning model, and the ground truth c
 13. The true target tokens are still hanging out here, and we'll pass down along with the log probabilities to be matched against the predictions.<br>
 <img src="./images/27. step - 13.png" width="40%"></img><br><br>
 
+## Next Up
+Next, we will learn about how to evaluate NMT models. You can find the readme file [here](./Evaluating%20NMT.md)
+
 
 
  
