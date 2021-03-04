@@ -5,8 +5,8 @@ Below steps describe in detail as to how a *dot-product attention* works:
 *Imp: Queries: German words.*
 
 1. Let's consider the phrase in English, *"I am happy"*. 
-First, the word *I* is embedded, to obtain a vector representation that holds continuous values which is unique for every single word.
-<img src="../images/1.step - 1.png" width="50%"></img><br>
+First, the word *I* is embedded, to obtain a vector representation that holds continuous values which is unique for every single word.<br><br>
+<img src="../images/7.step - 1.png" width="50%"></img><br>
 
 2. By feeding three distinct linear layers, you get three different vectors for queries, keys and values.<br><br>
 <img src="../images/8. step - 2.png" width="50%"></img><br>
