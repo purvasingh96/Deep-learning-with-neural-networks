@@ -10,7 +10,7 @@ LSTMs and GRUs can help to overcome the vanishing gradient problem, but even tho
 2. In a conventional Encoder-decoder architeture, the model would again take T timesteps to compute the translation.<br><br>
 <img src="../images/2. basic encoder-decoder.png" width="50%"></img><br>
   
-## Transformers - Basics
+##  RNN v/s Transformers
 ```buildoutcfg
 TLDR:
 1. In RNNs, parallel computing is difficult to implement.
@@ -30,3 +30,26 @@ TLDR:
 <img src="../images/5. positional encoding.png" width="50%"></img><br>
 
 6. Unlike the recurrent layer, the multi-head attention layer computes the outputs of each inputs in the sequence independently then it allows us to parallelize the computation. But it fails to model the sequential information for a given sequence. That is why you need to incorporate the positional encoding stage into the transformer model.
+
+## Applications of Transformers
+
+Some of the applications of Transformers include:
+1. Text summarization.
+2. Auto-complete.
+3. NER
+4. Automatic question-answering.
+5. NMT
+6. Chat-bots.
+7. Other NLP tasks:
+    * Sentiment analysis.
+    * Market intelligence.
+    * Text classification.
+    * Charecter recognition.
+    * Spell checking.
+    
+## State of the art Transformers
+
+1. *GPT-2*: Generative Pre-training for Transformers
+2. *BERT* : Bi-directional Encoder Decoder Representations from Transformers.
+3. *T5* : Text-To-Text Transfer Transformer.<br>
+<img src="../images/6. T5 model.png" width="50%"></img><br>
