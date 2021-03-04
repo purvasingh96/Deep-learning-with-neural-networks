@@ -26,7 +26,7 @@ TLDR:
 4. Transformer differs from sequence to sequence by using multi-head attention layers instead of recurrent layers.<br><br>
 <img src="../images/4. multi-head attention.png" width="50%"></img><br>
 
-5. Transformers also use positional encoding to capture sequential information. The positional encoding out puts values to be added to the embeddings. That's where every input word that is given to the model you have some of the information about it's order and the position.
+5. Transformers also use positional encoding to capture sequential information. The positional encoding out puts values to be added to the embeddings. That's where every input word that is given to the model you have some of the information about it's order and the position.<br>
 <img src="../images/5. positional encoding.png" width="50%"></img><br>
 
 6. Unlike the recurrent layer, the multi-head attention layer computes the outputs of each inputs in the sequence independently then it allows us to parallelize the computation. But it fails to model the sequential information for a given sequence. That is why you need to incorporate the positional encoding stage into the transformer model.
