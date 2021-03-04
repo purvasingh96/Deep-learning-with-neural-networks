@@ -9,3 +9,6 @@
     * [Evaluating NMT models.](./1.%20NMT/Evaluating%20NMT.md)
         * [BLEU Score.](./1.%20NMT/Evaluating%20NMT.md#bleu-score)
         * [ROGUE Score.](./1.%20NMT/Evaluating%20NMT.md#rogue-score)
+    * [NMT with Attention](./1.%20NMT/code)
+        * [Calculating BLEU Score](./1.%20NMT/code/1.Bleu_Score.ipynb)
+        * [NMT with Attention (using Google's trax library)](./1.%20NMT/code/2.%20NMT%20with%20attention.ipynb)
