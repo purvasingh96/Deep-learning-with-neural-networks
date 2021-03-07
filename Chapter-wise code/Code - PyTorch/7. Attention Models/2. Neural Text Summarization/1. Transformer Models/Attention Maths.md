@@ -40,3 +40,7 @@ often called *attention weights*. The shape of this matrix is `[Lq, Lk]`.<br>
 
 8. Multiplying alignment weights with input sequence (values), will then weight the sequence. A single context vector can then be calculated using the sum of weighted vectors.<br>
 <img src="../images/19. step - 5.png" width="50%"></img> <br><br>
+
+## Attention Formula
+
+<img src="../images/20. attention formula.png" width="50%"></img> <br><br>
