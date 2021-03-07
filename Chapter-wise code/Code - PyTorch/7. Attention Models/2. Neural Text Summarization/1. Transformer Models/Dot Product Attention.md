@@ -29,4 +29,8 @@ First, the word *I* is embedded, to obtain a vector representation that holds co
 7. Finally, multiplying these probabilities with the values, you will then get a weighted sequence, which is the attention results itself.<br><br>
 <img src="../images/14. step - 8.png" width="50%"></img><br>
 
+## Next Up
+
+Now that we know about attention, next we will learn about *attention maths*. You can find the readme file for the same here.
+
 
