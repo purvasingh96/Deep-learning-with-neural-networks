@@ -1,5 +1,7 @@
 # Attention Maths
 
+## Basic Variables
+
 ```buildoutcfg
 Q: Queries (embeddings of German words)
 K: Keys (embeddings of English words)
@@ -8,16 +10,19 @@ D: Dimensionality of word embeddings
 Lq: no. of. queries
 Lk: no. of keys
 
+dim[Q] = [Lq, D];
+dim[K] = [Lk, D];
+dim[V] = [Lk, D];
+
+Input to attention: Q, K, V. 
+Often Vs are same as Ks.
+
 ```
 
-1. Input to attention: Q, K, V Often Vs are same as Ks.
+## Delinating Maths behind Attention
 
-2. dim[Q] = [Lq, D];
-3. dim[K] = [Lk, D];
-4. dim[V] = [Lk, D]
-
-<br>
-<img src="../images/15. step - 1.png" width="50%"></img> <br><br>
+1. Input to attention are Queries, Keys and Values. <br>
+<img src="../images/15. step - 1.png" width="40%"></img> <br><br>
 
 4. A query Q, will assign each key K, a probability  that key K is a match for Q. Similarity is measured by taking dot
 product of vectors. So Q and K are similar iff `Q dot K` is large. <br>
