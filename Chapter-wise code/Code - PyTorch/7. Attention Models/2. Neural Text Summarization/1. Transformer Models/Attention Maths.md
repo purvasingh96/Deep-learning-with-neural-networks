@@ -30,6 +30,7 @@ product of vectors. So Q and K are similar iff `Q dot K` is large. <br>
 
 5. To make attention more focused on best matching keys, use softmax `(softmax(Q.KTranspose))`. Hence, we now calculate a matrix of Q-K probabailities
 often called *attention weights*. The shape of this matrix is `[Lq, Lk]`.<br>
+<img src="../images/17. step - 3 - 1.png" width="50%"></img> <br><br>
 
 6. In the final step, we take values and get weighted sum of values, weighting each value Vi by the probability that the key Ki matches the query.<br>
 <img src="../images/17. step - 3.png" width="50%"></img> <br><br>
