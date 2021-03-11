@@ -31,6 +31,6 @@ First, the word *I* is embedded, to obtain a vector representation that holds co
 
 ## Next Up
 
-Now that we know about attention, next we will learn about *attention maths*. You can find the readme file for the same here.
+Now that we know about attention, next we will learn about *attention maths*. You can find the readme file for the same [here](./Attention%20Maths.md).
 
 

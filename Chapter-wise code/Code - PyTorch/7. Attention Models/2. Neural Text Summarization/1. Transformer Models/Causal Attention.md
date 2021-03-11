@@ -25,3 +25,6 @@ All other values become minus infinity. After a softmax, all minus infinities wi
 4. The last step is the same as dot-product attention!
 
  <img src="../images/25. step - 4.png" width="50%"></img><br><br>
+ 
+ ## Next Up
+ Next, we will learn about multi-head attention. You can find the read-me file for the same [here].

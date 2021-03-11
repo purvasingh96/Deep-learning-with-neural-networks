@@ -55,4 +55,4 @@ Some of the applications of Transformers include:
 <img src="../images/6. T5 model.png" width="50%"></img><br>
 
 ## Next-up
-Next, we will learn about dot-product attention. You can find the readme file here.
+Next, we will learn about dot-product attention. You can find the readme file [here](./Dot%20Product%20Attention.md).

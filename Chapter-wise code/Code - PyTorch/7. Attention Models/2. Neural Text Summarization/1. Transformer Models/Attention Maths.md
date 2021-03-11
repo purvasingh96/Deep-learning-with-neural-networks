@@ -46,4 +46,4 @@ often called *attention weights*. The shape of this matrix is `[Lq, Lk]`.<br>
 <img src="../images/20. attention formula.png" width="50%"></img> <br><br>
 
 ## Next Up
-Next, we will learn about different types of attention: causal attention and multi-head attention. 
+Next, we will learn about different types of attention: [causal attention](./Causal%20Attention.md) and multi-head attention. 
