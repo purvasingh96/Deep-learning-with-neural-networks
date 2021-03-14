@@ -15,6 +15,6 @@
 <img src="../images/30. step - 5.png" width="50%"></img><br>
 
 ## Summary
-<img src="../images/31. multi-head attention.png"></img><br>
+<img src="../images/31. multi-head attention.png" width="60%"></img><br>
 
 ## Maths behind Multi-Head Attention
