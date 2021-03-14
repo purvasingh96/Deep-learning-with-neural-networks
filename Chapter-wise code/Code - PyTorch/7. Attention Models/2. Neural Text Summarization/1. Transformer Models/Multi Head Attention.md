@@ -1,5 +1,6 @@
 # Multi-Head Attention
 
+## How multi-head attention works?
 1. Input to multi-head attention is a set of 3 values: Queries, Keys and Values.<br><br>
 <img src="../images/26. step - 1.png" width="50%"></img><br>
 2. To achieve the multiple lookups, you first use a fully-connected, dense linear layer on each query, key, and value. This layer will create the representations for parallel attention heads. <br><br>
@@ -11,3 +12,6 @@
 <img src="../images/29. step - 4.png" width="50%"></img><br>
 6. The scale dot-product is the one used in the dot-product attention model except by the scale factor, one over square root of DK. DK is the key inquiry dimension. It's normalization prevents the gradients from the function to be extremely small when large values of D sub K are used.<br><br>
 <img src="../images/30. step - 5.png" width="50%"></img><br>
+
+## Maths behind multi-head attention
+
